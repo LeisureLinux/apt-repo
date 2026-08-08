@@ -33,8 +33,8 @@ if ! apt repo show freelamp >/dev/null 2>&1; then
     apt repo create -distribution=bookworm -component=main freelamp >/dev/null
 fi
 
-# --- 入库前先清空旧索引，保证与 incoming 完全一致 ---
-apt repo remove freelamp 'Package' >/dev/null 2>&1 || true
+# --- 入库（增量累积：只加不删，多个项目的包共存） ---
+# 如需彻底移除某个包，需在本地用 aptly 手工清理（aptly repo remove + 重新发布）
 apt repo add freelamp "${DEBS[@]}"
 
 # --- 打快照 ---

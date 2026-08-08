@@ -72,17 +72,22 @@ make deploy          # 推送到 gh-pages 分支（需要先建好 GitHub 仓库
 
 ## 自动同步（ghdeb / unbound-dashboard 等项目联动）
 
-各项目发版后自动把 .deb 同步进本仓库，无需手动改 `debs.list`：
+apt-repo 维护一份**声明式源列表** `conf/sources.txt`（每行一个项目，可选 `@tag` 锁定版本）。
+每次发布（手动 / 项目发版联动 / 每天 02:00 UTC 定时兜底）都会：
 
-1. 项目（如 ghdeb、unbound-dashboard）的 workflow 在 **release published** 时，用 `APT_REPO_TOKEN` secret
-   向本仓库发送 `repository_dispatch`（`event_type=publish`，payload 带 `owner/repo/tag`）
-2. 本仓库 `publish.yml` 收到后，自动从该 release 拉取全部 `.deb` 资产 → aptly 发布 → 部署 gh-pages
+1. 遍历 `conf/sources.txt`，从每个项目的 **GitHub Releases 最新版** 拉取全部 `.deb` 资产到 `incoming/`
+2. 同时按 `debs.list` 拉取第三方重打包包（可选）
+3. aptly 增量入库（只加不删）→ 快照 → 签名发布 → 部署 gh-pages
 
-给新项目接入只需要两步：
+**给新项目接入只需两步：**
 
 ```bash
-# 1. 在项目仓库放一个 dispatch workflow（参考 ghdeb 的 publish-to-apt.yml）
-# 2. 设置跨仓库 token（需要有本仓库 repo 写权限）：
+# 1. 把项目加进源列表（发版后自动同步，无需改 workflow）
+echo "LeisureLinux/新项目" >> conf/sources.txt
+
+# 2.（可选）让该项目发版后"即时"触发，而非等每天定时——
+#    在项目仓库放一个 dispatch workflow（参考 ghdeb 的 publish-to-apt.yml），
+#    并设置跨仓库 token：
 gh secret set APT_REPO_TOKEN --repo <项目仓库>
 ```
 

@@ -58,6 +58,7 @@ done < conf/distros.txt
 mkdir -p .aptly/public
 cp CNAME .aptly/public/CNAME
 cp keys/apt.key .aptly/public/apt.key
+cp index.html .aptly/public/index.html
 
 echo
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"

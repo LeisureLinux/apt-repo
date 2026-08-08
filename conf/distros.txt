@@ -1,0 +1,5 @@
+# 每行一个 Debian/Ubuntu codename，publish.sh 会把同一批包发布到这些发行版
+# 注意：Go 静态二进制对 glibc 不敏感，同一批 .deb 可以跨发行版；
+#       如果某个包是"针对特定发行版编译"的，请改为每发行版单独建 aptly repo。
+bookworm
+trixie

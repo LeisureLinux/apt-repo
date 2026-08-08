@@ -1,0 +1,12 @@
+# aptly 数据与发布产物
+.aptly/
+aptly.conf
+# 待入库的包（用 debs.list + CI 拉取，或本地手动放）
+incoming/*.deb
+# 私钥绝不提交
+keys/*.gpg
+keys/*.sec
+# 其他
+dist/
+public/
+*.tmp

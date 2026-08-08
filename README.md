@@ -70,6 +70,23 @@ make deploy          # 推送到 gh-pages 分支（需要先建好 GitHub 仓库
 > DNS 已配好：`repo.freelamp.com` CNAME → `leisurelinux.github.io`（阿里云云解析）
 > GitHub 上首次设置自定义域名时若提示验证，按提示加一条 TXT 记录即可。
 
+## 自动同步（ghdeb / unbound-dashboard 等项目联动）
+
+各项目发版后自动把 .deb 同步进本仓库，无需手动改 `debs.list`：
+
+1. 项目（如 ghdeb、unbound-dashboard）的 workflow 在 **release published** 时，用 `APT_REPO_TOKEN` secret
+   向本仓库发送 `repository_dispatch`（`event_type=publish`，payload 带 `owner/repo/tag`）
+2. 本仓库 `publish.yml` 收到后，自动从该 release 拉取全部 `.deb` 资产 → aptly 发布 → 部署 gh-pages
+
+给新项目接入只需要两步：
+
+```bash
+# 1. 在项目仓库放一个 dispatch workflow（参考 ghdeb 的 publish-to-apt.yml）
+# 2. 设置跨仓库 token（需要有本仓库 repo 写权限）：
+gh secret set APT_REPO_TOKEN --repo <项目仓库>
+```
+
+
 ## 用户端安装
 
 ```bash

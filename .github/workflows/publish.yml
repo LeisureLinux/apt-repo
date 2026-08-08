@@ -1,8 +1,10 @@
 name: Publish APT Repo
 on:
-  workflow_dispatch:          # 手动触发
+  workflow_dispatch:                 # 手动触发
   push:
-    tags: ['v*']              # 打 tag 自动触发
+    tags: ['v*']                     # 打 tag 自动触发
+  repository_dispatch:               # 由 ghdeb / unbound-dashboard 等项目的 release 联动触发
+    types: [publish]
 
 permissions:
   contents: write
@@ -28,8 +30,33 @@ jobs:
           echo "$GPG_KEY" | gpg --batch --import
           # 私钥来自本地: gpg --armor --export-secret-keys <KEYID> | gh secret set APT_GPG_PRIVATE_KEY
 
-      # 可选：从 GitHub Releases 按 debs.list 拉取 .deb
-      - name: Fetch debs
+      # 方式 A：其他项目 release 后通过 repository_dispatch 通知，自动拉取该 release 的全部 .deb
+      - name: Fetch debs from dispatched release
+        if: github.event_name == 'repository_dispatch'
+        env:
+          SRC_OWNER: ${{ github.event.client_payload.owner }}
+          SRC_REPO: ${{ github.event.client_payload.repo }}
+          SRC_TAG: ${{ github.event.client_payload.tag }}
+        run: |
+          set -euo pipefail
+          mkdir -p incoming
+          echo "📥 同步 ${SRC_OWNER}/${SRC_REPO} @ ${SRC_TAG}"
+          curl -fsSL "https://api.github.com/repos/${SRC_OWNER}/${SRC_REPO}/releases/tags/${SRC_TAG}" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            | jq -r '.assets[] | select(.name | endswith(".deb")) | .browser_download_url' > /tmp/deb-urls.txt
+          cat /tmp/deb-urls.txt
+          if [[ ! -s /tmp/deb-urls.txt ]]; then
+            echo "❌ 该 release 没有 .deb 资产"; exit 1
+          fi
+          while IFS= read -r url; do
+            curl -fsSL -o "incoming/$(basename "$url")" "$url"
+          done < /tmp/deb-urls.txt
+          ls -lh incoming/
+
+      # 方式 B：按 debs.list 逐行拉取（适合第三方重打包包）
+      - name: Fetch debs from debs.list
+        if: github.event_name != 'repository_dispatch'
         run: |
           mkdir -p incoming
           if [[ -f debs.list ]]; then
@@ -40,9 +67,6 @@ jobs:
             done < debs.list
           fi
           ls -lh incoming/
-
-      # 可选：如需在 CI 里构建自己的包（如 ghdeb），参考 ghdeb 仓库的
-      # build-deb.sh / release.sh，把 dist/*.deb 拷到 incoming/ 即可。
 
       - name: Publish with aptly
         run: bash scripts/publish.sh

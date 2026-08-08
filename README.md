@@ -99,8 +99,13 @@ gh secret set APT_REPO_TOKEN --repo <项目仓库>
 curl -fsSL https://repo.freelamp.com/apt.key | sudo gpg --dearmor -o /usr/share/keyrings/freelamp.gpg
 
 # 添加源（以 bookworm 为例，trixie 等同理）
-echo "deb [signed-by=/usr/share/keyrings/freelamp.gpg] https://repo.freelamp.com bookworm main" \
-  | sudo tee /etc/apt/sources.list.d/freelamp.sources
+sudo tee /etc/apt/sources.list.d/freelamp.sources >/dev/null <<'EOF'
+Types: deb
+URIs: https://repo.freelamp.com
+Suites: bookworm
+Components: main
+Signed-By: /usr/share/keyrings/freelamp.gpg
+EOF
 
 sudo apt update
 apt-cache search ghdeb      # 确认能看到包

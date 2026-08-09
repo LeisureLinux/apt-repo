@@ -140,7 +140,7 @@ cat > "$PUBDIR/index.html" <<HTML
   <div class="card">
     <h2>添加软件源</h2>
     <pre># 自动读取当前系统发行版代号（如 trixie / bookworm / noble）
-codename=\$(grep -E '^VERSION_CODENAME=' /etc/os-release | sed 's/.*=//')
+codename=\$(grep -oP '^VERSION_CODENAME=\K.*' /etc/os-release)
 
 # 安装签名公钥
 curl -fsSL https://repo.freelamp.com/apt.key | sudo gpg --dearmor -o /usr/share/keyrings/freelamp.gpg

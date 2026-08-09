@@ -3,3 +3,5 @@
 #       如果某个包是"针对特定发行版编译"的，请改为每发行版单独建 aptly repo。
 bookworm
 trixie
+bullseye
+buster

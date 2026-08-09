@@ -97,6 +97,13 @@ for distdir in "$PUBDIR"/dists/*/; do
   DIST_INFO+="    <div class=\"pkg\"><span class=\"name\">${label}</span></div>\n"
 done
 
+# ---- 自动取当前系统发行版代号；取不到/未发布则回退 bookworm ----
+OS_CODENAME=""
+[[ -f /etc/os-release ]] && OS_CODENAME="$(grep -E '^VERSION_CODENAME=' /etc/os-release | cut -d= -f2)"
+if [[ -z "$OS_CODENAME" || ! -d "$PUBDIR/dists/$OS_CODENAME" ]]; then
+    OS_CODENAME="$(basename "$(find "$PUBDIR/dists" -maxdepth 1 -mindepth 1 -type d | head -1)")"
+fi
+OS_CODENAME="${OS_CODENAME:-bookworm}"
 cat > "$PUBDIR/index.html" <<HTML
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -139,13 +146,13 @@ curl -fsSL https://repo.freelamp.com/apt.key | sudo gpg --dearmor -o /usr/share/
 sudo tee /etc/apt/sources.list.d/freelamp.sources >/dev/null &lt;&lt;'SOURCE_EOF'
 Types: deb
 URIs: https://repo.freelamp.com
-Suites: bookworm
+Suites: $OS_CODENAME
 Components: main
 Signed-By: /usr/share/keyrings/freelamp.gpg
 SOURCE_EOF
 
 # ── 方式二：传统一行格式（所有版本都支持）──
-echo &quot;deb [signed-by=/usr/share/keyrings/freelamp.gpg] https://repo.freelamp.com bookworm main&quot; \
+echo &quot;deb [signed-by=/usr/share/keyrings/freelamp.gpg] https://repo.freelamp.com $OS_CODENAME main&quot; \
   | sudo tee /etc/apt/sources.list.d/freelamp.list
 
 sudo apt update</pre>

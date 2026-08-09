@@ -11,11 +11,11 @@ PUBDIR="$PWD/.aptly/public"
 
 [[ -d "$PUBDIR/dists" ]] || { echo "❌ 未找到 $PUBDIR/dists，请先运行 scripts/publish.sh"; exit 1; }
 
-# ---- 用 jq 组装包列表（从 bookworm 的 amd64 Packages 读取，版本去重取最新） ----
+# ---- 用 jq 组装包列表（聚合 bookworm 所有架构的 Packages，版本去重取最新） ----
 PKG_JSON="$PUBDIR/.pkgs.json"
-PKGS=$(find "$PUBDIR/dists" -path "*/main/binary-amd64/Packages" | head -1)
+PKGS=$(find "$PUBDIR/dists/bookworm" -path "*/main/binary-*/Packages" | sort)
 if [[ -z "$PKGS" ]]; then
-    echo "❌ 找不到 binary-amd64/Packages，无法生成包列表"
+    echo "❌ 找不到 binary-*/Packages，无法生成包列表"
     exit 1
 fi
 
@@ -40,7 +40,7 @@ awk -v RS='' -v FS='\n' '
       printf "%s|%s|%s|%s|%s|%s|%s\n", pkg, ver, arch, filename, desc, upstream, commit
     }
   }
-' "$PKGS" > "$PUBDIR/.pkgs.txt"
+' $PKGS > "$PUBDIR/.pkgs.txt"
 
 # 聚合：每个包名收集 (ver, arch)，版本号取最高的
 jq -Rs '

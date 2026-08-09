@@ -58,7 +58,9 @@ done < conf/distros.txt
 mkdir -p .aptly/public
 cp CNAME .aptly/public/CNAME
 cp keys/apt.key .aptly/public/apt.key
-cp index.html .aptly/public/index.html
+
+# --- 自动生成 index.html / dists/index.html / pool/index.html ---
+bash scripts/generate-index.sh
 
 echo
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"

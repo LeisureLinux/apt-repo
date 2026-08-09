@@ -51,6 +51,11 @@ jobs:
       - name: Publish with aptly
         run: bash scripts/publish.sh
 
+      # 自动生成 index.html / dists/index.html / pool/index.html（含最新包列表），
+      # 使 GitHub Pages 上 /dists/ 和 /pool/ 不 404、包列表自动更新。
+      - name: Generate indexes (auto-update package list)
+        run: bash scripts/generate-index.sh
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:

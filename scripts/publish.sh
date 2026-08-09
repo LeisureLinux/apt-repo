@@ -34,19 +34,16 @@ if ! apt repo show freelamp >/dev/null 2>&1; then
 fi
 
 # --- 入库 ---
-# 说明：aptly 以 包名+版本+架构 作为主键。rebuild 若保持 Version 不变（仅 Source 的
-# build number / Section 变化），repo add 会因同名同版本而静默跳过，导致新包不生效。
-# 因此入库前先把 incoming/ 中每个 (name, version, arch) 从仓库移除，再添加新文件。
+# 说明：aptly 以 包名+版本+架构 作为主键。同包名的新版本（如 5.36.1+LL）发布时，
+# 必须把该包名的旧版本全部移除，否则旧版本仍会残留在仓库/索引里。
+# 因此入库前先把 incoming/ 中每个包名对应仓库里的所有版本都移除，再添加新文件。
 for d in "${DEBS[@]}"; do
-  meta="$(dpkg-deb -f "$d" Package Version Architecture)"
+  meta="$(dpkg-deb -f "$d" Package)"
   pname="$(echo "$meta" | sed -n 's/^Package: //p')"
-  pver="$(echo "$meta"  | sed -n 's/^Version: //p')"
-  parch="$(echo "$meta" | sed -n 's/^Architecture: //p')"
   [[ -z "$pname" ]] && { echo "⚠️ 跳过无法解析的包: $d"; continue; }
-  # 移除仓库里同 (name, version, arch) 的旧包（存在才报，不存在忽略）
-  if apt repo search freelamp "$pname=$pver" 2>/dev/null | grep -q .; then
-    if apt repo remove freelamp "$pname=$pver" 2>/dev/null; then
-      echo "♻️  已移除旧包 $pname=$pver ($parch)"
+  if apt repo search freelamp "$pname" 2>/dev/null | grep -q .; then
+    if apt repo remove freelamp "$pname" 2>/dev/null; then
+      echo "♻️  已移除 $pname 的所有旧版本"
     fi
   fi
 done

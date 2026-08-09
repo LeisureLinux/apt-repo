@@ -19,6 +19,7 @@ apt-repo/
 ├── scripts/
 │   ├── init-gpg.sh        # 生成/复用 GPG 签名密钥
 │   ├── publish.sh         # 核心：incoming/*.deb → aptly repo → snapshot → publish
+│   ├── generate-index.sh  # 自动生成首页 index.html + dists/pool 目录索引
 │   └── deploy-ghpages.sh  # 本地手动部署：把产物推送到 gh-pages 分支
 ├── .github/workflows/publish.yml  # CI：tag 触发 → 拉包 → 发布 → 部署 Pages
 ├── debs.list              # CI 拉取 .deb 直链清单（可选）
@@ -35,6 +36,10 @@ public/
 │   │   └── main/binary-<arch>/Packages{,.gz,.xz}
 │   └── trixie/...
 ├── pool/main/<prefix>/<pkg>_<ver>_<arch>.deb
+├── index.html                           # 首页（generate-index.sh 自动生成，包列表实时更新）
+├── dists/index.html                     # 发行版目录索引（自动生成）
+├── dists/<codename>/index.html          # 每个发行版的组件/架构索引（自动生成）
+├── pool/index.html                      # 所有 .deb 文件清单（自动生成）
 ├── apt.key                              # 公钥，用户端安装用
 └── CNAME
 ```
@@ -91,6 +96,20 @@ echo "LeisureLinux/新项目" >> conf/sources.txt
 gh secret set APT_REPO_TOKEN --repo <项目仓库>
 ```
 
+
+
+## 首页与目录索引（自动更新）
+
+`repo.freelamp.com` 的首页和 `/dists/`、`/pool/` 目录索引由 **`scripts/generate-index.sh`** 在每次发布时自动生成（CI 中位于「Publish with aptly」之后、部署 Pages 之前）：
+
+- **首页 `index.html`**：可用软件包列表直接从 `dists/<codename>/main/binary-amd64/Packages` 动态提取，新增的包（如 `gdu`）发布后自动出现在列表里，无需手工维护。
+- **`/dists/`**：列出各发行版（bookworm / trixie …）及架构徽章。
+- **`/dists/<codename>/`**：列出每个发行版的组件（main …）与架构。
+- **`/pool/`**：列出所有 `.deb` 文件的链接。
+
+> 之所以需要生成这些 `index.html`，是因为 **GitHub Pages 不会为裸目录（`/dists/`、`/pool/`）自动生成目录列表**——没有 `index.html` 就会 404。文件本身的访问不受影响。
+
+本地预览：`cd .aptly/public && python3 -m http.server 8080`，然后访问 `/`、`/dists/`、`/pool/` 即可看到生成的索引。
 
 ## 用户端安装
 

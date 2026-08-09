@@ -33,8 +33,23 @@ if ! apt repo show freelamp >/dev/null 2>&1; then
     apt repo create -distribution=bookworm -component=main freelamp >/dev/null
 fi
 
-# --- 入库（增量累积：只加不删，多个项目的包共存） ---
-# 如需彻底移除某个包，需在本地用 aptly 手工清理（aptly repo remove + 重新发布）
+# --- 入库 ---
+# 说明：aptly 以 包名+版本+架构 作为主键。rebuild 若保持 Version 不变（仅 Source 的
+# build number / Section 变化），repo add 会因同名同版本而静默跳过，导致新包不生效。
+# 因此入库前先把 incoming/ 中每个 (name, version, arch) 从仓库移除，再添加新文件。
+for d in "${DEBS[@]}"; do
+  meta="$(dpkg-deb -f "$d" Package Version Architecture)"
+  pname="$(echo "$meta" | sed -n 's/^Package: //p')"
+  pver="$(echo "$meta"  | sed -n 's/^Version: //p')"
+  parch="$(echo "$meta" | sed -n 's/^Architecture: //p')"
+  [[ -z "$pname" ]] && { echo "⚠️ 跳过无法解析的包: $d"; continue; }
+  # 移除仓库里同 (name, version, arch) 的旧包（存在才报，不存在忽略）
+  if apt repo search freelamp "$pname=$pver" 2>/dev/null | grep -q .; then
+    if apt repo remove freelamp "$pname=$pver" 2>/dev/null; then
+      echo "♻️  已移除旧包 $pname=$pver ($parch)"
+    fi
+  fi
+done
 apt repo add freelamp "${DEBS[@]}"
 
 # --- 打快照 ---

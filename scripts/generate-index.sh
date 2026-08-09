@@ -77,6 +77,26 @@ for distdir in "$PUBDIR"/dists/*/; do
   DISTS_HTML+="    <div class=\"pkg\"><span class=\"name\">${dist}</span> <span class=\"badge\">${archs}</span> <a href=\"/dists/${dist}/\">索引</a></div>\n"
 done
 
+# ---- 支持的发行版说明（供首页展示） ----
+# 用 shell 关联数组描述 codename → 系统名（未列出的照旧显示 codename 本身）
+declare -A DIST_LABEL=(
+  [bookworm]="Debian 12 (bookworm)"
+  [trixie]="Debian 13 (trixie)"
+  [bullseye]="Debian 11 (bullseye)"
+  [buster]="Debian 10 (buster)"
+  [jammy]="Ubuntu 22.04 LTS (jammy)"
+  [noble]="Ubuntu 24.04 LTS (noble)"
+  [resolute]="Ubuntu 26.04 (resolute)"
+  [questing]="Ubuntu 25.10 (questing)"
+)
+DIST_INFO=""
+for distdir in "$PUBDIR"/dists/*/; do
+  [[ -d "$distdir" ]] || continue
+  dist=$(basename "$distdir")
+  label="${DIST_LABEL[$dist]:-$dist}"
+  DIST_INFO+="    <div class=\"pkg\"><span class=\"name\">${label}</span></div>\n"
+done
+
 cat > "$PUBDIR/index.html" <<HTML
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -131,6 +151,22 @@ sudo apt update</pre>
     <h2>可用软件包</h2>
 $(echo -e "$PKG_HTML")
     <p style="margin-top:.8rem;color:var(--muted);font-size:.9rem">版本随项目发版自动更新（CI 自动同步）。安装：<code>sudo apt install &lt;包名&gt;</code></p>
+  </div>
+
+  <div class="card">
+    <h2>支持的发行版 / 套件</h2>
+$(echo -e "$DIST_INFO")
+    <p style="margin-top:.8rem;color:var(--muted);font-size:.9rem">同一批 Go 静态二进制包发布到以上所有套件，任选与你的系统匹配的 <code>Suites:</code> 即可。</p>
+  </div>
+
+  <div class="card" style="border-color:#8a5a00;background:#1c1710;">
+    <h2 style="color:#e8a33d;">⚠️ 使用警告</h2>
+    <p>本仓库为 <strong>第三方社区源</strong>，非官方 Debian / Ubuntu 软件源。包由项目作者或本仓库维护者编译，未经过官方安全审计。</p>
+    <ul style="margin:.6rem 0 0 1.2rem;color:var(--fg);">
+      <li>安装即表示你自行承担风险（<code>at your own risk</code>）。</li>
+      <li>安装前请核对软件包来源、校验 GPG 签名、并备份重要数据。</li>
+      <li>仅在你信任维护者且了解用途的前提下使用。</li>
+    </ul>
   </div>
 
   <div class="card">

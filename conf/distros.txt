@@ -5,3 +5,6 @@ bookworm
 trixie
 bullseye
 buster
+jammy
+noble
+resolute

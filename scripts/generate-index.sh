@@ -76,7 +76,7 @@ while IFS= read -r pkg; do
   else
     repo_link="<span class=\"muted\">-</span>"
   fi
-  PKG_HTML+="    <div class=\"pkg\"><span class=\"pkgname\">${name}</span><span class=\"repo\">${repo_link}</span><span class=\"ver\"><code>v${latest}</code></span><span class=\"commit\"><code>${commit}</code></span><span class=\"badge\">${arches}</span></div>\n"
+  PKG_HTML+="    <tr><td class=\"pkgname\">${name}</td><td>${repo_link}</td><td><code>v${latest}</code></td><td><code>${commit}</code></td><td><span class=\"badge\">${arches}</span></td></tr>\n"
 done < <(jq -c '.[]' "$PKG_JSON")
 
 # 生成 pool 索引（列出所有 .deb）

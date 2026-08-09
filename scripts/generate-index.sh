@@ -135,7 +135,7 @@ cat > "$PUBDIR/index.html" <<HTML
     <pre># 安装签名公钥
 curl -fsSL https://repo.freelamp.com/apt.key | sudo gpg --dearmor -o /usr/share/keyrings/freelamp.gpg
 
-# 配置源（deb822 格式，Debian 12+/Ubuntu 22.04+）
+# ── 方式一：deb822 格式（Debian 12+ / Ubuntu 22.04+）──
 sudo tee /etc/apt/sources.list.d/freelamp.sources >/dev/null &lt;&lt;'SOURCE_EOF'
 Types: deb
 URIs: https://repo.freelamp.com
@@ -143,6 +143,10 @@ Suites: bookworm
 Components: main
 Signed-By: /usr/share/keyrings/freelamp.gpg
 SOURCE_EOF
+
+# ── 方式二：传统一行格式（所有版本都支持）──
+echo &quot;deb [signed-by=/usr/share/keyrings/freelamp.gpg] https://repo.freelamp.com bookworm main&quot; \
+  | sudo tee /etc/apt/sources.list.d/freelamp.list
 
 sudo apt update</pre>
   </div>

@@ -53,7 +53,7 @@ jq -Rs '
       desc: (.[0].desc // ""),
       upstream: (.[0].upstream // ""),
       commit: (.[0].commit // ""),
-      arches: ([.[].arch] | unique | sort | join(" ")),
+      arches: ([.[].arch | select(. == "amd64" or . == "arm64" or . == "loong64" or . == "riscv64")] | unique | sort | join(" ")),
       versions: ([.[] | {v:.ver, file:.file}] | unique_by(.v))
     })
   | sort_by(.name)

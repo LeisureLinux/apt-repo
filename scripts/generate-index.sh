@@ -160,7 +160,37 @@ $(echo -e "$DISTS_HTML")
 </div></body></html>
 HTML
 
+
+# ---- dists/<dist>/index.html（每个发行版的组件/架构入口） ----
+for distdir in "$PUBDIR"/dists/*/; do
+  [[ -d "$distdir" ]] || continue
+  dist=$(basename "$distdir")
+  comps=""
+  for cdir in "$distdir"/*/; do
+    [[ -d "$cdir" ]] || continue
+    [[ -n "$(ls -d "$cdir"/binary-* 2>/dev/null | head -1)" ]] || continue
+    comp=$(basename "$cdir")
+    archs=$(ls -d "$cdir"/binary-* 2>/dev/null | sed 's|.*binary-||' | paste -sd' ' -)
+    comps+="    <div class=\"pkg\"><span class=\"name\">${comp}</span> <span class=\"badge\">${archs}</span></div>\n"
+  done
+  mkdir -p "$distdir"
+  cat > "$distdir/index.html" <<HTML
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dists/${dist}/ - Freelamp APT Repository</title>
+<style>body{background:#0f1115;color:#e6e8ee;font:16px/1.6 system-ui,sans-serif;padding:2rem}.wrap{max-width:860px;margin:0 auto}h1{color:#4f8cff}.pkg{display:flex;gap:1rem;padding:.5rem 0;border-bottom:1px dashed #262c38;flex-wrap:wrap}.name{font-weight:600}.badge{background:#1c2433;border:1px solid #262c38;color:#9aa3b2;border-radius:999px;padding:.1rem .6rem;font-size:.78rem}a{color:#4f8cff}</style>
+</head>
+<body><div class="wrap">
+<h1>dists/${dist}/</h1>
+<p style="color:#9aa3b2">${dist} 仓库组件与架构</p>
+$(echo -e "$comps")
+</div></body></html>
+HTML
+done
+
 # ---- pool/index.html ----
+
 mkdir -p "$PUBDIR/pool"
 cat > "$PUBDIR/pool/index.html" <<HTML
 <!DOCTYPE html>

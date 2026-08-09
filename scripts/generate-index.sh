@@ -1,8 +1,9 @@
 #!/bin/bash
 # generate-index.sh: 从 aptly 发布产物（.aptly/public）自动生成
-#   1) 根 index.html   —— 可用软件包列表（自动更新）
-#   2) dists/index.html —— 指向各发行版/架构索引
-#   3) pool/index.html  —— 指向各包的 .deb 文件
+#   1) 根 index.html   —— 首页（含指向软件包列表的链接）
+#   2) packages/index.html —— 独立软件包列表（含 owner/repo、vX.Y.Z、Commit Hash）
+#   3) dists/index.html —— 指向各发行版/架构索引
+#   4) pool/index.html  —— 指向各包的 .deb 文件
 # 这样 GitHub Pages 上 /dists/ 和 /pool/ 不再 404。
 set -euo pipefail
 cd "$(dirname "$0")/.."
@@ -21,18 +22,22 @@ fi
 # 解析 Packages（字段用单个空行分隔）→ JSON 数组
 awk -v RS='' -v FS='\n' '
   {
-    pkg=""; ver=""; arch=""; desc=""; filename=""
+    pkg=""; ver=""; arch=""; desc=""; filename=""; upstream=""; commit=""
     for (i=1;i<=NF;i++) {
       if ($i ~ /^Package: /) pkg=substr($i,10)
       else if ($i ~ /^Version: /) ver=substr($i,10)
       else if ($i ~ /^Architecture: /) arch=substr($i,15)
       else if ($i ~ /^Description: /) desc=substr($i,14)
+      else if ($i ~ /^ Upstream: /) { u=substr($i,12); sub(/ \(tag .*$/,"",u); sub(/^https?:\/\/github\.com\//,"",u); upstream=u }
+      else if ($i ~ /^ Commit: /) commit=substr($i,10)
       else if ($i ~ /^Filename: /) filename=substr($i,11)
     }
     if (pkg != "") {
       # 用 gsub 转义 JSON 特殊字符
       gsub(/\\/,"\\\\",desc); gsub(/"/,"\\\"",desc)
-      printf "%s|%s|%s|%s|%s\n", pkg, ver, arch, filename, desc
+      gsub(/\\/,"\\\\",upstream); gsub(/"/,"\\\"",upstream)
+      gsub(/\\/,"\\\\",commit); gsub(/"/,"\\\"",commit)
+      printf "%s|%s|%s|%s|%s|%s|%s\n", pkg, ver, arch, filename, desc, upstream, commit
     }
   }
 ' "$PKGS" > "$PUBDIR/.pkgs.txt"
@@ -41,11 +46,13 @@ awk -v RS='' -v FS='\n' '
 jq -Rs '
   split("\n")
   | map(select(length>0))
-  | map(split("|") | {pkg:.[0], ver:.[1], arch:.[2], file:.[3], desc:.[4]})
+  | map(split("|") | {pkg:.[0], ver:.[1], arch:.[2], file:.[3], desc:.[4], upstream:.[5], commit:.[6]})
   | group_by(.pkg)
   | map({
       name: .[0].pkg,
       desc: (.[0].desc // ""),
+      upstream: (.[0].upstream // ""),
+      commit: (.[0].commit // ""),
       arches: ([.[].arch] | unique | sort | join(" ")),
       versions: ([.[] | {v:.ver, file:.file}] | unique_by(.v))
     })
@@ -53,13 +60,23 @@ jq -Rs '
 ' "$PUBDIR/.pkgs.txt" > "$PKG_JSON"
 
 # ---- 生成 HTML 片段 ----
+# PKG_HTML: 独立 packages/ 页面的完整包列表（含 owner/repo、vX.Y.Z、Commit hash）
 PKG_HTML=""
-BODY_HTML=""
 while IFS= read -r pkg; do
   name=$(echo "$pkg" | jq -r '.name')
   desc=$(echo "$pkg" | jq -r '.desc')
   arches=$(echo "$pkg" | jq -r '.arches')
-  PKG_HTML+="    <div class=\"pkg\"><span><span class=\"name\">${name}</span> <span class=\"badge\">${arches}</span></span><span class=\"desc\">${desc}</span></div>\n"
+  upstream=$(echo "$pkg" | jq -r '.upstream')
+  commit=$(echo "$pkg" | jq -r '.commit')
+  latest=$(echo "$pkg" | jq -r '.versions[-1].v')
+  # 版本号统一显示为 vX.Y.Z；owner/repo 链接到 GitHub
+  repo_link=""
+  if [[ -n "$upstream" && "$upstream" != "unknown" ]]; then
+    repo_link="<a href=\"https://github.com/${upstream}\" target=\"_blank\" rel=\"noopener\">${upstream}</a>"
+  else
+    repo_link="<span class=\"muted\">-</span>"
+  fi
+  PKG_HTML+="    <div class=\"pkg\"><span class=\"pkgname\">${name}</span><span class=\"repo\">${repo_link}</span><span class=\"ver\"><code>v${latest}</code></span><span class=\"commit\"><code>${commit}</code></span><span class=\"badge\">${arches}</span></div>\n"
 done < <(jq -c '.[]' "$PKG_JSON")
 
 # 生成 pool 索引（列出所有 .deb）
@@ -130,6 +147,8 @@ cat > "$PUBDIR/index.html" <<HTML
   a { color:var(--accent); }
   .badge { display:inline-block; background:#1c2433; border:1px solid var(--border); color:var(--muted); border-radius:999px; padding:.1rem .6rem; font-size:.78rem; }
   footer { color:var(--muted); font-size:.85rem; margin-top:2rem; }
+  a.btn { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; padding:.5rem 1.2rem; border-radius:8px; font-weight:600; }
+  a.btn:hover { opacity:.85; }
 </style>
 </head>
 <body>
@@ -163,8 +182,8 @@ sudo apt update</pre>
 
   <div class="card">
     <h2>可用软件包</h2>
-$(echo -e "$PKG_HTML")
-    <p style="margin-top:.8rem;color:var(--muted);font-size:.9rem">版本随项目发版自动更新（CI 自动同步）。安装：<code>sudo apt install &lt;包名&gt;</code></p>
+    <p>查看全部可用软件包（含 GitHub 上游项目与版本号、Commit Hash）：</p>
+    <p style="margin-top:.6rem"><a class="btn" href="/packages/">📦 打开软件包列表 →</a></p>
   </div>
 
   <div class="card">
@@ -194,7 +213,50 @@ $(echo -e "$DIST_INFO")
 </html>
 HTML
 
+
+# ---- packages/index.html（独立软件包列表页，含 owner/repo、vX.Y.Z、Commit Hash） ----
+mkdir -p "$PUBDIR/packages"
+cat > "$PUBDIR/packages/index.html" <<HTML
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>软件包列表 - Freelamp APT Repository</title>
+<style>
+  :root { --bg:#0f1115; --card:#171a21; --fg:#e6e8ee; --muted:#9aa3b2; --accent:#4f8cff; --border:#262c38; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif; padding:2.5rem 1rem; }
+  .wrap { max-width:1100px; margin:0 auto; }
+  h1 { font-size:1.6rem; margin-bottom:.3rem; }
+  h1 code { color:var(--accent); }
+  .sub { color:var(--muted); margin-bottom:1.5rem; }
+  a { color:var(--accent); }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1.2rem 1.4rem; margin-bottom:1.2rem; }
+  table { width:100%; border-collapse:collapse; }
+  th,td { text-align:left; padding:.55rem .7rem; border-bottom:1px dashed var(--border); font-size:.9rem; }
+  th { color:var(--muted); font-weight:600; border-bottom:1px solid var(--border); }
+  tr:hover td { background:#1b202b; }
+  code { font-family:ui-monospace,SFMono-Regular,Consolas,monospace; font-size:.82rem; color:#8ab4ff; }
+  .badge { display:inline-block; background:#1c2433; border:1px solid var(--border); color:var(--muted); border-radius:999px; padding:.05rem .5rem; font-size:.75rem; }
+  footer { color:var(--muted); font-size:.85rem; margin-top:1.5rem; }
+</style>
+</head>
+<body><div class="wrap">
+<h1>📦 可用软件包 <code>packages/</code></h1>
+<p class="sub"><a href="/">← 返回首页</a> · 版本号与 Commit Hash 由构建脚本在打包时写入，随项目发版自动更新</p>
+<div class="card">
+<table>
+<thead><tr><th>包名</th><th>GitHub 上游 (owner/repo)</th><th>版本</th><th>Commit Hash</th><th>架构</th></tr></thead>
+<tbody>
+$(echo -e "$PKG_HTML")
+</tbody>
+</table>
+</div>
+<footer>源码与发布脚本：github.com/LeisureLinux/apt-repo</footer>
+</div></body></html>
+HTML
+
 # ---- dists/index.html ----
+
 mkdir -p "$PUBDIR/dists"
 cat > "$PUBDIR/dists/index.html" <<HTML
 <!DOCTYPE html>
@@ -257,5 +319,5 @@ $(echo -e "$POOL_HTML")
 HTML
 
 rm -f "$PUBDIR/.pkgs.txt" "$PUBDIR/.pkgs.json"
-echo "✅ 已生成 index.html / dists/index.html / pool/index.html"
-ls -la "$PUBDIR"/index.html "$PUBDIR"/dists/index.html "$PUBDIR"/pool/index.html
+echo "✅ 已生成 index.html / packages/index.html / dists/index.html / pool/index.html"
+ls -la "$PUBDIR"/index.html "$PUBDIR"/packages/index.html "$PUBDIR"/dists/index.html "$PUBDIR"/pool/index.html

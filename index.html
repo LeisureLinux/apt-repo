@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Freelamp APT Repository</title>
+<style>
+  :root { --bg:#0f1115; --card:#171a21; --fg:#e6e8ee; --muted:#9aa3b2; --accent:#4f8cff; --border:#262c38; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif; padding:3rem 1rem; }
+  .wrap { max-width:860px; margin:0 auto; }
+  h1 { font-size:1.8rem; margin-bottom:.3rem; }
+  h1 code { color:var(--accent); }
+  .sub { color:var(--muted); margin-bottom:2rem; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1.4rem 1.6rem; margin-bottom:1.4rem; }
+  h2 { font-size:1.1rem; margin-bottom:.8rem; color:var(--accent); }
+  pre { background:#0b0d12; border:1px solid var(--border); border-radius:8px; padding:1rem; overflow-x:auto; font-size:.85rem; }
+  code { font-family:ui-monospace,SFMono-Regular,Consolas,monospace; }
+  .pkg { display:flex; justify-content:space-between; align-items:center; gap:1rem; padding:.5rem 0; border-bottom:1px dashed var(--border); flex-wrap:wrap; }
+  .pkg:last-child { border-bottom:none; }
+  .pkg .name { font-weight:600; }
+  .pkg .desc { color:var(--muted); font-size:.9rem; }
+  a { color:var(--accent); }
+  .badge { display:inline-block; background:#1c2433; border:1px solid var(--border); color:var(--muted); border-radius:999px; padding:.1rem .6rem; font-size:.78rem; }
+  footer { color:var(--muted); font-size:.85rem; margin-top:2rem; }
+  a.btn { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; padding:.5rem 1.2rem; border-radius:8px; font-weight:600; }
+  a.btn:hover { opacity:.85; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Freelamp <code>APT</code> Repository</h1>
+  <p class="sub">LeisureLinux 的 Debian / Ubuntu 软件源 · GitHub Pages 托管 · GPG 签名</p>
+
+  <div class="card">
+    <h2>添加软件源</h2>
+    <pre># 自动读取当前系统发行版代号（如 trixie / bookworm / noble）
+codename=$(grep -oP '^VERSION_CODENAME=\K.*' /etc/os-release)
+
+# 安装签名公钥
+curl -fsSL https://repo.freelamp.com/apt.key | sudo gpg --dearmor -o /usr/share/keyrings/freelamp.gpg
+
+# ── 方式一：deb822 格式（Debian 12+ / Ubuntu 22.04+）──
+sudo tee /etc/apt/sources.list.d/freelamp.sources >/dev/null &lt;&lt;SOURCE_EOF
+Types: deb
+URIs: https://repo.freelamp.com
+Suites: $codename
+Components: main
+Signed-By: /usr/share/keyrings/freelamp.gpg
+SOURCE_EOF
+
+# ── 方式二：传统一行格式（所有版本都支持）──
+echo &quot;deb [signed-by=/usr/share/keyrings/freelamp.gpg] https://repo.freelamp.com $codename main&quot;   | sudo tee /etc/apt/sources.list.d/freelamp.list
+
+sudo apt update</pre>
+  </div>
+
+  <div class="card">
+    <h2>可用软件包</h2>
+    <p>查看全部可用软件包（含 GitHub 上游项目与版本号、Commit Hash）：</p>
+    <p style="margin-top:.6rem"><a class="btn" href="/packages/">📦 打开软件包列表 →</a></p>
+  </div>
+
+  <div class="card">
+    <h2>支持的发行版 / 套件</h2>
+    <div class="pkg"><span class="name">Debian 12 (bookworm)</span></div>
+    <div class="pkg"><span class="name">Debian 11 (bullseye)</span></div>
+    <div class="pkg"><span class="name">Debian 10 (buster)</span></div>
+    <div class="pkg"><span class="name">Ubuntu 22.04 LTS (jammy)</span></div>
+    <div class="pkg"><span class="name">Ubuntu 24.04 LTS (noble)</span></div>
+    <div class="pkg"><span class="name">Ubuntu 26.04 (resolute)</span></div>
+    <div class="pkg"><span class="name">Debian 13 (trixie)</span></div>
+    <p style="margin-top:.8rem;color:var(--muted);font-size:.9rem">同一批 Go 静态二进制包发布到以上所有套件，任选与你的系统匹配的 <code>Suites:</code> 即可。</p>
+  </div>
+
+  <div class="card" style="border-color:#8a5a00;background:#1c1710;">
+    <h2 style="color:#e8a33d;">⚠️ 使用警告</h2>
+    <p>本仓库为 <strong>第三方社区源</strong>，非官方 Debian / Ubuntu 软件源。包由项目作者或本仓库维护者编译，未经过官方安全审计。</p>
+    <ul style="margin:.6rem 0 0 1.2rem;color:var(--fg);">
+      <li>安装即表示你自行承担风险（<code>at your own risk</code>）。</li>
+      <li>安装前请核对软件包来源、校验 GPG 签名、并备份重要数据。</li>
+      <li>仅在你信任维护者且了解用途的前提下使用。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>链接</h2>
+    <p>签名公钥：<a href="/apt.key">apt.key</a> · 索引结构：<a href="/dists/">dists/</a> · 包文件：<a href="/pool/">pool/</a></p>
+  </div>
+
+  <footer>源码与发布脚本：github.com/LeisureLinux/apt-repo · 由 aptly 生成并 GPG 签名 · 包列表自动更新</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,429 @@
+Package: age
+Priority: optional
+Section: utils
+Installed-Size: 4372
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 1.3.1
+Filename: pool/main/a/age/age_1.3.1_loong64.deb
+Size: 1521036
+MD5sum: 72bbdc132e7c59bc848c2b686800215b
+SHA1: 96a35a34336a4a76cc357f7d05f3441c82b03cb5
+SHA256: bc44390ec4548f83363a013fd6e2382c5408a8f40247cf2d09276ca6e592a94d
+SHA512: dc4f407b6118c9b726840a360a84db2c28d92b8d154f87a05f5e3dd8fa3deaba4583456d7d51f203fccce4d19c2aa8c53076fff1ef099cd86442e1a7904959ed
+Description: age - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/FiloSottile/age (tag 1.3.1)
+ Commit: b8564adb6d58329b8a3e267360ca2b0abc4efe1d
+
+Package: amfora
+Priority: optional
+Section: utils
+Installed-Size: 16404
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 1.11.0
+Filename: pool/main/a/amfora/amfora_1.11.0_loong64.deb
+Size: 4610738
+MD5sum: 330732b6af4d181a651c6d0b58214b47
+SHA1: 84dacbb9525203674730418baafdad51953e23ee
+SHA256: 5942c446827db905181a5fefeb2f4448c6883d90a62fe9aba7497d24600af1a7
+SHA512: 8fc02fd49aa36ea53074157482fec3d02459b0145b5a531f18d68ba7465eb5662c14bdbf13cc3aef9792d189de1b5f37bbd45d1468e9be0518b4dc53a52c5b02
+Description: amfora - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/makeworld-the-better-one/amfora (tag 1.11.0)
+ Commit: 4d9a5c56c88f7bec2938968182c88130b923fbba
+
+Package: anacrolix-dms
+Priority: optional
+Section: utils
+Installed-Size: 9748
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 1.8.0
+Filename: pool/main/a/anacrolix-dms/anacrolix-dms_1.8.0_loong64.deb
+Size: 3271472
+MD5sum: b1b9fb117acd5db58423227331b2b14e
+SHA1: e8d30e0157e98a431b0b7a4d8df1ba39fa92dfc1
+SHA256: 732856379c2ccb9a50a80306f33cb1229b40ef79004a4e512c2002541c6e938f
+SHA512: c642f029c6c19a26952fe6f5a44264cab81a3890b45ddc04814384d195b9016f5726afb8abafc04212c9996efa78682db103ccbad09aacf504b5707ce2ae777d
+Description: anacrolix-dms - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/anacrolix/dms (tag 1.8.0)
+ Commit: a259fcd5b174dc920a5fb841c0814cfa300ade5f
+
+Package: assetfinder
+Priority: optional
+Section: utils
+Installed-Size: 5588
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 0.1.1
+Filename: pool/main/a/assetfinder/assetfinder_0.1.1_loong64.deb
+Size: 1985022
+MD5sum: f19a92ebc3dcb8e134e2ea7f85074857
+SHA1: 488f145b948d59e0beb661e031243c85747e5ba9
+SHA256: 141303562216ffddc53b3611f2b184225475f114640fdcba58f33f3f35a0cd94
+SHA512: 140527833ce09e40af6cc4cc7df6070ecd698bbce8e37745dc137ce117b41b100a7796c9c436d993eb7b6395d5e1ec01d9244304eea892ca0ddd9b46fd2e56b6
+Description: assetfinder - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/tomnomnom/assetfinder (tag 0.1.1)
+ Commit: 4e95d8701aae8cff1c27af2626eb22ba110ad583
+
+Package: balboa
+Priority: optional
+Section: utils
+Installed-Size: 14676
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 2.1.2
+Filename: pool/main/b/balboa/balboa_2.1.2_loong64.deb
+Size: 4552738
+MD5sum: af18945997de47c47cd53f37ba0d455f
+SHA1: 2bc60e76f59d15dab4ffc71f29cb17fbb01b6717
+SHA256: 68b097d65e30c08227c4f72c20d3d19efd69764797a8427ddcd24a6dae2d7ed5
+SHA512: 6157d05421a5bd3b7b376639776ca2a1f65bb94d8a0283e36ac41a2e5a2e098070caa49715a229bacdf11a8763bf646fb785d6a2478cf0f55be10b91dc3b2017
+Description: balboa - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/DCSO/balboa (tag 2.1.2)
+ Commit: 6c0ef4c4084d2169f52af34384c1ae8a0df944f0
+
+Package: c2go
+Priority: optional
+Section: utils
+Installed-Size: 5076
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 0.26.11
+Filename: pool/main/c/c2go/c2go_0.26.11_loong64.deb
+Size: 1646738
+MD5sum: 9998cf5dbe3786a94e8f61845f1f0c3d
+SHA1: e9ee22ef4913be4cf3f17dfe42e614cba4c41978
+SHA256: ed5349270f68a29b4ade9337553dfa5d87543e10cb22b6686d8930a3bd904d18
+SHA512: 321911e7dd6f444038a362d93921be5e408a801122bf3d9283a6e3c25122497195f9252c615730cf194b50b68813ec8ee5f8c475f052e0d6064b22de14df8d9f
+Description: c2go - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/elliotchance/c2go (tag 0.26.11)
+ Commit: f296f6eac725d09f4ef9a5ebf62c825bcbdf3097
+
+Package: certinfo
+Priority: optional
+Section: utils
+Installed-Size: 4884
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 1.0.40
+Filename: pool/main/c/certinfo/certinfo_1.0.40_loong64.deb
+Size: 1703450
+MD5sum: 68628012a2c2d4ab2a1beaf4c3647baf
+SHA1: 45c5a79e4e3ef9ca65ee0bcf91ee4d92d4ea0322
+SHA256: 10c8df3f64cd38f23cc39ec7470b70095a3b1cd23ff8aee51d2e6c89dc6f36f0
+SHA512: 02efc09257e0d4ed785005070ab6a521a6a5d25d760f1084eb8dbcf17f7696c955e223ef707e102701df32e4c1f0f1aa3e1609486176fbba03469a2e9f4147dc
+Description: certinfo - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/pete911/certinfo (tag 1.0.40)
+ Commit: 5574ad11b2782421543936fda1a9f3c0d46882f7
+
+Package: certstream-server-go
+Priority: optional
+Section: utils
+Installed-Size: 10836
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 1.9.0
+Filename: pool/main/c/certstream-server-go/certstream-server-go_1.9.0_loong64.deb
+Size: 3560376
+MD5sum: 1788530ab3ad26b172efee5244702403
+SHA1: ed9c7853f79ebd95c8f310704b8973bbe84d53ab
+SHA256: da16bbf3d5217e209d9123be711414835bda58b719499e5242e7ef8935ca4d2f
+SHA512: 54a9da2c7d113cb2f5009a3b62eb495a71f376bd1b2ef16abfdc4f8c39f24f1d8ace2e334973f5bf661033c10b2bb46ed5087d1df1c40cc059293a6c2b5eee5a
+Description: certstream-server-go - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/d-Rickyy-b/certstream-server-go (tag 1.9.0)
+ Commit: af4105b7a6465efa9626d25e7bf604de8622c6f2
+
+Package: checkpointctl
+Priority: optional
+Section: utils
+Installed-Size: 6292
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 1.5.0
+Filename: pool/main/c/checkpointctl/checkpointctl_1.5.0_loong64.deb
+Size: 1922956
+MD5sum: 75102dc81a84605940ba106076b37f71
+SHA1: 6329e0dd11a75e1f06da10d3567e28bc72a5f78b
+SHA256: 54403e721801bb8950346f95a239dabe6e4dd7c8d181630bd56ddaeb3c8382d6
+SHA512: c662661025b7908fb48ba11cd98f5f1489de019ceea2112e0e3689eb370b6189c84b2e2731b28b1abc1e3c9d799102444f9ff8ee9e170068858409975f1e1b28
+Description: checkpointctl - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/checkpoint-restore/checkpointctl (tag 1.5.0)
+ Commit: 891978fb0574c92308fd2f94aaa497c705b194bb
+
+Package: cidr
+Priority: optional
+Section: utils
+Installed-Size: 4052
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 2.3.0
+Filename: pool/main/c/cidr/cidr_2.3.0_loong64.deb
+Size: 1321702
+MD5sum: c734e205921b9796ae73171c939a2bad
+SHA1: a6250a6fd4f755490447d01235d1663b70a711ea
+SHA256: b067a8658b211ccaaeab4481162c795f7be5fbd2c9ef8189633b7f887b9ad799
+SHA512: 0bdab10884fe4c2367798b1d76f08e51c222d9a6383da4f2127b08bb1451b54ae2898e54221d2c8e1effa367ec5f91c7cab1b73673945d6d375a1beb5dd55acb
+Description: cidr - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/bschaatsbergen/cidr (tag 2.3.0)
+ Commit: 03296baad3dddebb37f86c90011cbffaef8675be
+
+Package: cliphist
+Priority: optional
+Section: utils
+Installed-Size: 2388
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 0.7.0
+Filename: pool/main/c/cliphist/cliphist_0.7.0_loong64.deb
+Size: 828368
+MD5sum: c7fe01464766cf136b1d779c837f75d9
+SHA1: 509637ff9eda7d9e5e7a69877c04f11dbfbe293b
+SHA256: 4b940a3ca5fff7f7a5046bb4a27d1915b518b4d45894d3a25ebda1cbce5449d9
+SHA512: 917b3b88f9659a4610a0c42f78fdcc7619f0d7bffa2399288bbc903791f33b30c17e8a4f75d09ef94fec2d37b1ae22a4d03dd63aa40b22618c50093e63d4b5f7
+Description: cliphist - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/sentriz/cliphist (tag 0.7.0)
+ Commit: efb61cb5b5a28d896c05a24ac83b9c39c96575f2
+
+Package: cloudsql-proxy
+Priority: optional
+Section: utils
+Installed-Size: 24980
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 2.25.0
+Filename: pool/main/c/cloudsql-proxy/cloudsql-proxy_2.25.0_loong64.deb
+Size: 6391900
+MD5sum: 9eb46516bce37732400aa345ac709c80
+SHA1: 9987c62778e35046216cfd8b71e43648b475007f
+SHA256: 27c00b176e9c01331371b99500e3e5fbdddd6f0927f6fd96346807577d131aa9
+SHA512: f2fdc2736409f909fd7fb2ba61a02b832db3aa251e06604a1fb77bec21e1b96c6491a1ea439ff60207f38f4b962e73859b774f8c2ecf48970f73d9c89d68f033
+Description: cloudsql-proxy - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/GoogleCloudPlatform/cloudsql-proxy (tag 2.25.0)
+ Commit: ada934982738b7c3d739a7296f527e72f20acae1
+
+Package: codesearch
+Priority: optional
+Section: utils
+Installed-Size: 2004
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 1.2.0
+Filename: pool/main/c/codesearch/codesearch_1.2.0_loong64.deb
+Size: 715526
+MD5sum: 4763fe9edbddcbffc999b18cbeb82767
+SHA1: 387b16f87c841581ad7d2e0126d01fa85f6b46fa
+SHA256: 6eb055e3af60d082699691fa930ea98fb6422e1c148b236bf21dbf8c8f62284e
+SHA512: 8648c00a6a3d652356a2f43640eaebf93b6d30b066da847307a5005c465d6975f8bc520d9171ad68325c3235591e52ea364e5432cf4edc3509812908811054a4
+Description: codesearch - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/google/codesearch (tag 1.2.0)
+ Commit: 8ba29bd255b740aee4eb4e4ddb5d7ec0b4d9f23e
+
+Package: crowdsec-custom-bouncer
+Priority: optional
+Section: utils
+Installed-Size: 13524
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 0.0.19
+Filename: pool/main/c/crowdsec-custom-bouncer/crowdsec-custom-bouncer_0.0.19_loong64.deb
+Size: 4153260
+MD5sum: f0bdf238a08420b31120c4088061b4c4
+SHA1: 54641d35aec59fdb9c3545e5150761a179498bab
+SHA256: 3f2a26e2947b3d7364c3b681e5c0c90f62c444c6e23a598ac3831bd7f216e1af
+SHA512: 6ac084985f708a9e91acccbdb6e28e088a7539cda059c044e83b5af869ac6df1aa760a1fb6a34065951ebbf0533ed386f329be4dd0d409ac61b020d66b710da6
+Description: crowdsec-custom-bouncer - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/crowdsecurity/cs-custom-bouncer (tag 0.0.19)
+ Commit: 1a60aa3040a0b3e1abd04b5350fbc0f42d2b4c3e
+
+Package: crowdsec-firewall-bouncer
+Priority: optional
+Section: utils
+Installed-Size: 11988
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 0.0.36
+Filename: pool/main/c/crowdsec-firewall-bouncer/crowdsec-firewall-bouncer_0.0.36_loong64.deb
+Size: 3822854
+MD5sum: 588b43ee7a6166630da102ef779a162a
+SHA1: d9c363f8f45e50d9eeffa1b24e45be305d49b9fe
+SHA256: 723de9d22749cfbafd1bb7e087d6247ed2fbea309dbed1df80a30eeee1d48620
+SHA512: 2aaf9b0b79cd2505ae5b414be1fb59914507e79818949a4f80918c8a47f180091e82a159602ca1cc82540ae4d4c06f4872d02ae6a17617238bb49d57483b17dd
+Description: crowdsec-firewall-bouncer - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/crowdsecurity/cs-firewall-bouncer (tag 0.0.36)
+ Commit: 4c315193cd4f19e3937cdee2f15183ec4d602f56
+
+Package: dnscrypt-proxy
+Priority: optional
+Section: utils
+Installed-Size: 11220
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 2.1.18
+Filename: pool/main/d/dnscrypt-proxy/dnscrypt-proxy_2.1.18_loong64.deb
+Size: 3632738
+MD5sum: ffcc971d733dfbaf37b5ddda1dbf15f1
+SHA1: f24ff8bd8c9a320a4c2554e27b8e643e032f09ff
+SHA256: 73e386e4205792bb70a0cde86f6ee16fb471141c4e320993d922fdfee7a4ec27
+SHA512: 18e47458f6cd72525a7e91c56dc57eacb742db10aef7cc895219e6c05508ced387f5f4f857caa707b2b4c7cb25ad8dee815e3c72db84f79d53452f3436cc6d93
+Description: dnscrypt-proxy - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/DNSCrypt/dnscrypt-proxy (tag 2.1.18)
+ Commit: 458d2af16a8ece668d9453a3293004bdd08158e7
+
+Package: docker-registry
+Priority: optional
+Section: utils
+Installed-Size: 2132
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 3.1.1
+Filename: pool/main/d/docker-registry/docker-registry_3.1.1_loong64.deb
+Size: 752462
+MD5sum: 8fe4ab3c11fd05dbef726bc1a88b6eef
+SHA1: 5c79c730d2d6eb16fa1e17b88031fee699f44d19
+SHA256: 87628fb4cd593856b76bb490b1d7fe988c7805394eadb5fb89548b5b2918b5a9
+SHA512: 75b78f10a9f8a424c9e39b61b9906a438b44554bf1a5c5cc0707624c7b8314cf48b33dc4a3d5e83f8fe97d7848d7e76aa455b654f94b24ecad08a30b40038bcf
+Description: docker-registry - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/docker/distribution (tag 3.1.1)
+ Commit: 9a8d98b679740cd514aa7e7d84d23d442a5ef54c
+
+Package: efm-langserver
+Priority: optional
+Section: utils
+Installed-Size: 3220
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 0.0.57
+Filename: pool/main/e/efm-langserver/efm-langserver_0.0.57_loong64.deb
+Size: 1127960
+MD5sum: 952415952f9557fc13804b1126f47aa5
+SHA1: 7a083317109d833f170acb3b46b7ce757f6d2004
+SHA256: dce54772b14248ebb5b3763ed6c82dfb0577cb86cf273c94770e7eb8bd105c9e
+SHA512: 0b819f108ba33918e05a6133817a900315da0ad7127153623b5fd3a0ebcf80b8185915b439aca2d3dc986531ebfa632e41e1170460502b222296cd65c118541c
+Description: efm-langserver - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/mattn/efm-langserver (tag 0.0.57)
+ Commit: 740a66b453977d9fd7c391f57977bdc7d95a6179
+
+Package: enmime
+Priority: optional
+Section: utils
+Installed-Size: 6804
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 2.4.1
+Filename: pool/main/e/enmime/enmime_2.4.1_loong64.deb
+Size: 2348404
+MD5sum: cbfb2d63a3577b9d09549b225cb6e41e
+SHA1: 962c2664fa22447c347058531ebc98d3a418b180
+SHA256: 1fd21d61541ef874f9ef10a68c83b53a8544a32fcea3030c9f2752e46170bebc
+SHA512: 1aa607ec296d77aa305e6f9ec67ce1eda42a8f1f6d2cefb90bbeaa5ebc0288243b62ee5cfe0943cb3bc0155c995f9a9de70044e6e24d3ab0ece398fac25dc037
+Description: enmime - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/jhillyerd/enmime (tag 2.4.1)
+ Commit: 531469856bbe4bdc5fa3c2a956022c4a870c9a5a
+
+Package: gdu
+Priority: optional
+Section: admin
+Installed-Size: 20932
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Source: gdu (5.36.1+git20260429.8d64b4f)
+Version: 5.36.1+LL
+Filename: pool/main/g/gdu/gdu_5.36.1+LL_loong64.deb
+Size: 5707080
+MD5sum: c871d1f1af877a2befd6ffc339149e0e
+SHA1: 361ae6d9bd998586ed48e0fda7f9efde5d15ab91
+SHA256: b28e5ebf021cb38a2082a4626b25df42df63a84b792433459fcd5f0f7409adc7
+SHA512: afd7e4185c22f600ad23155727bca2d4429c54a9d9133de4d2a66de2ce67e42819a8f7e3fe6e1d75ecdd8868ddada7b6f64626bf9c033a907ee063e3b5be1f42
+Description: Pretty fast disk usage analyzer
+ (built by LeisureLinux deb-builder)
+Homepage: https://github.com/dundee/gdu
+
+Package: gdu
+Priority: optional
+Section: utils
+Installed-Size: 20436
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 5.36.1
+Filename: pool/main/g/gdu/gdu_5.36.1_loong64.deb
+Size: 6548252
+MD5sum: fe97880ba0b0e61d295ec74309ae969e
+SHA1: c51d5cdd222c07788903fe1b6a80b16a63537dfe
+SHA256: bd6aada2442e1ecb22b2b3bd0f35d46189eb43d6ccecd5fd5e4c349e74778497
+SHA512: ce1a79be60c00f616f0aff00007593a2879b1d23d1a0774b93d651033054a51614781253fcb2308a6f106c75b2a725ce037ca29adc3387cf97c3c73512ecd3c9
+Description: gdu - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/dundee/gdu (tag 5.36.1)
+ Commit: 8d64b4f1ef50bf6694cd17e060f9fd80aed3e297
+
+Package: ghdeb
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 0.7.53
+Depends: dpkg
+Filename: pool/main/g/ghdeb/ghdeb_0.7.53_loong64.deb
+Size: 2255328
+MD5sum: 3c0a2daa0f280b3babd8a005c97b0102
+SHA1: 19f9b769e94ddbb6ada8075d3158aacf3e665b05
+SHA256: bbdb470e50a0f1e6342571ede109545b84d358a4e33d9a9b2f3c270a73ab9de3
+SHA512: d7cec71af07c3610b214a50e68d310fd9d15712187cff9930577c4e6059a1723b7fe52ca875c93b07d554aad5617497f4a21f57cd4a4b28d1c181af480acff0d
+Description: 管理从 GitHub Releases 下载的 .deb 包
+ ghdeb manages .deb packages downloaded from GitHub Releases.
+ It handles architecture
+ detection, asset matching, downloading, and installation in a single command.
+ .
+ Features:
+  - Auto-detect system architecture
+  - Smart asset matching from GitHub releases
+  - Version tracking and upgrade management
+  - Orphan package scanning
+  - Bilingual output (Chinese/English)
+  - Release info caching for faster queries
+Homepage: https://github.com/LeisureLinux/ghdeb
+
+Package: ghdeb
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 0.7.52
+Depends: dpkg
+Filename: pool/main/g/ghdeb/ghdeb_0.7.52_loong64.deb
+Size: 1969192
+MD5sum: 07b8436284e95c8f4c41766ed046b3ff
+SHA1: d8de10f9499589215978565bd8fbf1b2be84e6f3
+SHA256: 83b8c79bf6e9d2d4bb566b37273dec868fc6410cb4c3ed3280841436feaf99c0
+SHA512: 64f4a8e5a0fd62e3581eb58b7a83f0bbf6c7bb782470944e746e05d865946d3018caf2330e1b99844f6ba224ff31099b3f500a4e44242e8c8f1a62eef3994b36
+Description: 管理从 GitHub Releases 下载的 .deb 包
+ ghdeb manages .deb packages downloaded from GitHub Releases.
+ It handles architecture
+ detection, asset matching, downloading, and installation in a single command.
+ .
+ Features:
+  - Auto-detect system architecture
+  - Smart asset matching from GitHub releases
+  - Version tracking and upgrade management
+  - Orphan package scanning
+  - Bilingual output (Chinese/English)
+  - Release info caching for faster queries
+Homepage: https://github.com/LeisureLinux/ghdeb
+
+Package: gitleaks
+Priority: optional
+Section: utils
+Installed-Size: 14932
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 8.30.1
+Filename: pool/main/g/gitleaks/gitleaks_8.30.1_loong64.deb
+Size: 4943426
+MD5sum: e73c5c0d7116d76334a42a1d261739eb
+SHA1: cb4151ba62d852b9b23c80886aebcd237f1bb12d
+SHA256: f1e8a0abdbdeaeff6d28935cf6ca6a57b092d98e0db7047f7d295b40e73800a7
+SHA512: d7f49ace763ca8ee2b5fbf22c2985e02fdddd83dba0edd1216b617b196f0c8619739e33116eee70f8634f46d1a4e1b76824b18949d096e87e817c592ec2e4cf0
+Description: gitleaks - Go utility (built by LeisureLinux deb-builder)
+ Upstream: https://github.com/gitleaks/gitleaks (tag 8.30.1)
+ Commit: 83d9cd684c87d95d656c1458ef04895a7f1cbd8e
+

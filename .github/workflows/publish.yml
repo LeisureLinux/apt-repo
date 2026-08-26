@@ -9,6 +9,15 @@ on:
 permissions:
   contents: write
 
+# 并发控制：deb-builder 批量构建完成、或多个项目同时发版时，可能瞬间涌入
+# 多个 publish 触发。若并行执行，会同时往 gh-pages 推送导致 'cannot lock ref'
+# 冲突（2026-08-26 实测连续十几个失败）。
+# 加并发组后：同一时间只有一个 publish 在跑，新触发排队；由于每次运行都会
+# 处理整个 incoming/ 目录，被取消的中间触发不会丢包（最新一次兜底发布全部内容）。
+concurrency:
+  group: publish-apt-repo
+  cancel-in-progress: false
+
 jobs:
   publish:
     runs-on: ubuntu-latest

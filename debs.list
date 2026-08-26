@@ -1,0 +1,6 @@
+# 每行一个 .deb 直链，CI 的 publish.yml 会下载到 incoming/ 并入库。
+# 也可以不放这里，直接把 .deb 丢进 incoming/ 用本地 publish.sh。
+https://github.com/LeisureLinux/ghdeb/releases/download/v0.7.52/ghdeb_0.7.52_amd64.deb
+https://github.com/LeisureLinux/ghdeb/releases/download/v0.7.52/ghdeb_0.7.52_arm64.deb
+https://github.com/LeisureLinux/ghdeb/releases/download/v0.7.52/ghdeb_0.7.52_loong64.deb
+https://github.com/LeisureLinux/ghdeb/releases/download/v0.7.52/ghdeb_0.7.52_riscv64.deb

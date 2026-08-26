@@ -1,0 +1,65 @@
+name: Publish APT Repo
+on:
+  workflow_dispatch:                 # 手动触发
+  schedule:                          # 每天 02:00 UTC 兜底（防漏发）
+    - cron: '0 2 * * *'
+  repository_dispatch:               # 各项目发版后即时触发
+    types: [publish]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install aptly
+        run: |
+          curl -fsSL -o /tmp/aptly.tgz \
+            https://github.com/aptly-dev/aptly/releases/download/v1.5.0/aptly_1.5.0_linux_amd64.tar.gz
+          tar -xzf /tmp/aptly.tgz -C /tmp
+          sudo mv /tmp/aptly_1.5.0_linux_amd64/aptly /usr/local/bin/
+          aptly version
+
+      - name: Import GPG signing key
+        env:
+          GPG_KEY: ${{ secrets.APT_GPG_PRIVATE_KEY }}
+        run: |
+          echo "$GPG_KEY" | gpg --batch --import
+          # 私钥来自本地: gpg --armor --export-secret-keys <KEYID> | gh secret set APT_GPG_PRIVATE_KEY
+
+      # 方式 A：从 conf/sources.txt 同步各项目最新 release 的全部 .deb（ghdeb、unbound-dashboard…）
+      - name: Fetch debs from sources
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash scripts/fetch-sources.sh
+
+      # 方式 B：按 debs.list 逐行拉取（适合第三方重打包包）
+      - name: Fetch debs from debs.list
+        run: |
+          if [[ -f debs.list ]]; then
+            while IFS= read -r url; do
+              [[ -z "$url" || "$url" == \#* ]] && continue
+              echo "⬇️  $url"
+              curl -fsSL -o "incoming/$(basename "$url")" "$url"
+            done < debs.list
+          fi
+          ls -lh incoming/
+
+      - name: Publish with aptly
+        run: bash scripts/publish.sh
+
+      # 自动生成 index.html / dists/index.html / pool/index.html（含最新包列表），
+      # 使 GitHub Pages 上 /dists/ 和 /pool/ 不 404、包列表自动更新。
+      - name: Generate indexes (auto-update package list)
+        run: bash scripts/generate-index.sh
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .aptly/public
+          force_orphan: true
+          cname: repo.freelamp.com

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Freelamp APT Repository</title>
+<style>
+  :root { --bg:#0f1115; --card:#171a21; --fg:#e6e8ee; --muted:#9aa3b2; --accent:#4f8cff; --border:#262c38; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif; padding:3rem 1rem; }
+  .wrap { max-width:860px; margin:0 auto; }
+  h1 { font-size:1.8rem; margin-bottom:.3rem; }
+  h1 code { color:var(--accent); }
+  .sub { color:var(--muted); margin-bottom:2rem; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1.4rem 1.6rem; margin-bottom:1.4rem; }
+  h2 { font-size:1.1rem; margin-bottom:.8rem; color:var(--accent); }
+  pre { background:#0b0d12; border:1px solid var(--border); border-radius:8px; padding:1rem; overflow-x:auto; font-size:.85rem; }
+  code { font-family:ui-monospace,SFMono-Regular,Consolas,monospace; }
+  .pkg { display:flex; justify-content:space-between; align-items:center; gap:1rem; padding:.5rem 0; border-bottom:1px dashed var(--border); flex-wrap:wrap; }
+  .pkg:last-child { border-bottom:none; }
+  .pkg .name { font-weight:600; }
+  .pkg .desc { color:var(--muted); font-size:.9rem; }
+  a { color:var(--accent); }
+  .badge { display:inline-block; background:#1c2433; border:1px solid var(--border); color:var(--muted); border-radius:999px; padding:.1rem .6rem; font-size:.78rem; }
+  footer { color:var(--muted); font-size:.85rem; margin-top:2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Freelamp <code>APT</code> Repository</h1>
+  <p class="sub">LeisureLinux 的 Debian / Ubuntu 软件源 · GitHub Pages 托管 · GPG 签名</p>
+
+  <div class="card">
+    <h2>添加软件源</h2>
+    <pre># 安装签名公钥
+curl -fsSL https://repo.freelamp.com/apt.key | sudo gpg --dearmor -o /usr/share/keyrings/freelamp.gpg
+
+# 配置源（deb822 格式，Debian 12+/Ubuntu 22.04+）
+sudo tee /etc/apt/sources.list.d/freelamp.sources >/dev/null &lt;&lt;'SOURCE_EOF'
+Types: deb
+URIs: https://repo.freelamp.com
+Suites: bookworm
+Components: main
+Signed-By: /usr/share/keyrings/freelamp.gpg
+SOURCE_EOF
+
+sudo apt update</pre>
+  </div>
+
+  <div class="card">
+    <h2>可用软件包</h2>
+    <div class="pkg"><span><span class="name">ghdeb</span> <span class="badge">amd64 arm64 armhf loong64 riscv64</span></span><span class="desc">从 GitHub Releases 安装 / 升级 .deb 的 CLI 工具</span></div>
+    <div class="pkg"><span><span class="name">unbound-dashboard</span> <span class="badge">amd64 arm64</span></span><span class="desc">Unbound DNS 仪表盘（DNSTap / 日志双模式）</span></div>
+    <p style="margin-top:.8rem;color:var(--muted);font-size:.9rem">版本随项目发版自动更新（CI 自动同步）。安装：<code>sudo apt install ghdeb</code></p>
+  </div>
+
+  <div class="card">
+    <h2>链接</h2>
+    <p>签名公钥：<a href="/apt.key">apt.key</a> · 索引结构：<a href="/dists/">dists/</a> · 包文件：<a href="/pool/">pool/</a></p>
+  </div>
+
+  <footer>源码与发布脚本：github.com/LeisureLinux/apt-repo · 由 aptly 生成并 GPG 签名</footer>
+</div>
+</body>
+</html>

@@ -1,7 +1,7 @@
 APT ?= aptly
 export APTLY ?= $(APT)
 
-.PHONY: help init publish deploy fetch
+.PHONY: help init publish extrepo-data deploy fetch
 
 help:          ## 显示帮助
 	@grep -E '^[a-zA-Z_-]+:.*##' $(MAKEFILE_LIST) | awk 'BEGIN{FS=":.*##"}{printf "  \033[36m%-10s\033[0m %s\n", $$1, $$2}'
@@ -11,6 +11,9 @@ init:          ## 初始化 GPG 签名密钥
 
 publish:       ## 把 incoming/*.deb 发布到所有发行版
 	bash scripts/publish.sh
+
+extrepo-data:  ## 生成本仓库的 extrepo 数据源（需 apt 签名私钥）
+	bash scripts/generate-extrepo-data.sh
 
 deploy:        ## 把产物推送到 gh-pages
 	bash scripts/deploy-ghpages.sh

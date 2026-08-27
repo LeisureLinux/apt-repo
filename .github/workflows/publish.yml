@@ -65,6 +65,10 @@ jobs:
       - name: Generate indexes (auto-update package list)
         run: bash scripts/generate-index.sh
 
+      # 生成 extrepo 数据源（index.yaml + GPG 签名），用户可用 extrepo 管理本源。
+      - name: Generate extrepo data (sign + deploy)
+        run: bash scripts/generate-extrepo-data.sh
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:

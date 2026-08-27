@@ -91,6 +91,9 @@ cp keys/apt.key .aptly/public/apt.key
 # --- 自动生成 index.html / dists/index.html / pool/index.html ---
 bash scripts/generate-index.sh
 
+# --- 生成 extrepo 数据源（index.yaml + 签名），随 GitHub Pages 一起发布 ---
+bash scripts/generate-extrepo-data.sh
+
 echo
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "✅ 发布完成，产物在 .aptly/public/"

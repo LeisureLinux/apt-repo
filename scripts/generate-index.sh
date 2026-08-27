@@ -193,6 +193,23 @@ sudo apt update</pre>
   </div>
 
   <div class="card">
+    <h2>用 extrepo 管理（可选）</h2>
+    <p>除了上面的手动添加方式，也可以用 Debian 官方工具 <code>extrepo</code> 来管理本源：自动写源、托管签名密钥、支持一键禁用 / 更新。</p>
+    <pre># 1. 安装 extrepo
+sudo apt install extrepo
+
+# 2. 把 freelamp 公钥导入 extrepo 的密钥环（追加，不会覆盖 Debian 官方密钥）
+curl -fsSL https://repo.freelamp.com/extrepo-data/debian/bookworm/freelamp.asc \
+  | sudo gpg --no-default-keyring --keyring /etc/extrepo/keyring.gpg --import
+
+# 3. 按当前系统发行版启用（默认配置 + --url 即可，无需改 /etc/extrepo/config.yaml）
+codename=\$(. /etc/os-release; echo \$VERSION_CODENAME)
+sudo extrepo --url https://repo.freelamp.com/extrepo-data enable freelamp-\$codename
+sudo apt update</pre>
+    <p style="margin-top:.8rem;color:var(--muted);font-size:.9rem">启用后配置文件位于 <code>/etc/apt/sources.list.d/extrepo_freelamp-&lt;codename&gt;.sources</code>。更新：<code>sudo extrepo update freelamp-&lt;codename&gt;</code>；禁用：<code>sudo extrepo disable freelamp-&lt;codename&gt;</code>。需同时使用 Debian 官方目录里的其他源时，把第 3 步的 <code>--url</code> 换成 Debian 默认 <code>https://extrepo-team.pages.debian.net/extrepo-data</code> 即可，两者可共存（密钥环里两把密钥都在）。</p>
+  </div>
+
+  <div class="card">
     <h2>可用软件包</h2>
     <p>共收录 <strong>${TOTAL_PKGS}</strong> 个软件包（含 GitHub 上游项目与版本号、Commit Hash）：</p>
     <p style="margin-top:.6rem"><a class="btn" href="/packages/">📦 打开软件包列表 →</a></p>
@@ -216,7 +233,7 @@ $(echo -e "$DIST_INFO")
 
   <div class="card">
     <h2>链接</h2>
-    <p>签名公钥：<a href="/apt.key">apt.key</a> · 索引结构：<a href="/dists/">dists/</a> · 包文件：<a href="/pool/">pool/</a></p>
+    <p>签名公钥：<a href="/apt.key">apt.key</a> · 索引结构：<a href="/dists/">dists/</a> · 包文件：<a href="/pool/">pool/</a> · extrepo 数据源：<a href="/extrepo-data/debian/bookworm/">extrepo-data/</a></p>
   </div>
 
   <footer>源码与发布脚本：github.com/LeisureLinux/apt-repo · 由 aptly 生成并 GPG 签名 · 包列表自动更新 · 最近更新：$GEN_TIME</footer>

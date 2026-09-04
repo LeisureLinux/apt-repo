@@ -1,0 +1,3 @@
+# This directory holds .deb files pending publish.
+# Actual .deb files are .gitignore'd, but this directory itself is tracked
+# so the repo always has a valid `incoming/` directory.

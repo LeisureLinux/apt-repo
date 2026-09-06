@@ -1,0 +1,27 @@
+Package: ghdeb
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: armhf
+Version: 0.7.53
+Depends: dpkg
+Filename: pool/main/g/ghdeb/ghdeb_0.7.53_armhf.deb
+Size: 2236482
+MD5sum: 2d7ad9ed98b03c0ea1964047f3470015
+SHA1: e5aaa83e529b9b5b4a38d88fb2d6751e7dbe248a
+SHA256: d537b89ca2020ed4ed9418028fc994036a9975bb21f0b4b314586cbca3cbb87c
+SHA512: 588b98b140b752099ed843ced509badd0fadfd23e4fbde674be2296df0ec44e8e1dc4b160eaa2d54967781c9c4d851f683c0affa38c84e25dc94eeb9d2da4403
+Description: 管理从 GitHub Releases 下载的 .deb 包
+ ghdeb manages .deb packages downloaded from GitHub Releases.
+ It handles architecture
+ detection, asset matching, downloading, and installation in a single command.
+ .
+ Features:
+  - Auto-detect system architecture
+  - Smart asset matching from GitHub releases
+  - Version tracking and upgrade management
+  - Orphan package scanning
+  - Bilingual output (Chinese/English)
+  - Release info caching for faster queries
+Homepage: https://github.com/LeisureLinux/ghdeb
+

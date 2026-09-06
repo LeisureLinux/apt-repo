@@ -1,0 +1,3069 @@
+Package: ace
+Priority: optional
+Section: text
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: ace (0.0.5+git20260904.ea038f4)
+Version: 0.0.5+LL
+Filename: pool/main/a/ace/ace_0.0.5+LL_arm64.deb
+Size: 892748
+MD5sum: 3b1564ca0ae4778717178ec3e4c31567
+SHA1: 90e840c78b13982658abe813acab2464cacfab82
+SHA256: 9ab2bf8fb939e7535d3980d5a78a5dd54bf7d4e17635a9642900d10942b90354
+SHA512: 791c04b52401b0bfdc9bfbefa8f6d3fdb6a9ab7184671de051d3b5ea69482b1d8beb235cd39b7f14d070605854f19a348f82ffc2a3d68dbfb80c4cb139d167f0
+Description:  HTML template engine for Go (command-line tool)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/yosssi/ace
+
+Package: age
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: age (1.3.2+git20260904.b74dce4)
+Version: 1.3.2+LL
+Filename: pool/main/a/age/age_1.3.2+LL_arm64.deb
+Size: 1516644
+MD5sum: 9c7d2ffd14e221e17778dc3caeda66f8
+SHA1: a3fc3500ba85e96970e69f2cf2fb353a84f6a131
+SHA256: 744f3ad1e9ec7d38e458173400ae462849b9bf1338809e45b963572464026109
+SHA512: d7b1cad612ce5a25ae58b2453c55f4e0c3a91017bb347da1171098a8ac812ee39a015d1d4d36a1321d91b80f214306feb6a98868c7773bc298bb1fec13f9f8cc
+Description:  simple, modern and secure encryption tool
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/FiloSottile/age
+
+Package: amazon-ecr-credential-helper
+Priority: optional
+Section: misc
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: amazon-ecr-credential-helper (0.12.0+git20260904.7ff7d6b)
+Version: 0.12.0+LL
+Filename: pool/main/a/amazon-ecr-credential-helper/amazon-ecr-credential-helper_0.12.0+LL_arm64.deb
+Size: 2591282
+MD5sum: 2137b7db17dbff64fef2c9e6b2397901
+SHA1: 651f4d462925a3d31a9409bfda3fdb9186cd724c
+SHA256: 7817fb787046e8cf3c05d9ef4f0b9f7f8eea10cedad72cd763f1b3ffed48cab5
+SHA512: e93de0937ac44ef056f782ea79b10cdaa61d7da7d5dbcc0d1245d73a91257d84ed8bc9b451ba43b8a844ddb41fa0ac49919bbf1e137923c1d30ce27f73ebc27e
+Description:  Amazon ECR Credential Helper for Docker
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/awslabs/amazon-ecr-credential-helper
+
+Package: amfora
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: amfora (1.11.0+git20260904.4d9a5c5)
+Version: 1.11.0+LL
+Filename: pool/main/a/amfora/amfora_1.11.0+LL_arm64.deb
+Size: 4480200
+MD5sum: fc383ec5606718f3f8231166ee714b32
+SHA1: f74e0bb1f8f1f838e1773bef19b8aefbff366270
+SHA256: 4b191740b973b89c50c447c651ed60d42142bfa9a9671b0d56d0d7c027a94686
+SHA512: fff7fe2c34288d69c3aa4a5a520219525f2451bdb73e15d22fe8534ac1126b5f3b44833ace23bbb7faf73869fdd88c4100b4f754ebcfa35f06d4c0b151dd7cd1
+Description:  Fancy terminal browser for the Gemini protocol
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/makeworld-the-better-one/amfora
+
+Package: anacrolix-dms
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: anacrolix-dms (1.8.0+git20260904.a259fcd)
+Version: 1.8.0+LL
+Filename: pool/main/a/anacrolix-dms/anacrolix-dms_1.8.0+LL_arm64.deb
+Size: 3138616
+MD5sum: adcaf2624b1f8becd1ca50cb8e67e73a
+SHA1: 0589d9c0a0e16cc42dbc6835332566d99c11ce33
+SHA256: e2b46ab89fe3d3dde453bfdd4c6a9ff8fb24ae8850c3215dca0074b150cf4e44
+SHA512: 886f60f2ee61aaac316d26922019af5f4e2a33f7df857ac2113b5e6479f9b7e0cf12f6c511e20d8a420cdb8137ba47ebd2cd310d0a545405274ededc0f38e9cf
+Description:  Go UPnP DLNA Digital Media Server with basic video transcoding
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/anacrolix/dms
+
+Package: arduino-builder
+Priority: optional
+Section: electronics
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: arduino-builder (1.6.1+git20260904.c2cfd40)
+Version: 1.6.1+LL
+Filename: pool/main/a/arduino-builder/arduino-builder_1.6.1+LL_arm64.deb
+Size: 4506778
+MD5sum: 520eced25dae19ee75e6ff643f6b5e81
+SHA1: 4938aa5a452c39980a3e1a7b054994bba91f6b93
+SHA256: 81221c08b22a361dc684c31788754c2ccba9f501cb80781aba4b4cee9d404d67
+SHA512: 1a597bfd7cdb1a5ad682a7cc4fccbc1c6d913583e41077bb19b8c0d383a731a0e1ee59d8a61b099ebdd3c7287e757b76ede3120ce82f445d2eaad91270d6b8fc
+Description:  Command line tool for compiling Arduino sketches
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/arduino/arduino-builder
+
+Package: assetfinder
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: assetfinder (0.1.1+git20260904.4e95d87)
+Version: 0.1.1+LL
+Filename: pool/main/a/assetfinder/assetfinder_0.1.1+LL_arm64.deb
+Size: 1909866
+MD5sum: ce2c065e3f730237e9f2a1230ef0f651
+SHA1: d49b80c6f9248ead73467cc26f9f2c623b38f99a
+SHA256: d7347af4df15a8528422a9794e28f1f54a6d6a9ac8743b68bea54cf57305e58c
+SHA512: fe57c9cd8e58575dcdc5925cee4ed22978c40ca230a7236e4fcc106bbc0f8fdba5fe1cd550673770ded662912bf524a2d6ed7e9a7a9079a03e5cccfcd505fa41
+Description:  Find domains and subdomains related to a given domain
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/tomnomnom/assetfinder
+
+Package: aws-nuke
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: aws-nuke (2.25.0+git20260904.2bd22d5)
+Version: 2.25.0+LL
+Filename: pool/main/a/aws-nuke/aws-nuke_2.25.0+LL_arm64.deb
+Size: 21144662
+MD5sum: 073fc49a2773f391a934d1656febdd34
+SHA1: 28142b07aa677a0a531244834698e9ef78578c77
+SHA256: 1139c4010acb5657a7e3393bc84870f96279fad587e5de4704aba1c83bfe921c
+SHA512: ee968f58c3364165fc780a44da63c9efde53fafe88e6e3de8c69fe4d3883788967051ca309c3eeae9384bfd66106442c8a8684f11057ba1d2d73218832e13a46
+Description:  Delete a whole AWS account and all resources
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/rebuy-de/aws-nuke
+
+Package: badger
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: badger (20.07.0+git20260904.b22eccb)
+Version: 20.07.0+LL
+Filename: pool/main/b/badger/badger_20.07.0+LL_arm64.deb
+Size: 3208036
+MD5sum: aff190e38367f4a353b8135286944740
+SHA1: 8df5899ab02ecbbc75f92a4ce2239b5789e1690e
+SHA256: df52e1496198640d7f6d60bdc625d9c95b289c3a2977585e70a930f4654b3515
+SHA512: d559d49eb340a53b757d0236b2b20ed720cdd6511914a727b52fcf5b8bb70074ad48f007aae8b2774c3b0232e6948c9e2b69527f5d5c0fcb2167c9a925e51aec
+Description:  Fast key-value DB in Go.
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/dgraph-io/badger
+
+Package: balboa
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: balboa (2.1.2+git20260904.6c0ef4c)
+Version: 2.1.2+LL
+Filename: pool/main/b/balboa/balboa_2.1.2+LL_arm64.deb
+Size: 4402172
+MD5sum: ed70e061c441233efe4e6f26e9b828c1
+SHA1: ac1cd4a464a4535a6d0ddf79661989e5fbb4512d
+SHA256: 1981c0a1c2e176db8952213c1d49c306b9d2748dc30d1c28729042c6a3b481ab
+SHA512: 086fd009b396364fa1f96966f149694c62ed5beb2838de37c033dfdd7af9dca2e4d2dfdd80821709df4dd0965cc5d033b8b0bfb64b156ac9e64b4a1fa38e462c
+Description:  Passive DNS database with GraphQL interface, frontend
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/DCSO/balboa
+
+Package: burrow
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: burrow (1.9.6+git20260904.93eaa9a)
+Version: 1.9.6+LL
+Filename: pool/main/b/burrow/burrow_1.9.6+LL_arm64.deb
+Size: 5313322
+MD5sum: 3aa019a3eac8d7304010eea9d15d59e1
+SHA1: c4a81bc6e0960c0df319429f8ad62bdd24fee578
+SHA256: d030309e68980d9fea489730cb0b4df98cafbdd4f509fd49cc8786f4d1dc16d0
+SHA512: 7189d0c9fc8f4de256655e1ae6864ce5e19f0edc7243f1e08017f8c45bae2d5b557fbdcc3eef2afbbd16336e236e236c85b10f7f298a91682d740a735addbd33
+Description:  Apache Kafka consumer lag checking
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/linkedin/Burrow
+
+Package: bypass4netns
+Priority: optional
+Section: admin
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: bypass4netns (0.4.2+git20260906.aa04bd3)
+Version: 0.4.2+LL
+Filename: pool/main/b/bypass4netns/bypass4netns_0.4.2+LL_arm64.deb
+Size: 1870918
+MD5sum: 65b5045a26c6e1b25971b3df5b48471a
+SHA1: 17b73c4117c45062f15bb4567464a70a392d03d5
+SHA256: 68013bc5998f3e523ab9a8cfcfad937fb3beb6a7c0de105acc7082777f259acf
+SHA512: d1c23be4de8308c9d1e5d7a0d3a1d65872f8c477d4c7562d1e0b47cd56d5fb1072082051d850d1df64c58961a8494368702cbc859b2c2b464be1330f6506f09c
+Description:  Accelerates slirp4netns using SECCOMP_IOCTL_NOTIF_ADDFD (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/rootless-containers/bypass4netns
+
+Package: c2go
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: c2go (0.26.11+git20260904.f296f6e)
+Version: 0.26.11+LL
+Filename: pool/main/c/c2go/c2go_0.26.11+LL_arm64.deb
+Size: 1590444
+MD5sum: 907a7e7c34754c83e595cf951d896ed8
+SHA1: 9510b2813a0139a23cc62b550f5dc2b64b4611a4
+SHA256: 52fa66685f3b01c544cd7084709b362ef97ce25181bdb4b1b1200883c80d6fcb
+SHA512: 7d42da0c7fd9507d7255491e65abd7613c03ea311faa9d85da993b7ca8ffa6022ed50bb1c8769e95c5bc4c9c88c25f77efa717f766b5c536ba4fc01aaa215649
+Description:  tool for transpiling C to Go
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/elliotchance/c2go
+
+Package: caddy
+Priority: optional
+Section: httpd
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: caddy (2.11.4+git20260904.e2eee6a)
+Version: 2.11.4+LL
+Filename: pool/main/c/caddy/caddy_2.11.4+LL_arm64.deb
+Size: 13071922
+MD5sum: 7008b43908baf12a58531364b8c385ce
+SHA1: 28c2c37dbb8e408e5f18f7344389883562862e6d
+SHA256: ba1c91ab902fe1aecf2c050b8d4961e0adfd534175830817044e6a200219389c
+SHA512: c43a2bae8d01fe49f861a57cd3b65b4082cc9a4580b87082718f36761ca1b4242bdcac67de2be58b13ca4216c53bc4009f316850ff941a3abcdff1042f04feb9
+Description:  Fast, lightweight web server with automatic HTTPS
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/caddyserver/caddy
+
+Package: cam2ip
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: cam2ip (1.7.0+git20260904.88b442e)
+Version: 1.7.0+LL
+Filename: pool/main/c/cam2ip/cam2ip_1.7.0+LL_arm64.deb
+Size: 2090868
+MD5sum: 971715ea285abfd7e9a5a48d5145d1b6
+SHA1: babfebb5e399225785a370cd7c05232d5e18bade
+SHA256: 9b1d35af6821e81a7abf3a7a15dfb23d772617f379dad7e42b65b3dd137c57fc
+SHA512: 5203e25eaf430ac4d3ef95cc4f46d37fb317d973ca517736ac5584e56f7a85e0fd025920c05751abbb5a6f63c546345613ab09666b64003c83c2c1a4470e022e
+Description:  turn any webcam into an IP camera
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/gen2brain/cam2ip
+
+Package: certinfo
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: certinfo (1.0.40+git20260904.5574ad1)
+Version: 1.0.40+LL
+Filename: pool/main/c/certinfo/certinfo_1.0.40+LL_arm64.deb
+Size: 1622362
+MD5sum: e9477cf27bf787aabcb31d3d4b24375d
+SHA1: 9a3dbe11baa4540e323041b3a695e047cdebece1
+SHA256: 8d71d0a3a3059a9a3ac4cefd28b6f8df04bc1be76cf65fc27ce734eff8268e64
+SHA512: 7ec21c12db0b0d16eb9e90fcbaf25dd21cb54bb1cb90fbf190e3c512f003f7a92652c8199b34bffb92722f6bb93b0bf0219c6b37a7a5af5eab1bf9bc1e0ce1ed
+Description:  Print x509 certificate info
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/pete911/certinfo
+
+Package: certstream-server-go
+Priority: optional
+Section: admin
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: certstream-server-go (1.9.0+git20260904.af4105b)
+Version: 1.9.0+LL
+Filename: pool/main/c/certstream-server-go/certstream-server-go_1.9.0+LL_arm64.deb
+Size: 2706220
+MD5sum: 7722816634eff146535a4e8031b8bbcc
+SHA1: 666a8061374649242e3feb8161604e4081b727da
+SHA256: 4cbf953af650d6e0ebfcadd3120281c1165690b3f1f0113b3250ba749c70079b
+SHA512: 0441a8a1a5a9ded34bfe4b3d980ceed3bb3339b2adbcbd381b186b68b55b8b258dbdfdab677ba3b60b9e340f8884fc7394fa387a1bb74ff9cc2dfbc1b5eed603
+Description:  aggregates data from certificate transparency logs (server CLI)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/d-Rickyy-b/certstream-server-go
+
+Package: checkpointctl
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: checkpointctl (1.6.0+git20260904.7b6ed54)
+Version: 1.6.0+LL
+Filename: pool/main/c/checkpointctl/checkpointctl_1.6.0+LL_arm64.deb
+Size: 1933118
+MD5sum: 8441cef95816b2eda23f91c2c0ffadca
+SHA1: e342c9f1782ff7a0cf37ba822a4430d95496c822
+SHA256: bd2c69e306c34122e52ad0635a4da1a639df61421a1ed0e6cf7dbfd8bf509d00
+SHA512: f73d94109dd25c2374f1de05483ce712415053ba70d5a003bfbdc4d1c1f4c74199a8460db37813d65c0dc724a4a5ade6f5da3b47cf40f9888cc62973b6dc4b04
+Description:  Tool to inspect Kubernetes and Podman checkpoints (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/checkpoint-restore/checkpointctl
+
+Package: cidr
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: cidr (2.3.0+git20260904.03296ba)
+Version: 2.3.0+LL
+Filename: pool/main/c/cidr/cidr_2.3.0+LL_arm64.deb
+Size: 1276846
+MD5sum: 2c73a67b8b8973e76156ac0a960fd596
+SHA1: a01af1d699b87ab61649dbafb5ea5427073afd3f
+SHA256: 17a2bed7637917aadd3324cd22a51109b6492b3f1fa3f9f0ec5b7c79a33b0e8e
+SHA512: 66e34ae2e73e7098f90eb50bc029a7db458a0cc2352a86861f385cfdadb01f6b80dd8055d8d200423f806a1a6b599fe2b9fc33a785269ebd3744349cf84c9483
+Description:  Simplifies IPv4/IPv6 CIDR network prefix management
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/bschaatsbergen/cidr
+
+Package: cliphist
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: cliphist (0.7.0+git20260904.efb61cb)
+Version: 0.7.0+LL
+Filename: pool/main/c/cliphist/cliphist_0.7.0+LL_arm64.deb
+Size: 803084
+MD5sum: 50b4ea34957fdfd6b43349d1af4b0457
+SHA1: 584f357e3c293994f5fb64b492b6724757ea0b50
+SHA256: 458f217d4225c83500a9caa0f782304290e565d72e7661066748188553570b3b
+SHA512: 67b636eea440ee7a5f42e2c027d11cdfff07a385ff28a304f455834d82a2e501719f654c1978872059522055e672408610c37b7e1e2dff59835ccb864cdc432c
+Description:  wayland clipboard manager (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/sentriz/cliphist
+
+Package: cloudsql-proxy
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: cloudsql-proxy (2.25.0+git20260906.ada9349)
+Version: 2.25.0+LL
+Filename: pool/main/c/cloudsql-proxy/cloudsql-proxy_2.25.0+LL_arm64.deb
+Size: 6142690
+MD5sum: ce160aff3dce49400bfd20abe858b87e
+SHA1: 9c40b42f2ca4f4967c53e332523088f1370bca64
+SHA256: 2fd00822227da9ca609736a1361ec7a419df61cd5e5f7bcb965445e16b2e6082
+SHA512: af82da7ef426acbbc4a570d63c267bc855f63e6226c54be87e575859874f72f006d716da861b4ec24dc8253230c8b8365b8280cf21cad47449b532d95f48efb7
+Description:  connect securely to a 2nd generation Cloud SQL DB
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/GoogleCloudPlatform/cloudsql-proxy
+
+Package: cobra-cli
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: cobra-cli (1.3.0+git20260904.74762ac)
+Version: 1.3.0+LL
+Filename: pool/main/c/cobra-cli/cobra-cli_1.3.0+LL_arm64.deb
+Size: 2268370
+MD5sum: 51a7eb50f2325853afd3a1a86939a2df
+SHA1: 67dfd21b6b70854044af15bb81d09f702dd13c6a
+SHA256: 3f31f981573c927312e73efdffefa2e85c2cb8821021326f323ede1a8d882420
+SHA512: 8f84d45b02ecf3e3e15f5e1e25ac5302c01c0759a8f73c058816d6a00f2ffac8a358f40933766deb543665c66ae3ef7f4ff75c189efd5f30b085bb31c6ff0514
+Description:  Cobra CLI tool to generate Go applications and commands
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/spf13/cobra-cli
+
+Package: codesearch
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: codesearch (1.2.0+git20260906.8ba29bd)
+Version: 1.2.0+LL
+Filename: pool/main/c/codesearch/codesearch_1.2.0+LL_arm64.deb
+Size: 712462
+MD5sum: 49fd8e6116e1fd973ec5f6f421d57642
+SHA1: c820dcfafe6dd7165da5de815b5ffafd6a41f783
+SHA256: db91f46ca78ec5b57991f906c42cd195dc84bc1603d9d8c94bb4fd0c2bc1aaee
+SHA512: 336db08c080f5f47ac532c792f76e6edba89bd53f8be9f497c7fe8b106bf9bee4f089176ea4fd3fe266e28138ba0951e7d485b67d3a82ce90572518214b22fe0
+Description:  regular expression search over large bodies of source code
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/google/codesearch
+
+Package: containers-storage
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: containers-storage (1.59.1+git20260906.41839ee)
+Version: 1.59.1+LL
+Filename: pool/main/c/containers-storage/containers-storage_1.59.1+LL_arm64.deb
+Size: 2346882
+MD5sum: eae26bc4e6a74c4327f5395c3acd4da6
+SHA1: c99bc37808cc49e26c57a2e3d772662b47cd542c
+SHA256: 3f99220fcafa43ac9434bd21c12e524bb72af0007cf9b3de9adc14c8fc8f29ad
+SHA512: 9f09ffea8698417273f3c28cc161e98dd1dd2b5f1176945aa4310c509bab171e747820f36b283f806838fdb15a062ba5063d5876c7120b23ca49a8f9b9a33497
+Description:  CLI tools for handling how containers are stored on disk
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/containers/storage
+
+Package: cosign
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: cosign (3.1.3+git20260904.11926fa)
+Version: 3.1.3+LL
+Filename: pool/main/c/cosign/cosign_3.1.3+LL_arm64.deb
+Size: 4633940
+MD5sum: d432b05196caffe216d108f2c80e8185
+SHA1: 78d2faa260547c5f6cf53e4d6d5b1f22ba523e71
+SHA256: 884b5918265739911fe15156865f642b3c2985cdc8b6afd5d3765b296dfb965b
+SHA512: 39b5ec5f3a27d8f27b760749ae9a6dc048c1116454fdc60442afd8b4d22719d76c471b4143f365611639c70d366eed3226edb08198974ae9a98b6b3c57e82830
+Description:  Code signing/transparency for containers and binaries (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/sigstore/cosign
+
+Package: crowdsec-custom-bouncer
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: crowdsec-custom-bouncer (0.0.19+git20260904.1a60aa3)
+Version: 0.0.19+LL
+Filename: pool/main/c/crowdsec-custom-bouncer/crowdsec-custom-bouncer_0.0.19+LL_arm64.deb
+Size: 4018768
+MD5sum: 63cd67266c37dde7f81806a1a927c8ca
+SHA1: e4083e06f18534a07b00dd22a4dcb42c8c24e616
+SHA256: c838b0fcb537d97653f6cba54d576700c7447dc770f13076149bc47103eb4517
+SHA512: a25f7ed637ac03837658ebe2403a6db428ce9780b3b13cb10e73002be34264c7b7617309d7fc3a8369a2039cdf6499268485de310a3354c1982fddfb64d9361b
+Description:  CrowdSec bouncer for custom scripts
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/crowdsecurity/cs-custom-bouncer
+
+Package: crowdsec-firewall-bouncer
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: crowdsec-firewall-bouncer (0.0.36+git20260904.4c31519)
+Version: 0.0.36+LL
+Filename: pool/main/c/crowdsec-firewall-bouncer/crowdsec-firewall-bouncer_0.0.36+LL_arm64.deb
+Size: 3671084
+MD5sum: 986a1cb59511659719e83c9f9732a4b2
+SHA1: e8f526c5f317301dfac1fce4449cdc09b91af946
+SHA256: 787765894bd595c2db5c70da8c63355ae3d14b5627e1699ee7df69f5dcf85e70
+SHA512: a0d6426acf96fafa6a544781b6b72a727055af042b2792b7417c0f675779b9beccb2f0b180ad76a35cc36db4db5f4ab97eb58d49cb4507c725ffdcbe6aa4c6fb
+Description:  CrowdSec bouncer for firewalls
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/crowdsecurity/cs-firewall-bouncer
+
+Package: dataurl
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: dataurl (1.0.0+git20260906.d1553a7)
+Version: 1.0.0+LL
+Filename: pool/main/d/dataurl/dataurl_1.0.0+LL_arm64.deb
+Size: 1166830
+MD5sum: 08f576d123110cdaa7bf212d4b9cbf0a
+SHA1: a0d4fb0126824a4c76a7c5024e605ed65116076e
+SHA256: 2b164e401682a0c54a9ee25f6039343a289be0bd58e2bdcf372934006a8fa43e
+SHA512: 6db8897596a893a6e080aaf9fc85d18ace3458b20afaf93abd29eabceade8c87642d884d322a0018272459a32979ec003cdc4844fb318f40f67e112853ecc60b
+Description:  Data URL Schemes in Golang (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/vincent-petithory/dataurl
+
+Package: deck
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: deck (1.66.0+git20260904.9c6e027)
+Version: 1.66.0+LL
+Filename: pool/main/d/deck/deck_1.66.0+LL_arm64.deb
+Size: 14716570
+MD5sum: 6bd48a6e04c7d334e5cf5ac3bf737399
+SHA1: 8020e2e73d63835b49599414a9f8821218dc38f1
+SHA256: d441128af4133c3893760b714728d4ad2fe356ad973c9ba64803478f070725fc
+SHA512: c884af32758830765d1fa4db3b48b0d6da02e6db810f1510d18edf28badbe1a032a936428e995db0b6c0749a8ad1b3b8ba4283150ac44791bf4594ffe525412e
+Description:  Configuration management for Kong and Kong Enterprise (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/kong/deck
+
+Package: delve
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: delve (1.27.1+git20260904.f053895)
+Version: 1.27.1+LL
+Filename: pool/main/d/delve/delve_1.27.1+LL_arm64.deb
+Size: 4307754
+MD5sum: d0f74f33ed4fdffbc6ed21bbffb657df
+SHA1: d97ad806edc04b81eb47774bc0d7594582c3b976
+SHA256: 62f04fcb7528afba7ff106c0b2712471976fa852fdaa1ea9c091814c2b046fd5
+SHA512: 2ceebd76820ff0f4201b28489cda6d5889fa7aacfe33dba1edf936696ad620ce15ee43ff370cc2c695979efe94d8a906cf2ae4a8ee1b884cb7f56d7764a2f5dc
+Description:  debugger for the Go programming language
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/go-delve/delve
+
+Package: dnscrypt-proxy
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: dnscrypt-proxy (2.1.18+git20260904.458d2af)
+Version: 2.1.18+LL
+Filename: pool/main/d/dnscrypt-proxy/dnscrypt-proxy_2.1.18+LL_arm64.deb
+Size: 3493414
+MD5sum: 1820292351e570302ae4fcbd2055bd79
+SHA1: 5c272d31ecdfc790dc95c7e1464da138a2a88b13
+SHA256: 920f150ee31a6c466ef7e510a63a0528c79673a8b26279930257682a62f480bd
+SHA512: 148f37e1132f1fb2beb52c6304c5b5fc76861594762ab185e6eae2b87d93ea2093031939d03ae47c33ac97f8529338ccdc3aaa4678201db688a5b95f0099ae04
+Description:  Flexible DNS proxy, with support for encrypted DNS protocols
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/DNSCrypt/dnscrypt-proxy
+
+Package: docker-registry
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: docker-registry (3.1.1+git20260904.9a8d98b)
+Version: 3.1.1+LL
+Filename: pool/main/d/docker-registry/docker-registry_3.1.1+LL_arm64.deb
+Size: 725802
+MD5sum: 6f1b0c491335fa8da4b0e19b910814a8
+SHA1: ec956a8c33f541f3609ad593b052d1cfc09dff28
+SHA256: 3536ffcd58aabbdf7d30c645a788c3fc94c2cc2c7c5ae2f102e847f1722533fe
+SHA512: 96071817b3c2c7b351c5e69556cbc727d844318fceaebe95a6d35e602770e4db6737f2c29e081cb6bdaa625309920b5bdaed6cb9623846ab66799a2a39344758
+Description:  Docker toolset to pack, ship, store, and deliver content
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/docker/distribution
+
+Package: douceur
+Priority: optional
+Section: web
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: douceur (0.2.0+git20260904.c5c95ec)
+Version: 0.2.0+LL
+Filename: pool/main/d/douceur/douceur_0.2.0+LL_arm64.deb
+Size: 1401332
+MD5sum: 17a305c5065c73d8fe086afeb8cac097
+SHA1: 9c885598d5f6dfcec74610b55e904cad150200b4
+SHA256: 97360baa57a3d287e09a9ccc2c2c912f0010871c12d733b5b80e19ce4f4df3de
+SHA512: 54a0855bd8873a64ccd2a8422b14bdff19d8a7beced950d75ef317edd41037108010eef368b8adb779655024cd673e058e997edc55adf7b5b5c3411f77020adc
+Description:  simple CSS parser and inliner in Go (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/aymerick/douceur
+
+Package: duf
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: duf (0.9.1+git20260904.b2f01a1)
+Version: 0.9.1+LL
+Filename: pool/main/d/duf/duf_0.9.1+LL_arm64.deb
+Size: 972324
+MD5sum: 90c69f183dc0b3b18c848b152658c0f1
+SHA1: bd2456267ed99f6e9e964faa28027fababe47e49
+SHA256: a92b055c00fc0ef342e4087b2fad858beead7d3dbfac43caf4f95c50c8df4b08
+SHA512: 827cf1016c0107abc49478ccbc521a08b1aca798932610e77adf2b530dc6f427472e4b73eb929d1133501f70f4058cedc324602e94c809aed25698d06e439426
+Description:  Disk Usage/Free Utility
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/muesli/duf
+
+Package: easygen
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: easygen (5.3.0+git20260904.b3e2cfe)
+Version: 5.3.0+LL
+Filename: pool/main/e/easygen/easygen_5.3.0+LL_arm64.deb
+Size: 1220574
+MD5sum: 02076afeeaac1b671561fb687d370409
+SHA1: 978fe6a53f54eaf5695ad8ae89da07f4b10bdea1
+SHA256: ec00eef81441610dfa28f21dbbd1ba429088372b6838dadb97059b3013bd2847
+SHA512: 83b6261f0eba8bb4731a471fbf1683b57183e2c945eccb84375878531721441ccd268e2c23c66c1b45bc79f48e7f2763970a2ff9ca2750355af4e1154bdd08a5
+Description:  Easy to use universal code/text generator
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/go-easygen/easygen
+
+Package: efm-langserver
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: efm-langserver (0.0.57+git20260904.740a66b)
+Version: 0.0.57+LL
+Filename: pool/main/e/efm-langserver/efm-langserver_0.0.57+LL_arm64.deb
+Size: 1092628
+MD5sum: 3930d01a031d695b38587c62ed8b6cb1
+SHA1: a76aa53f1269cb9b2801f1a3d86df85d85c64854
+SHA256: a21f157276df8f2615033b2ed5b402cdb21b7aecfb9c5b6f44f1a4e098a8d3ee
+SHA512: 6ec87e469c2995f530a474f61bf786813dd85d42045d41a7bd116e4152d6c30c1629a8d92ce8bf22a0b184ff5a3da587ff905ac12bf9fb3175e60ae729244f23
+Description:  General purpose Language Server (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/mattn/efm-langserver
+
+Package: emd
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: emd (1.0.1+git20260904.5758a27)
+Version: 1.0.1+LL
+Filename: pool/main/e/emd/emd_1.0.1+LL_arm64.deb
+Size: 1338046
+MD5sum: 794379f400af8e5e05dddbab07a5e34f
+SHA1: ff58871bb6c4f6e88d1eb3235102aa806500b368
+SHA256: 24f162b4246ec42aa4eadc25bf432083b2ba4b4d723462c0751f729918f0a99c
+SHA512: 389a486a1f102dfb9cf310d92fae0c506b086279bdd2e61a35d83d7a2c6e3a2b209fbf569c1c82853f37b9c5ccf0393700c11766722dae38bc750f8cb055da8c
+Description:  Enhanced Markdown template processor (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/mh-cbon/emd
+
+Package: enmime
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: enmime (2.5.0+git20260906.6c69c1c)
+Version: 2.5.0+LL
+Filename: pool/main/e/enmime/enmime_2.5.0+LL_arm64.deb
+Size: 2264566
+MD5sum: 337d73a4618ea5bbfb8fae96405fc513
+SHA1: b2cba5e4be7d17a75bce937cba58bec8c0a1d360
+SHA256: 5e12533325a1c2b1eaf3bf2fddaf5ea53e5105d99d5fecb03080d50e0a6be857
+SHA512: 7b2215d4a4b53ff28f87f6c9091a27568dec23fb270006bd3d977dec0cb8a1049bfe1b79a8cb5f9797d7f6d15abeef3617cbdd0a72a63c34474d8c23ed52c4aa
+Description:  MIME mail encoding and decoding package for Go (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/jhillyerd/enmime
+
+Package: esbuild
+Priority: optional
+Section: javascript
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: esbuild (0.28.2+git20260904.609683d)
+Version: 0.28.2+LL
+Filename: pool/main/e/esbuild/esbuild_0.28.2+LL_arm64.deb
+Size: 3438428
+MD5sum: c442fe9d7e6b6f0be32f99ec652862e0
+SHA1: 993f9d6cdc086c3328dce7a61e83d3d66045ca17
+SHA256: 4350f19867f84bc5f8211849c17f497a65b82087dbf832c56b882af383fb44c3
+SHA512: 71ccc6cf9da6bac54f9c39b72361180d76f95d6b9f77b112f36eef053aeaa7f3efcec9983fa902e41da96608a83d842138f7842fc6c44be3a26d97a787519135
+Description:  extremely fast JavaScript bundler and minifier (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/evanw/esbuild
+
+Package: exiflooter
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: exiflooter (1.0.0+git20260904.9c89fb6)
+Version: 1.0.0+LL
+Filename: pool/main/e/exiflooter/exiflooter_1.0.0+LL_arm64.deb
+Size: 2464580
+MD5sum: 5851dafcf34e003afff0c4b603f02153
+SHA1: 2b71b3f60a7e9fc0fa42a2feb96b0898a75c3d4e
+SHA256: 9b028365f140ac306cb0f33385838afb4ccad76f0759d13f30b705ce957055c8
+SHA512: 16c51c9eea35a68b194218854cdbc5df2f2cdb1b62573b860f961a9d043a7d1d0ae595f22537c9feae1b989e3717c719149941212df612a05ce2b2c31aa20195
+Description:  finds geolocation on all image urls and directories
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/aydinnyunus/exiflooter
+
+Package: exip
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: exip (0.1.0+git20260904.2f10cb2)
+Version: 0.1.0+LL
+Filename: pool/main/e/exip/exip_0.1.0+LL_arm64.deb
+Size: 1831376
+MD5sum: 366f922e7bc5c2a7860274c4f92a7a74
+SHA1: 9fbbbe7a118d88eba484d5dd3bbc33a9c7a46e63
+SHA256: e4353c199093c6d2d535dbd3a00d33d84ba629c3d8e9a71cb95bf1f4477a00b8
+SHA512: 8846465264f0d282f6b6c3762551d7a568eb9aed2c4eb5e1f87c81630a88009933d7d1c00fc9a4333992c317148546b8d8fb570f3cd4808e56de9615f6a169ca
+Description:  get your external ip from multiple services (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/glendc/go-external-ip
+
+Package: fakemachine
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: fakemachine (0.0.12+git20260904.ebafbf7)
+Version: 0.0.12+LL
+Filename: pool/main/f/fakemachine/fakemachine_0.0.12+LL_arm64.deb
+Size: 1376662
+MD5sum: 73b1f383b78349c1660842159127f0ed
+SHA1: b9a90442b5eeef50310e5429540999b52658daa7
+SHA256: 84789d123cabeae9df8f8ac7b811d8fbbae55c8b68713c3cb0c31b54b39b4b3e
+SHA512: 0982dd7cfcbd9dfbd0c6dd468bfe63955c70508758659396df6a48da4893e8d26b0a69eebe21abc366330f59e32cb98fe6f7d494e1da5c01e4fc50ac86393a19
+Description:  Create and spawn virtual machines (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/go-debos/fakemachine
+
+Package: fd
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: fd (10.5.0+git20260904.4f81778)
+Version: 10.5.0+LL
+Filename: pool/main/f/fd/fd_10.5.0+LL_arm64.deb
+Size: 1101040
+MD5sum: 7c80a35378445e713b687fed2d0a2408
+SHA1: 9ccf687b0db4163c8f109abc55c59b7054bdf7f5
+SHA256: 8de4dfa5257b93d3cd4a170a88e35f028ba738780fbb669bafd3f7fc02af660d
+SHA512: f34761c738ea1e62002b32befcad5a424e9e83a3e56316da4c6018330db69810f79dcd6d91903b9d00160a72ca607c8830f51db81c06a623fb81ae0c3d97a493
+Description:  fd is a simple, fast and user-friendly alternative to find(1). It does not aim to support all of find's powerful functionality.
+Homepage: https://github.com/sharkdp/fd
+
+Package: fdroidcl
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: fdroidcl (0.8.1+git20260904.be13603)
+Version: 0.8.1+LL
+Filename: pool/main/f/fdroidcl/fdroidcl_0.8.1+LL_arm64.deb
+Size: 2369056
+MD5sum: c7c30e592da22045b009b6563d34da77
+SHA1: 25653f50c4dc71215099717a8cca8a49a9e460c9
+SHA256: dfc5ccd4beb6012103c19eb3949187e933e509701a4e37830139c195728cd05c
+SHA512: a9706541f25f5005ddfc3b0700f394bf62251f29774e62264896d635101c871227078267f455a74109c2bc916dd8c414d77520e181b2bd0b81bf82e1c5ce1847
+Description:  F-Droid desktop client
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/mvdan/fdroidcl
+
+Package: fever
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: fever (1.4.0+git20260904.5963c65)
+Version: 1.4.0+LL
+Filename: pool/main/f/fever/fever_1.4.0+LL_arm64.deb
+Size: 4813856
+MD5sum: f7924928931455603777d612b39390ef
+SHA1: bf48522208c16f2cde462d665897deca10d876c7
+SHA256: c5d78044244a48c6a9bc3633f6ae9d82a285126398e7530a1a99e5a094addcdb
+SHA512: ee4170005f9d5d959b81c64915b6c701be67cea13e1f1d92e4293f1734834380e3a78309ffdd583a8f5a584bcf0e748e4223a5308cef84eebafb3b26dcfdcf66
+Description:  fast, extensible, versatile event router for Suricata's EVE-JSON format
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/DCSO/fever
+
+Package: ffcvt
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: ffcvt (1.15.0+git20260904.b4a35fa)
+Version: 1.15.0+LL
+Filename: pool/main/f/ffcvt/ffcvt_1.15.0+LL_arm64.deb
+Size: 881342
+MD5sum: aa5b8009b31428760b94f78ba40c11e5
+SHA1: 7c2937d1f4d1e724c3f8f6d14e6c1fddee1c04fb
+SHA256: 1e3da480a46f5f0b472b12b1816f417e9a6a386772335b93224332a7627cb4f3
+SHA512: 19481dc0692b6ca3192b3e6a48553a20054c0f705bfb9980eaa9bfa0cd19ed4d13ba9f86132c0373544bc7f0327157101d4660e09971568acef2a86bc36d7337
+Description:  ffmpeg convert wrapper tool
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/suntong/ffcvt
+
+Package: ffuf
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: ffuf (2.2.1+git20260904.1571aa1)
+Version: 2.2.1+LL
+Filename: pool/main/f/ffuf/ffuf_2.2.1+LL_arm64.deb
+Size: 2939054
+MD5sum: 3fb013c0bbc02a1b4a9b3385b03ee2e4
+SHA1: 36cb07899dbdd6475d4e2e57084400417261d314
+SHA256: e1c2d9d9c345008aa8597177cd2d171b831eb390169197174b7cdc27eb68a7c7
+SHA512: 2dfae8649968f72b6fd32e3635467e1a0fc399d3a56493bae9cb6fef3a8384de9b556a85858025287dbe61cb236bd564b363e8069f0ec27c45bff9a729e9784d
+Description:  Fast web fuzzer written in Go (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/ffuf/ffuf
+
+Package: fzf
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: fzf (0.74.3+git20260904.15f64c4)
+Version: 0.74.3+LL
+Filename: pool/main/f/fzf/fzf_0.74.3+LL_arm64.deb
+Size: 1480094
+MD5sum: 74fb8474c42a763030c3cc661a766fea
+SHA1: 61b84b114bd4bb2e7ef10fd9c0b95ed906a3cd52
+SHA256: be9fcc7c292d9d213631aa8cb99bcba4f0daf32e704fc18d35b9abc5630bd509
+SHA512: 1127c9d21f5dc5751f4fe580d219d0235ff2da9f8642f2b590932cb7243cdf6ad1fb04ebc47379304a9af2062462d6096c704498747f3cdf0c573fd4e0d342d6
+Description:  general-purpose command-line fuzzy finder
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/junegunn/fzf
+
+Package: g10k
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: g10k (0.9.10+git20260904.95b754c)
+Version: 0.9.10+LL
+Filename: pool/main/g/g10k/g10k_0.9.10+LL_arm64.deb
+Size: 2274686
+MD5sum: 51cc693f24a54a391138e9276b51ed1f
+SHA1: 9857409dab3384d0f35df5de0b3ae02d794a1346
+SHA256: d7645cef0ad2e569f35d2f7a2ce11fdb27b34bbe46d9e74eba5d2985fb439507
+SHA512: 04c48fb8b1976a77fb4c619c8beb5dfb18191fd696bc31bbaf3cfa56862af4ccdfc85ff82d95144f7da7fdd5fb542c37351a7d903ecb2f8c0bba3f0a4797175b
+Description:  Puppet environment and module deployment
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/xorpaul/g10k
+
+Package: gdu
+Priority: optional
+Section: admin
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gdu (5.37.0+git20260904.a313834)
+Version: 5.37.0+LL
+Filename: pool/main/g/gdu/gdu_5.37.0+LL_arm64.deb
+Size: 5455352
+MD5sum: 445fe815c063ac7397f81420a5b219f7
+SHA1: 0e946fb7b14479b2a7badc55a4983b17ee28caba
+SHA256: 0b7c533dccb9cdb7f298d92f33749e260744d49e2a127b16a8ca8394e8ba105a
+SHA512: ef653f8b2aa3757c23f5ec0accc421a3f18066da76aad00659a25b2ed73e094ca2d48ded2df8d55c39555e6bd16e0f738e1700bfea428084e326e0dd5820a416
+Description:  Pretty fast disk usage analyzer
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/dundee/gdu
+
+Package: genny
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: genny (1.0.0+git20260904.d2cf3cd)
+Version: 1.0.0+LL
+Filename: pool/main/g/genny/genny_1.0.0+LL_arm64.deb
+Size: 2652040
+MD5sum: 1b771cc6b36757526379736bec863236
+SHA1: 6c1455c29a2cd7195ac516d43949a478a8417317
+SHA256: 6718f9c756bd78a3abcca2fc5de8730ae7382cfc6d07b7af842c346b7f2750f9
+SHA512: af8f5d11428858bc14d67a61bf59485cade0ce1e16b24834fa8c6dd7cc4b7d9a5c26a3c624fc89c0f57e83a50d39313efb465c66b5795f561cc12b2f744ea0d9
+Description:  Elegant generics for Go - program
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/cheekybits/genny
+
+Package: ggd-utils
+Priority: optional
+Section: science
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: ggd-utils (1.0.0+git20260904.27c154a)
+Version: 1.0.0+LL
+Filename: pool/main/g/ggd-utils/ggd-utils_1.0.0+LL_arm64.deb
+Size: 2008220
+MD5sum: ac706ed8a2a7f50a70a826ccdb7c67e5
+SHA1: aa4318281c1db507d5b7686c205576f6172ec6c1
+SHA256: 974a941237533410cf31424f628f6402f5dddc57fc376520e2961f9165b80d8e
+SHA512: 5eda8eb03d13d257bdd11199e89b69b33be768d7b2f1106ef2fe2cd428a60b2bf1a294fefdeb89c1e269c761b488ba05ac27f7e6e1c514a5cb8047a35439ea08
+Description:  programs for use in ggd
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/gogetdata/ggd-utils
+
+Package: gh
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gh (2.100.0+git20260904.45437bc)
+Version: 2.100.0+LL
+Filename: pool/main/g/gh/gh_2.100.0+LL_arm64.deb
+Size: 10528828
+MD5sum: 5a3ba27c6cd8ece5b20ad3524daebc01
+SHA1: b09bcbf4ce8187af805eedfa24171b9b0db40767
+SHA256: fc71117b1697cc42c0a76a709629c35317e69d075073b7b2c52be7e88ab6a19f
+SHA512: d3b24eddf0f38a3d493a985ac7343593303ee039f6fc410fc9599241c1a73ef602512d652dcd390dc739d8615b9af34b750a712a96fcc497948e54259035c448
+Description:  gh is GitHub's official command-line tool for pull requests, issues and other GitHub concepts.
+Homepage: https://github.com/cli/cli
+
+Package: ghdeb
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Version: 0.7.53
+Depends: dpkg
+Filename: pool/main/g/ghdeb/ghdeb_0.7.53_arm64.deb
+Size: 2171434
+MD5sum: db653fa4c3f66ddf27140f81366b3a3e
+SHA1: c0807cd04a31a6222aae107de745bd300372fdc3
+SHA256: ea142a5a759f9aa424c2e11aff62afea3016a24daf47ef5ffc8fabfade829ace
+SHA512: 91c84df6753475bb124c28809e18028100f724d06b54eefb91bcb8524980a3bdf0d86af0ce9dc6123dca347e26d700f3f3a8945154259e9801c2bc99aed95b6c
+Description: 管理从 GitHub Releases 下载的 .deb 包
+ ghdeb manages .deb packages downloaded from GitHub Releases.
+ It handles architecture
+ detection, asset matching, downloading, and installation in a single command.
+ .
+ Features:
+  - Auto-detect system architecture
+  - Smart asset matching from GitHub releases
+  - Version tracking and upgrade management
+  - Orphan package scanning
+  - Bilingual output (Chinese/English)
+  - Release info caching for faster queries
+Homepage: https://github.com/LeisureLinux/ghdeb
+
+Package: gifwrap
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gifwrap (0.0.7+git20260904.3e5b815)
+Version: 0.0.7+LL
+Filename: pool/main/g/gifwrap/gifwrap_0.0.7+LL_arm64.deb
+Size: 2572118
+MD5sum: 870320d1e6467c92a74f52292ea355fd
+SHA1: 0e099ac638415c9bdf73f19b45127f42131e387a
+SHA256: 096644266af64583a527427fab4df9ce7d02f20618421001b4af0cded76fd0a7
+SHA512: 741932f08988fd21a6ad51813f9946880969886028489be4bd7eeaba15747cbec78b78bec954adda58d7bbd32d2a11c1ee0be9489f4f4f94295790943ffa146d
+Description:  display GIF file in terminal
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/liamg/gifwrap
+
+Package: git-credential-azure
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: git-credential-azure (0.3.1+git20260904.9c1d5d1)
+Version: 0.3.1+LL
+Filename: pool/main/g/git-credential-azure/git-credential-azure_0.3.1+LL_arm64.deb
+Size: 2207658
+MD5sum: 0e3a656c671ee02692809173d729c146
+SHA1: 16cc364f9b339ae6ef35f53b969b4acf900d94c0
+SHA256: 04a6ea84d8928eb26a8e72af88f19c8cbec878fa30e3f8d35cd6f8e03e6c49a8
+SHA512: 40edff746bfdce1b80aac3bfe234571f0e45b542e9fb032444b7dfb5c961f0475a889d326ccb1c335ce969973dbf1274bdb5b89cba680f687f65d54a8617bf52
+Description:  Git credential helper for Azure Repos
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/hickford/git-credential-azure
+
+Package: git-credential-oauth
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: git-credential-oauth (0.17.2+git20260904.90d152c)
+Version: 0.17.2+LL
+Filename: pool/main/g/git-credential-oauth/git-credential-oauth_0.17.2+LL_arm64.deb
+Size: 2104100
+MD5sum: 90baafcafcde03fa3a3db70f973fdf35
+SHA1: 28ce43ccf4f3640a29b0cd55d6f082b776634d49
+SHA256: 20f01cf76a09b86143187f855716fde91f7c53e1294d521084f4accadcaf2758
+SHA512: 062354f6998f92a43601fb163555931b0cc43ecad99e9afdbe12b98a4fb2cc26099c14be3d07d4ec20073d7d6aca789db2e84cf4ba8b4d7d597fd20a92ca8ea8
+Description:  Git credential helper for GitHub and other forges using OAuth
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/hickford/git-credential-oauth
+
+Package: git-lfs
+Priority: optional
+Section: vcs
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: git-lfs (3.8.0+git20260904.aece922)
+Version: 3.8.0+LL
+Filename: pool/main/g/git-lfs/git-lfs_3.8.0+LL_arm64.deb
+Size: 3831024
+MD5sum: d052731611c143da55a4424d762e66b4
+SHA1: 87710e2fa15d6eebc830fbb6964645209df52dcf
+SHA256: 12b16eaab3572e27514961ae0b05352205b92d7ed82d43d8c10757b2170eac11
+SHA512: cf74dcfe55e81e93a31b1eb0d5532cd49d288d2ddd24335f6f12d978107604b2631a6dbe872f24aea958cade2713439472c4c8496204b5379218ae717cc119b3
+Description:  Git Large File Storage (LFS) replaces large files with text pointers inside Git, while storing the file contents on a remote server.
+Homepage: https://github.com/git-lfs/git-lfs
+
+Package: git-sizer
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: git-sizer (1.5.0+git20260904.cc6b856)
+Version: 1.5.0+LL
+Filename: pool/main/g/git-sizer/git-sizer_1.5.0+LL_arm64.deb
+Size: 990980
+MD5sum: 2bad64b2eda32e2601515ec63d3e08e6
+SHA1: feddc9fe8c0491706aec139104ae878a4e33aead
+SHA256: 268d71875f28c1523cb5eba49e90d9bb214478e74a47c0c6c6e056f7884b9edb
+SHA512: 0889584b4252f9ca8390534a8f3ac71e61a041a018d0d084ba04fc5b83ec8adfb76e067a56d12ed6f999fb639c1500ecffcf345e5aacc5505df0ac9da9f409cd
+Description:  compute various size metrics for a Git repository
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/github/git-sizer
+
+Package: gitbatch
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gitbatch (0.6.1+git20260904.489df9f)
+Version: 0.6.1+LL
+Filename: pool/main/g/gitbatch/gitbatch_0.6.1+LL_arm64.deb
+Size: 3751770
+MD5sum: 52bb87b90db5111320ed84f55ab55b59
+SHA1: 2f3086b776d11fbf269f80369e2bdeab8c2b4ab2
+SHA256: b9942d7a0d13b55259393ca1427acba2677140315a94f9beed91475b8e601313
+SHA512: 61fdc7f1fc39e34e66a8db4968ed5115e5ae48fdf552d2e0c08f74f57570f4a8d26046434fe213979413fd8c566195e63e289defcd4021a9d0b33b0d2c476590
+Description:  Manage git repositories in one place
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/isacikgoz/gitbatch
+
+Package: gitleaks
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gitleaks (8.30.1+git20260904.83d9cd6)
+Version: 8.30.1+LL
+Filename: pool/main/g/gitleaks/gitleaks_8.30.1+LL_arm64.deb
+Size: 4770366
+MD5sum: 38898b76f5fe1f19e0172caa964a1144
+SHA1: 89b969765059359cf9ba9af41a228c8c3dbe0818
+SHA256: 04514ddf328324543716810e47b0531b5bea99fac44cf860680f59c67074ab7c
+SHA512: 5eb850d66e4aa06f7f49ba07ab0d27628b0f59784a88a5eca3701a638ca00f219f855d2497919dfddd6108b6087cea96b3c04caa9c2edbc37975473156c8c734
+Description:  protect and discover secrets using Gitleaks 🔑
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/gitleaks/gitleaks
+
+Package: gitsign
+Priority: optional
+Section: vcs
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gitsign (0.17.1+git20260904.44f5e17)
+Version: 0.17.1+LL
+Filename: pool/main/g/gitsign/gitsign_0.17.1+LL_arm64.deb
+Size: 14387314
+MD5sum: 49b1b61862c7903474154f42d2bfb7dc
+SHA1: e595fc599a18bb2aa469df3ffb08787411b0cea6
+SHA256: 694a5b7dde7a4e37150520e340ae842ff1ea89163c6acb0be2de318b1b1fd88d
+SHA512: a14f4963086d4ed7eeedb3829c6e88e05efd8afa829d89607785ca9271ec039028b9a3079d2731089e46ee0fb0120c4fd7f9407e5f445cd892be992505a523c3
+Description:  Keyless Git signing using Sigstore (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/sigstore/gitsign
+
+Package: gittuf
+Priority: optional
+Section: vcs
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gittuf (0.15.0+git20260904.dce66d2)
+Version: 0.15.0+LL
+Filename: pool/main/g/gittuf/gittuf_0.15.0+LL_arm64.deb
+Size: 10380152
+MD5sum: a523f82a31c8ece0b9f515c5a5b1dea5
+SHA1: 75418dda0b639b0b36bd9f852dedc6a45ab595f7
+SHA256: 49cf5f0f6c449b3525c96955e2d1e8fa6d89d7122af6604667e537b046f32e37
+SHA512: c06c230c1f90b09765cb1f83caaee1a7b24b055cea5c2d9d6b13e2c07c3ad78cbf0dc197a6c30ef9f0aac60365ae14240d3e8f5bb2c703e761a8a54a17f4dcfc
+Description:  security layer for Git repositories (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/gittuf/gittuf
+
+Package: glow
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: glow (3.0.0+git20260904.add5e7a)
+Version: 3.0.0+LL
+Filename: pool/main/g/glow/glow_3.0.0+LL_arm64.deb
+Size: 4975354
+MD5sum: 83be9c7c25ab237cb1cec9f969ff9c3a
+SHA1: d0ac2a31d29175237278f40ef3c485e06440fb1d
+SHA256: 4ff132afd4e545a01d61558254f56dac2074ae96ee5af3fddb8292fc9767610a
+SHA512: 936f83a0787d0b9ae6724ea37d81c676c1d514e851a5d95dcbaaba2d0c1fe69bf2a3956fc95723bca0454016298775eca03514c64cf00d64002d429bcedbabed
+Description:  Render Markdown on the command-line
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/charmbracelet/glow
+
+Package: go-bindata
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: go-bindata (3.0.7+git20260904.bbd0c6e)
+Version: 3.0.7+LL
+Filename: pool/main/g/go-bindata/go-bindata_3.0.7+LL_arm64.deb
+Size: 740116
+MD5sum: f444b708c2e62f550fc3629a49bfa9c4
+SHA1: 3323e85469579d58fa3fdf1ace5f484a9646e765
+SHA256: b238154753451ee0a57a7abfc738bd960a70502ceebc32b87d79901559055cc2
+SHA512: 179f7b066643d383c2586146c66dee8752905de3d0c9ffa2e6cf056a5474e4d3ff2ee953d01913f5ec7be9963b775e868fe7797d755c5d0d13d063de105c36bc
+Description:  embed data in a Go program
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/jteeuwen/go-bindata
+
+Package: go-bluetooth
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: go-bluetooth (1.0.0+git20260904.c37f45f)
+Version: 1.0.0+LL
+Filename: pool/main/g/go-bluetooth/go-bluetooth_1.0.0+LL_arm64.deb
+Size: 956178
+MD5sum: 7d6d836a7ecd2b7f473615e926ded5ca
+SHA1: 826159115323b96db522faf00d9870d44acf7570
+SHA256: 58acba51bcb41c8208a16b370267667a458e6285652ca20f44a3873b81229b76
+SHA512: 01813a60d981f03740d539dfd4ff88fd6ccd7cf037359f47f544e5702a55942c2871b85bd6df119eb52a5b8bceef5a990f91521e8b29d6bfa2efa2c6a713b427
+Description:  Golang bluetooth client based on bluez DBus interfaces (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/muka/go-bluetooth
+
+Package: go-git
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: go-git (5.19.2+git20260904.3eeb238)
+Version: 5.19.2+LL
+Filename: pool/main/g/go-git/go-git_5.19.2+LL_arm64.deb
+Size: 2685980
+MD5sum: a5f79dd1f5096e18f20e4860807ddce6
+SHA1: d30a8e6b61f2126848efcb5368358cfc136651e0
+SHA256: bdeabb009b9daaf65bae784f9ff421609bc9174f7b453b05b2df6db96b212a96
+SHA512: 6f3641a1b01cd7efd10e26a9fb54aefbde594014d1657d450eba1a8c715eeb20ce722c44caa352c4cec41c230c5e8557a8fea657d80d6624f0b7e959652839d3
+Description:  highly extensible Git implementation in pure Go (command line)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/go-git/go-git
+
+Package: go-junit-report
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: go-junit-report (2.1.0+git20260904.14d61e6)
+Version: 2.1.0+LL
+Filename: pool/main/g/go-junit-report/go-junit-report_2.1.0+LL_arm64.deb
+Size: 849586
+MD5sum: 5cdc686ccdc78d5ea48c86b6d560d3f9
+SHA1: ae4495ef0e12cb43620140c38abdda9896474942
+SHA256: b4295c8a2a8286b0aeab74edae03c4de19334de558d85e3d5c945b78b1b4d3f6
+SHA512: a4735cdd100bb43463417bb2146420112cdbed5fa391772354f7841e81ae5831f2a5f3ef095b7babe47358092951f73b3c73f41c6b1b76832916a085408cd786
+Description:  convert Go test output to JUnit XML (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/jstemmer/go-junit-report
+
+Package: go-mmproxy
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: go-mmproxy (2.3.1+git20260904.e5c3c99)
+Version: 2.3.1+LL
+Filename: pool/main/g/go-mmproxy/go-mmproxy_2.3.1+LL_arm64.deb
+Size: 926694
+MD5sum: 7e5ebb1746242d168b188b94b2e3a23e
+SHA1: 2abf74440f013535e77f04a2da3216e8b214cd9a
+SHA256: 6c8d29a5444c6ee85990b816739333c341a11e67675ad0728bb1ebf4f7d6d1fc
+SHA512: ce8e40cba999f661429bf4d41dfb8c69cf7a8ce2955db78901de120aaff8b8e00a240281f31c5c2687c063ac386377aece034b7df97573487f4035bf84ea6653
+Description:  Golang implementation of mmproxy
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/kzemek/go-mmproxy
+
+Package: go-msgauth
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: go-msgauth (0.7.0+git20260904.b63cabe)
+Version: 0.7.0+LL
+Filename: pool/main/g/go-msgauth/go-msgauth_0.7.0+LL_arm64.deb
+Size: 1030272
+MD5sum: df1964d3d151a36c5ae04080fcff6bd7
+SHA1: cc8bbfab8a3a259cfb31ef5be5945d94e32f1f22
+SHA256: ddd7cfdbd42b202fd053fe4201ba99b99f728adbe4f897cf5b74b2d2ac22e053
+SHA512: 8932c69ba5fcd0e3756d8ecb4e9554487ef239338ef4f644644602b4c085dea4ab9db57cadef6332cbcb0782a4fbe1f7385ef27d72c887454f845058972bd10b
+Description:  Go library and tools for DKIM, DMARC and Authentication-Results (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/emersion/go-msgauth
+
+Package: go-rpmdb
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: go-rpmdb (0.1.1+git20260904.facee9e)
+Version: 0.1.1+LL
+Filename: pool/main/g/go-rpmdb/go-rpmdb_0.1.1+LL_arm64.deb
+Size: 2073278
+MD5sum: 905c6412e1fb0d5c14fb3bc0f74dca99
+SHA1: 70bc33a829bdd56a11c7927514dd9d348c276c13
+SHA256: 328228507172a01b50206ddb734abdee4e955e3455c0a7eb29b931a2004e9810
+SHA512: 438874c698db706498335d15eb058cc8f7f2e96a25c91a2979a02fabac95736f2d51de2b774e7d7b6b26d0674a5ef8f01f383312cf354c4d4fd9a579beacb92b
+Description:  Package enumeration tool in a RPM DB
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/knqyf263/go-rpmdb
+
+Package: gobgpd
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gobgpd (4.8.0+git20260904.1049522)
+Version: 4.8.0+LL
+Filename: pool/main/g/gobgpd/gobgpd_4.8.0+LL_arm64.deb
+Size: 4821246
+MD5sum: 4e67b10539e6938b26c12c0ef947b0e4
+SHA1: 4397fe13cea3cae366be515ac355651f0d355e8c
+SHA256: 1445f21569068273d7190ba27707faae14904d9db62a8d4b559503acca4fb554
+SHA512: 5ee3c7891eacb7d74b7cf9068b6913ed77bf6ac01eade89b6bd44d9cac129d313402709c5bfbe0ba74ccd73d65fe5369af02a47bb899b19a88fbd44dcc0281e9
+Description:  BGP implemented in Go (daemon and client)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/osrg/gobgp
+
+Package: gobuster
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gobuster (3.8.2+git20260904.e8410ca)
+Version: 3.8.2+LL
+Filename: pool/main/g/gobuster/gobuster_3.8.2+LL_arm64.deb
+Size: 2824890
+MD5sum: c9203dc56f5b3ec9d3d79d306d85874c
+SHA1: 7533673a6066d17eb5c8411304175a1479814c56
+SHA256: 8adc48d353e6f05f4b6c2f093336de33a35c5674e8bb05c020d76ff8e9d0beaa
+SHA512: 23e7fc181094c5d5502dd1be01a24210582dd7559774f2b266e36a8c9c1a4f423403daea23179ac2840a59d4c43d1ccefcd8d1cc6106167312c84c95ee813d21
+Description:  Directory/file & DNS busting tool written in Go
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/OJ/gobuster
+
+Package: gocc
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gocc (3.0.0+git20260904.2292f9e)
+Version: 3.0.0+LL
+Filename: pool/main/g/gocc/gocc_3.0.0+LL_arm64.deb
+Size: 1411760
+MD5sum: ea38b273f0c8efe130de8998c5c6170c
+SHA1: 74e9a1d2d309a41858f689737ece8511651b42c1
+SHA256: 804d07d0465e8fdba1071ac2816040877b210e5a9c9e84173f712eb71428b387
+SHA512: b6a73b0f7ce5560510b2c4f763c78ce27d26f37d3f7953fa00ee9d194572559df39574c72267140f8aba72a7e3d6d079322e50c1d6772131d4e93ea8e6429998
+Description:  Go lexer and parser generator
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/goccmack/gocc
+
+Package: gocryptfs
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gocryptfs (2.6.1+git20260904.25e85a4)
+Version: 2.6.1+LL
+Filename: pool/main/g/gocryptfs/gocryptfs_2.6.1+LL_arm64.deb
+Size: 1546738
+MD5sum: 443dae23bd846fb16f977a2891b5bb0a
+SHA1: bdc998bab53d92782898934905875ff342e0f398
+SHA256: babbacc16f0427ce5752438acd4b6d4a3d5129508f6f22a741bacd62eefae5a8
+SHA512: b3a4a92abbe918a6a5cc6ab6956d4db72bd764a42c2794afb27e9fe50dbee676dd881dd8c6787bcee428fb592b9ac2739041254bf661c918821358d0ddc15d13
+Description:  Encrypted overlay filesystem written in Go
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/rfjakob/gocryptfs
+
+Package: gogoprotobuf
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gogoprotobuf (1.3.2+git20260904.b03c65e)
+Version: 1.3.2+LL
+Filename: pool/main/g/gogoprotobuf/gogoprotobuf_1.3.2+LL_arm64.deb
+Size: 977050
+MD5sum: 0aa3481aae96b94d29762652ae18dd27
+SHA1: ab487141a3291105536e5f35487bda351cee9be7
+SHA256: 9312ee24ad819a3940717b99b302ef2202ad503e7badf5d9d1f89a95a8e698eb
+SHA512: 4350cb212827c45244b1c314cf6252dcd2876be032052d2b81c2a9d2f6477ffcf580fa836f8efd91f1d972232dec58c3b46c7a54577ad84108d055fcee53c2ce
+Description:  alternative protocol buffer support for Golang - utilities
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/gogo/protobuf
+
+Package: goiardi
+Priority: optional
+Section: admin
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: goiardi (0.11.10+git20260904.7301ae3)
+Version: 0.11.10+LL
+Filename: pool/main/g/goiardi/goiardi_0.11.10+LL_arm64.deb
+Size: 4197180
+MD5sum: dbf1f6106c6df0619b41933f6a3fddbf
+SHA1: a78149620ba887c344efb5b2e9be22b967583212
+SHA256: 6a1f80ec94f0ba2b37d09233de65328470b8f839ccaab382278cddb5b8aae94f
+SHA512: c9ea9c49760148911b2655a823bdf7a390f27cd1389a4e490291dfc26f39eb0816ed9eb2f99773740da0996b0884f9d841f94eccc86e816d4c758db0e2cdf1bb
+Description:  Chef server written in Go
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/ctdk/goiardi
+
+Package: gojay
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gojay (1.2.13+git20260904.1398296)
+Version: 1.2.13+LL
+Filename: pool/main/g/gojay/gojay_1.2.13+LL_arm64.deb
+Size: 718958
+MD5sum: 05e3da5302d7f12884fd6dce7e658b4b
+SHA1: 26c475290cb3d59dc1051ec80572ecf93750a94e
+SHA256: 309699c62de0fed13a7ed117987ff8b458f06051352821c3335c7eb136a139ed
+SHA512: 95d7d36fffc9e9c15bcb575ed6f31d942a0d3c7b826e17222cf882a7e0da743fe931233614139ad986b53ff70a6d88ed01926f4757f28839c232cfd5a5a40047
+Description:  Fast JSON code generator in golang
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/francoispqt/gojay
+
+Package: gokey
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gokey (0.2.1+git20260904.a5b5ea4)
+Version: 0.2.1+LL
+Filename: pool/main/g/gokey/gokey_0.2.1+LL_arm64.deb
+Size: 1026670
+MD5sum: 74deb734818f0a520179d3b8a60736e0
+SHA1: e8c9cf32ebb5db2241538cebc94ffbd9561edce0
+SHA256: fe603afd6957160e4b7d0585f1a755008a42431a1e9218420861e8fc308c5465
+SHA512: 44a6f6f4af1e6f6e96ac0fa2371d14da0fc6a609f1d6557635de92fdec26b050f066d834d94b03aae6684c100ae78f74270354b998676d5134a40314cb662dfb
+Description:  simple vaultless password manager in Go
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/cloudflare/gokey
+
+Package: golang-cfssl
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: golang-cfssl (1.6.5+git20260904.96259aa)
+Version: 1.6.5+LL
+Filename: pool/main/g/golang-cfssl/golang-cfssl_1.6.5+LL_arm64.deb
+Size: 3645284
+MD5sum: 42b7f7cc87830dc05d1126b9d1a02af1
+SHA1: 5d59776c1de4612349c4ceaa8a0afbb1c17fe370
+SHA256: c2a7d16f97ef7ba235b1a9a217ee1cb279d9b24e1327d4d93b20130c452bae2d
+SHA512: 53cad0e4fe704a3c7262e994e51a35817af1c53c50aeca4ccaf4a88d4c302c4fa409964d6f0a373ce9fa8146e56476673c8899b1abd7edf17b668c1e0a0cb935
+Description:  CloudFlare's PKI and TLS toolkit
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/cloudflare/cfssl
+
+Package: golang-easyjson
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: golang-easyjson (0.9.2+git20260904.89250db)
+Version: 0.9.2+LL
+Filename: pool/main/g/golang-easyjson/golang-easyjson_0.9.2+LL_arm64.deb
+Size: 1489678
+MD5sum: a2e72970b90999f3dc49052f2496794b
+SHA1: 9b1785739254e763d391883f4bff44e2b4ccb72d
+SHA256: 8d82b7df99abb11e0b668635d8316e4f998fb811caf7f05e7094e8ce2f90e351
+SHA512: a29519592dcdc126a9c6d79b035f1867a3d96c7ca10c8c06d563a151e091886c39a4765885296ab6815c376728573406c409e7fd3d63afdf8bbd51f97890f2a3
+Description:  Fast JSON serializer for golang - command-line client
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/mailru/easyjson
+
+Package: golang-github-anacrolix-missinggo-bin-static
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: golang-github-anacrolix-missinggo-bin-static (2.11.0+git20260904.b095386)
+Version: 2.11.0+LL
+Filename: pool/main/g/golang-github-anacrolix-missinggo-bin-static/golang-github-anacrolix-missinggo-bin-static_2.11.0+LL_arm64.deb
+Size: 2308380
+MD5sum: c7a7b3240cb7425ae33d527eaef4b9b8
+SHA1: 35a7ed618b4e104fa4a4ee657a61c822fb30873b
+SHA256: 8bef7f5f19906b199e2d5e77f8f38dd9bc815ea3238bf7487ad732350ec8f4e9
+SHA512: f1cf1ac3c0701869897a0abffca1977e3d03d9ce2f032ac77abcea408e55f055ccdad686dd564bd71a57dc172f654c3328f9074b93133a7b376de8e390143efa
+Description:  Stuff that's missing in Go stdlib, or hasn't made it into its own repo.
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/anacrolix/missinggo
+
+Package: golang-github-containernetworking-plugin-dnsname
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: golang-github-containernetworking-plugin-dnsname (1.3.1+git20260904.18822f9)
+Version: 1.3.1+LL
+Filename: pool/main/g/golang-github-containernetworking-plugin-dnsname/golang-github-containernetworking-plugin-dnsname_1.3.1+LL_arm64.deb
+Size: 1203204
+MD5sum: 8e684b617ca03fde044e098821a6fdcc
+SHA1: 46085e1642b49e3a992587706406b0dc02074b8d
+SHA256: deb8ee547584a8c538155790d4e60235ad66a96244e3637fed976aa683864edf
+SHA512: eea07152af55d1cbca9809d40877fa187f358699aae28a65727a757c31fe1b8bc3b9b16bcde01b4a109d5f00090c91babe6c600319f9a1e2c1bf03e0767ea806
+Description:  name resolution for containers
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/containers/dnsname
+
+Package: golang-github-dcso-bloom-cli
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: golang-github-dcso-bloom-cli (0.2.4+git20260904.5a226da)
+Version: 0.2.4+LL
+Filename: pool/main/g/golang-github-dcso-bloom-cli/golang-github-dcso-bloom-cli_0.2.4+LL_arm64.deb
+Size: 1025090
+MD5sum: 3d57260b778f9c7b33a9572a79b91aba
+SHA1: 743a4ebd14a6c1c801c0dd9239488904a3fb9956
+SHA256: 9542e4fedc401179d707265c5a2e74c81db3ae160f5e71f4f0434cb08d6c3af7
+SHA512: 5d6e48d9f0c466f8729a773f33dc4311942157639552def10cb19cee329590dbfbe6f380fbc9daf4dd85d2f585d0b2bcc97e5b971df7c812fee07c9461476829
+Description:  highly efficient bloom filter implementation for Go, CLI tool
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/DCSO/bloom
+
+Package: golang-github-dnstap-golang-dnstap-cli
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: golang-github-dnstap-golang-dnstap-cli (0.4.0+git20260904.ebb538e)
+Version: 0.4.0+LL
+Filename: pool/main/g/golang-github-dnstap-golang-dnstap-cli/golang-github-dnstap-golang-dnstap-cli_0.4.0+LL_arm64.deb
+Size: 2285582
+MD5sum: b904dd45f1d54b6569a0600949fb01ac
+SHA1: 764537305b118588f6f00a4ee0b3689de2096461
+SHA256: b954ad03d371217559d07639980bb6689ebbe8c39dd05d0a806bd394f5051ae8
+SHA512: 6c6ca1fd95866b37a90839db013c9d65fb6f1ed71ce94c88808436e9f2e421fd2ba22204e7c1e6409691ee7eba33f74fbcdc99fcd7e8110e9214ee4f9ba3ee58
+Description:  dnstap command line tool
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/dnstap/golang-dnstap
+
+Package: golang-github-pelletier-go-toml
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: golang-github-pelletier-go-toml (2.4.3+git20260904.071a36c)
+Version: 2.4.3+LL
+Filename: pool/main/g/golang-github-pelletier-go-toml/golang-github-pelletier-go-toml_2.4.3+LL_arm64.deb
+Size: 791606
+MD5sum: 3a3d1807ec1bde9de9fbd11b74bf41e3
+SHA1: 48b31570e2908deed11625af5d1bf7507aa3e242
+SHA256: 4cb5204e7be3fdfc014abf3bd61805e86decf7b5cfa2f1c5277d87beabf59eec
+SHA512: accad8d101d516c4341d8cab8b12e25c890a36134dcf8946215cca17b00f9736882611950ab2f41d3ea47b2dc7294d2bed3f6382c1ffdb30e75b859f2e78f41d
+Description:  Go library for the TOML format — command-line programs
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/pelletier/go-toml
+
+Package: gomuks
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gomuks (0.2607.0+git20260904.721f2a4)
+Version: 0.2607.0+LL
+Filename: pool/main/g/gomuks/gomuks_0.2607.0+LL_arm64.deb
+Size: 2503866
+MD5sum: 67098a06eb1f62248c65cbeb73a0d9f6
+SHA1: 403d3919e930f8ed62b2509ae5eb80bbe9b2aa1b
+SHA256: bc022381a4931300e9ee8315899d09084264aae07d183e064e0766a310450ac4
+SHA512: 865d16b13d0d255c6b3b14d2b0040abf7dab3750eedefca40b6cacf865555a42c05d5654f3e5ebb3392fb1c467d7c26964719045dd0a8fa4947345947789f9f8
+Description:  Terminal based Matrix client written in Go
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/tulir/gomuks
+
+Package: goreleaser
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: goreleaser (2.18.0+git20260904.a38ac31)
+Version: 2.18.0+LL
+Filename: pool/main/g/goreleaser/goreleaser_2.18.0+LL_arm64.deb
+Size: 17921186
+MD5sum: be975015ddc32f00ec1fdf4c8664f2c9
+SHA1: 8c3a405f4f0537246f6b5383aaa6b40de85617d7
+SHA256: d1304f151af9af327f8a6494b2483940583351864dea213a5418ced80dd29d1c
+SHA512: b829a47e830e8524cb2c216abbb27af4867d871fa3c3e14b08b0fe95be5a8362ca3987c966e56a9b1941e0a9de84218a9195ccb6cca7914fc952c194e3ba82a9
+Description:  Goreleaser builds, signs and publishes Go binaries to multiple targets with minimal configuration.
+Homepage: https://github.com/goreleaser/goreleaser
+
+Package: gosop
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gosop (1.1.0+git20260904.4a2cda0)
+Version: 1.1.0+LL
+Filename: pool/main/g/gosop/gosop_1.1.0+LL_arm64.deb
+Size: 2167982
+MD5sum: 4b4db080ccc07635a38b9244091d1947
+SHA1: c95678d539c27bfbf6bb9e138cdff8c5b3758106
+SHA256: aba05f708f85397bff0364dfd4af00f1a33400a34b58795fb5db9f93a3acb6b2
+SHA512: f8051bf8060c8cda2e4f7e7de457a6a72795938c3bfe2be50bd84d5816fbbdbdfa28d8f13b4296394c5afa16ec1bb7c7e14ed745d535f3267c7a09154862ca7d
+Description:  Stateless CLI for GopenPGP
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/ProtonMail/gosop
+
+Package: goss
+Priority: optional
+Section: admin
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: goss (0.4.10+git20260904.3ff92c1)
+Version: 0.4.10+LL
+Filename: pool/main/g/goss/goss_0.4.10+LL_arm64.deb
+Size: 4581638
+MD5sum: b5185276f9077e7ca5b80f3cd05221aa
+SHA1: e3a17b7951ed1750b2081be982a41e304254e2f8
+SHA256: fe5cde4951fe710b308aa273f8da43d0c18f0faa48314fd3143b0653a076af5f
+SHA512: c73956f57b0e4c8d54d94ee4e1b8e715f4f7a175137011896ac52fe6636a3f1fa499b534723787198374ecd70a23e30b7d449887ee961ce88ed576b026cef67e
+Description:  Quick and Easy server testing/validation (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/goss-org/goss
+
+Package: gotestsum
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gotestsum (1.13.0+git20260904.c4a0df2)
+Version: 1.13.0+LL
+Filename: pool/main/g/gotestsum/gotestsum_1.13.0+LL_arm64.deb
+Size: 1923948
+MD5sum: d34fa6618312b3adcae1ec5236060957
+SHA1: 645940d975638621deee6c6983ccc1d742593e7d
+SHA256: 308e0b0a259fdbae4e276f47d91ce1f0b3a89929408ee62324cff2bc3a2ef6ba
+SHA512: 940a5b35667e14a3fde750b9cb1fc252226c1b6990e3bd4312baa26dd8e5840a57317ecf6258cb45166074eae2dffa3cc1486be925a2422876af78eabc0eea4d
+Description:  Feature-rich runner for go test
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/gotestyourself/gotestsum
+
+Package: gox
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gox (1.0.1+git20260904.d8caaff)
+Version: 1.0.1+LL
+Filename: pool/main/g/gox/gox_1.0.1+LL_arm64.deb
+Size: 1085766
+MD5sum: 71d55cd78491690dad1cb27fc8adcb97
+SHA1: 2b5677adbcd40e3f7e3bf930beb10dc6de5b0176
+SHA256: 091569c3765b063a57f7401799a9dbf57e685385126a5fce6a517cb90bc76df8
+SHA512: 3794304fa1c6d9a5a1a65a4b887c345a18bc94a21a3cdf92cff71086444f6aae983e1d25c53feeaf86db3d912848c6993ff2738b91bc7fc1c9453d41eeae1409
+Description:  simple cross compilation tool for Go
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/mitchellh/gox
+
+Package: goxkcdpwgen
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: goxkcdpwgen (0.1.1+git20260904.dae3fdb)
+Version: 0.1.1+LL
+Filename: pool/main/g/goxkcdpwgen/goxkcdpwgen_0.1.1+LL_arm64.deb
+Size: 666682
+MD5sum: 7e66bd4f2ddd831a71cd103dca557978
+SHA1: 6df058f8af871120f03ecfe4d544d491772af59e
+SHA256: 107c0b80427f7b279376e95b7604cf6099cdc9f37a27ba45926f9abbc309dc44
+SHA512: 1b563a4e34be16461373c7af3778f3645d4160d6d81d62155096c52ff3f1a2997e107a18ba6fb51f5ad099e6f68c3668296933ea102b256c5671fa3443350f39
+Description:  xkcd style password generator library and cli tool
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/martinhoefling/goxkcdpwgen
+
+Package: gron
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gron (0.7.1+git20260904.badf401)
+Version: 0.7.1+LL
+Filename: pool/main/g/gron/gron_0.7.1+LL_arm64.deb
+Size: 2012606
+MD5sum: 559324de92be3f28eb3c61c887d7f25d
+SHA1: 89d9231c20ff2b37a26c29dfb88932d39afb785b
+SHA256: b9dd4ee0493fd543813d1031401f6d32cf7d2c49ec5d53566ff5f9d3b2fc16d4
+SHA512: 0045b41a0140a61f8dd12b90704156d33a2af9497afca894090605371afc23a89f76dababb28bbe5f74a23e5389c488bdf1745be64c538494124d33de9088026
+Description:  tool to transform JSON into discrete, greppable assignments
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/tomnomnom/gron
+
+Package: gum
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: gum (2.0.0+git20260904.4d089f9)
+Version: 2.0.0+LL
+Filename: pool/main/g/gum/gum_2.0.0+LL_arm64.deb
+Size: 3509110
+MD5sum: 6935fae4b1f3881e3526a829f806e83f
+SHA1: 3023f246ad89d95c887a16d8d75d8b535b5f6709
+SHA256: 07cf628787726fca019910ac734d6f819786cb431cc2a30bccbf792b941db299
+SHA512: 1e42fd15a9296cfe047bbf78b9239d788778ca5a640577e5c453ef5c129f88027d828f779e58b66269540b6f79f39d9064bd72ad86402cff8ddad218255d17eb
+Description:  Tool for glamorous shell scripts 🎀
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/charmbracelet/gum
+
+Package: hcloud-cli
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: hcloud-cli (1.67.0+git20260904.0177acd)
+Version: 1.67.0+LL
+Filename: pool/main/h/hcloud-cli/hcloud-cli_1.67.0+LL_arm64.deb
+Size: 4862522
+MD5sum: 356cb7014cd91af6d97b2d2d2d1fb39e
+SHA1: bbd51be366d62264b2db3bf5c053d425913730cc
+SHA256: e82771cfc18b44ec0b3856c00cd936e963ceaf880c9dd2ecbe6b983c19d30e2b
+SHA512: e1852d5e76998a1767db873917131cf7c550a9f4aa3f863c5097eee222d8bcdff89996c3e9908419620fc578df2ee3432b2dc4fdcdfdb1a77b0096cd6189a313
+Description:  command-line interface for Hetzner Cloud
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/hetznercloud/cli
+
+Package: heartbleeder
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: heartbleeder (0.1.1+git20260904.a44c25c)
+Version: 0.1.1+LL
+Filename: pool/main/h/heartbleeder/heartbleeder_0.1.1+LL_arm64.deb
+Size: 2541412
+MD5sum: fe8f7d273a5636f78a2f8e2a886bed1d
+SHA1: ce67764bdcd9786b98ec7e2d55931e8685ba8406
+SHA256: 7da09f95feef202b2b3d4e20a214c94c4291f6d602a6a7a7b29071364837b6eb
+SHA512: c88a5859f6e5f6e0d968be7d8a74944c99220615d3f96d872e694cd278bf2b97b80b5c8b3a9356eec886b8fcd2423f4fdd3f9c6531b7c153040e4c641d53e269
+Description:  test servers for OpenSSL CVE-2014-0160 aka Heartbleed
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/titanous/heartbleeder
+
+Package: hey
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: hey (0.1.5+git20260904.e64ec7a)
+Version: 0.1.5+LL
+Filename: pool/main/h/hey/hey_0.1.5+LL_arm64.deb
+Size: 2414136
+MD5sum: 9e67f0fd2caafd0384fdc7589dfee513
+SHA1: 9798398ace38b850dff980d905ec2a19bce51220
+SHA256: 3dba3ff3f2b7f65648af284b0fef0eaf20157b94f6918152345fc0b772a81743
+SHA512: c8eacce9a0e6d6f39484ac800b1963528dea27a9d3ccdfbfb6987e0d8309cb3a0ce62b895a1c3b09131a2f69a40e01e360714d29b3d9d2f0209897a6d0a4ddb0
+Description:  Sends some load to a web application
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/rakyll/hey
+
+Package: hub
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: hub (2.14.2+git20260904.a1b6bb1)
+Version: 2.14.2+LL
+Filename: pool/main/h/hub/hub_2.14.2+LL_arm64.deb
+Size: 2353756
+MD5sum: 89d3a86dd2d0b1d994ca1ab77b3c80b1
+SHA1: 762f3c66146797e5d1a15ad287d8f976960c60f7
+SHA256: 30b8ad0dc876439d6627e84696d573f05443a7d31a79de4a38cdea3cde72af52
+SHA512: c12e3c8505921265a5deca9f50e42b01a5bf948154301401296ecbd91fb4fcea7ffdabadff064c6468d32d515f866a86a2ed480cbb755f50749b5b2c94d79c0a
+Description:  make git easier with GitHub
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/github/hub
+
+Package: hugo-mx-gateway
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: hugo-mx-gateway (1.0.0+git20260904.ad8b1db)
+Version: 1.0.0+LL
+Filename: pool/main/h/hugo-mx-gateway/hugo-mx-gateway_1.0.0+LL_arm64.deb
+Size: 2695702
+MD5sum: 10bd0d0de2aa552e588fbd252cdb5ba0
+SHA1: 4246528d4a79c4996e7ea28c2f7a6b841b2b5125
+SHA256: 9a1f81c519b73b037f86da9a5c34191e5a7ab55ef9e3864e30f70c2b547b6b4b
+SHA512: 8e5fa170101e0c23071aea8b1a3120616c4e44af0d2abc0e7f53b18d6dc30b934a23b12c34e3290801d557f405719bf0e5a18c573fa4494871bd7db6f3560e25
+Description:  Contact/demo forms handler for static websites (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/rchakode/hugo-mx-gateway
+
+Package: invidtui
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: invidtui (0.4.6+git20260904.bddd6fc)
+Version: 0.4.6+LL
+Filename: pool/main/i/invidtui/invidtui_0.4.6+LL_arm64.deb
+Size: 3158132
+MD5sum: 926539fad00a7a7e55363a7c73a19459
+SHA1: e6d2fd11f446fd8af03b994cd4166594bfc94935
+SHA256: b279cc43c77f57b79b6e48ff90c21bedffa2a23a23fa1a0ef8100e7fbd8d7913
+SHA512: b4adaf3840b5e2679c9a126f95447f208b706fd23e8ad4b78dacd8f1e910a7d327132223ce63cdd069ad7bdcd1d3e1cdf37dc2e721309bcc2408486756239512
+Description:  TUI based Invidious client
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/darkhz/invidtui
+
+Package: irtt
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: irtt (0.9.2+git20260904.0d612bb)
+Version: 0.9.2+LL
+Filename: pool/main/i/irtt/irtt_0.9.2+LL_arm64.deb
+Size: 1140810
+MD5sum: 37ac015b24480767def05e4ef711fb5d
+SHA1: 12122aaf11c366a8db6b13f3fafc1035b83a842e
+SHA256: fe3ee08a0ac340a576fe1cc72baf4a2e1570905ff234fb83280487a80d988c8d
+SHA512: 111687612691992243876cfe23b0833b149d15ed3dbcc24afc8005dd0579c66505ce8d037d530e2183c86d1e171a9143cce6ff0065599b6799f29154b2afcf6f
+Description:  Isochronous Round-Trip Tester
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/peteheist/irtt
+
+Package: jid
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: jid (1.1.3+git20260904.e5c5a9d)
+Version: 1.1.3+LL
+Filename: pool/main/j/jid/jid_1.1.3+LL_arm64.deb
+Size: 1178602
+MD5sum: e90c23fc34e136c06a70987dfc25b1aa
+SHA1: bc23d3bb4f7ea1bf0c3fa17bbc1046ee423553ca
+SHA256: 1064d09eedfdc53d19fc32e061cd25f027d99513c0e591e9b297fb03794ed509
+SHA512: 08bba6abd61362b3ee13d4eed9e41489039d62173a05124fffe5ac675b3149dc0d39b1085d315199dcc8ceeba1b32a46f917dcc3bb03509f3eee3d871daa2bcf
+Description:  json incremental digger
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/simeji/jid/
+
+Package: jp
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: jp (0.2.1+git20260904.1331b6f)
+Version: 0.2.1+LL
+Filename: pool/main/j/jp/jp_0.2.1+LL_arm64.deb
+Size: 1261334
+MD5sum: 5e94c405119db29752ddcf368703a561
+SHA1: 0a273ac9ef2bedadc4e0b4a90db36ea8d7c4368e
+SHA256: 184de39c4eaab65fcce5f7c4ee1128b52a4154c104fe18bf0b094bc8b1565409
+SHA512: 9ebd44f81a2a8fa7ff300980db80a6b2362b0723ea7524d62ea592348b0410a4a39b8e9cb74d8b3cf96641704ccf555511b1da3d9bc7046dd1286d2bff1526ec
+Description:  command-line interface to JMESPath
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/jmespath/jp
+
+Package: jqp
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: jqp (0.8.0+git20260904.c0c3a85)
+Version: 0.8.0+LL
+Filename: pool/main/j/jqp/jqp_0.8.0+LL_arm64.deb
+Size: 3040438
+MD5sum: 30e4a6b2e2896b72c80b319df38f4434
+SHA1: d82fa6cb39725771648cb2a7207f8f584363e43d
+SHA256: b548885b9dc8a627ba79332ca0a19e8ad4321a4c79f81c695317d7139ed849b7
+SHA512: d462174ba1832b1b8802dd0567ee8cdabbae4f8bb90fcd5fddb8ead873d9931c8ade8aa07898ae12778a8f07001a1fcb20c33241b8a3f255173e181d3e75acfc
+Description:  TUI playground to experiment with jq (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/noahgorstein/jqp
+
+Package: kel-agent
+Priority: optional
+Section: hamradio
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: kel-agent (1.0.0+git20260904.897c45b)
+Version: 1.0.0+LL
+Filename: pool/main/k/kel-agent/kel-agent_1.0.0+LL_arm64.deb
+Size: 2327716
+MD5sum: 48355d40845fab200acff110e5066ecd
+SHA1: 8078a1b663020abe99aed00600b8a8ea4e32c0a4
+SHA256: fde12d1bafcbbe2d1b9067c7abadb9c32dc32edf897466693f46c06fa3d1023d
+SHA512: f7eab5ff2ad1e783cfb71f399fcd5187eab928c09290d6f49395f1bd324145f31580557f7152550c33e75e2c0bf84426ed4c8de20c3305e6b72367810b43de19
+Description:  Web interface for amateur radio installed programs (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/k0swe/kel-agent
+
+Package: kind
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: kind (0.32.0+git20260904.cda67ef)
+Version: 0.32.0+LL
+Filename: pool/main/k/kind/kind_0.32.0+LL_arm64.deb
+Size: 3057654
+MD5sum: bb39ec500cd50cacd331f27658fda8ce
+SHA1: e2c0027f4d02e171cd116bf193f74fc33ce727d7
+SHA256: f09df947dac912224d95b2d82cd04225f20e5b8b5966b77cc16df3bc67285a52
+SHA512: 5a2d92405ac4a7eaf37bba2f2b82e8e98612dda02c942ab69003c158313345c9129e4308ae989d59e2fdfdaf8e7eaf5a3137c127865aae26cc39cde15fa161c5
+Description:  Kubernetes IN Docker - local clusters for testing Kubernetes (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/kubernetes-sigs/kind
+
+Package: kubecolor
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: kubecolor (0.0.25+git20260904.2ce3b8b)
+Version: 0.0.25+LL
+Filename: pool/main/k/kubecolor/kubecolor_0.0.25+LL_arm64.deb
+Size: 755328
+MD5sum: ed95bfd05731f83fd3ad47e63991ed67
+SHA1: 78aceb40961a609600e7e49036c616b0d3c23162
+SHA256: ba3e8aa73822f9f12667ffb173bcf5081251a9bd966eb7ebc5c87fa6e806d3c6
+SHA512: c13f6e8d98d0bbda85ad646ec65a772c9f78b07c7c454ea0e1629b1441283ef8f8c4dbb1e69a13520db98ae3aaa678dd9f0f64c141c34822988813cbbf365643
+Description:  colorizes kubectl output
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/dty1er/kubecolor
+
+Package: kubectx
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: kubectx (0.11.0+git20260904.7605ca5)
+Version: 0.11.0+LL
+Filename: pool/main/k/kubectx/kubectx_0.11.0+LL_arm64.deb
+Size: 3688186
+MD5sum: 219430e9597c56ffbfc22ce3dc16cd7e
+SHA1: 45d9d446a6fda8be22d296afe537d0c5670845a9
+SHA256: e6eb308a442d9a9b99adb6d9c1f60dc0cbae6203da64e7e5ee4d3ae21aa49ed1
+SHA512: ffffcce1212932335fee7dafa899d6800c40d09feb0e15f1b69f966d2328d7d26b6e5c44014e5ff294e146dd60d96b7fbf7de99b46ff71769425cb91b320299e
+Description:  Fast way to switch between clusters and namespaces in kubectl
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/ahmetb/kubectx
+
+Package: lazygit
+Priority: optional
+Section: vcs
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: lazygit (0.64.1+git20260904.fbe2379)
+Version: 0.64.1+LL
+Filename: pool/main/l/lazygit/lazygit_0.64.1+LL_arm64.deb
+Size: 4942492
+MD5sum: 260f2c823199c415f47ce3bac502047d
+SHA1: 7532d9a7205a0bb53a42e83a043070ea70fb9cba
+SHA256: ab16062f3d0deb9c9a74a5de129fabd32d21e0d1f03fd1b946ab07a975c286b0
+SHA512: 50196503930513260752c808936eb4c29f9f9e16d5a8078d0081fb2d625c34ba7aed846650d9bd3c0c494d2c8ef02a9c4a776aaf079b956ebf5ba8fd75ccf39d
+Description:  Simple terminal UI for git commands
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/jesseduffield/lazygit
+
+Package: librespeed-cli
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: librespeed-cli (1.0.13+git20260904.2f24087)
+Version: 1.0.13+LL
+Filename: pool/main/libr/librespeed-cli/librespeed-cli_1.0.13+LL_arm64.deb
+Size: 2681202
+MD5sum: 92f4f0e9dc8804a5a798d8b783a01756
+SHA1: fb01fc08df391d082fd5f80baa45451cf06d214a
+SHA256: 4f272eefc1063fcc7ce08ac0fee9c577501f278e48f15b880127a4fb0dba63df
+SHA512: edc62a2e7f221702a833c498b840ab14aac08f31414ade43899ace4e47ebe2c1a66b03256094fe2a7a7e835857920bcafe20909de88cbcf3b3b7676276f390fa
+Description:  Command line client for LibreSpeed
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/librespeed/speedtest-cli
+
+Package: lltsv
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: lltsv (0.7.0+git20260904.da12001)
+Version: 0.7.0+LL
+Filename: pool/main/l/lltsv/lltsv_0.7.0+LL_arm64.deb
+Size: 1366802
+MD5sum: 1acd6801868c44420e450a7a7e03e43f
+SHA1: b1c83c592477870b1d9d0288ad9fe98ce7f2f9c4
+SHA256: 06ee89d5a30498979142d22b81fb9e8ea899a947aa1e0cfd26b4e0ea199cc5fb
+SHA512: 5cbaea77f7eaa26ae590ee05caa58dc67895b9683e9d2fadbec29688fa9cce964598b24d3827d35712aa66e7f830c5b123d2f111d571adb9b565e018273a2501
+Description:  List specified keys of LTSV (Labeled Tab Separated Values)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/sonots/lltsv
+
+Package: madonctl
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: madonctl (3.0.3+git20260904.d4f6623)
+Version: 3.0.3+LL
+Filename: pool/main/m/madonctl/madonctl_3.0.3+LL_arm64.deb
+Size: 3144452
+MD5sum: 24a5c104ee3291f4fe991ac08a84b509
+SHA1: 5d03cd2af92dac3f6b7671e1fc9b961d85a521f1
+SHA256: 80fb956347e2bd93a5eb4119c4d1a7a3a7527b12349a3116111ff70d53243fbb
+SHA512: e7b1fe70f235c93751cbb61a5bd11d8205928c076091e653ec63fc1ecaee29b553608b0e4cf6d77ed0379883f1f37d8d1c213941e005e36597b81e0aaae1dfb6
+Description:  CLI client for the Mastodon social network API
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/McKael/madonctl
+
+Package: mirrorbits
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: mirrorbits (0.6.2+git20260904.9061cc3)
+Version: 0.6.2+LL
+Filename: pool/main/m/mirrorbits/mirrorbits_0.6.2+LL_arm64.deb
+Size: 3637324
+MD5sum: 7f9138da98ea7ed5297a2a15e7b78518
+SHA1: f9db4d4732360f5b1383db5f2b999f0b3bf2ccef
+SHA256: 33230ec5f5d095f3860fd34e2c57af9b789e63de4aa0b74c501c71b788cbd6ce
+SHA512: 7a0031317c70705b87eb1c44f8d40bd8bede1a9ead6129da674aec0ba8325543252dd2e821c87df3282e20c114aa4077461f8970aac06858eeecfc7094693318
+Description:  geographical download redirector
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/etix/mirrorbits
+
+Package: mkcert
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: mkcert (1.4.4+git20260904.2a46726)
+Version: 1.4.4+LL
+Filename: pool/main/m/mkcert/mkcert_1.4.4+LL_arm64.deb
+Size: 1422596
+MD5sum: 6a76e547c1f5fd24552e42c4b25fb03c
+SHA1: 60586cc59550b8b38cfc3f6032fd32666bfcb911
+SHA256: 9ef4292a79cfdb6b47d4d55a486c5660004c341d855dadd914060575a9c13c6e
+SHA512: 632516d3b7dac23038414f3609ee584eef85bfff2622de952ebc2449aa03587c7b4f80723ba05c4b5383185ed098a53dd8fcdfef7a0ffe190c19beca6c9e9536
+Description:  Simple zero-config tool to make locally trusted certificates
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/FiloSottile/mkcert
+
+Package: mockery
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: mockery (3.7.4+git20260904.98b9b17)
+Version: 3.7.4+LL
+Filename: pool/main/m/mockery/mockery_3.7.4+LL_arm64.deb
+Size: 4287450
+MD5sum: c10364d860881da606c2dbe649989cce
+SHA1: 8cd7f026debac7fc81dbb783285088499c27f953
+SHA256: 9380add364b8a8848cf13070423553e39a14c8d956124753bf45158eb6e81d61
+SHA512: c15e845a2e8cdba632eaba5f9fbd682110df1947672654da5bf88dad3ac81221190636c70c50d97d12431ebe211a280784ac473d27a5f4688032884cd3f3f9c5
+Description:  mock code autogenerator for Golang
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/vektra/mockery
+
+Package: mtail
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: mtail (3.0.9+git20260904.2aea25c)
+Version: 3.0.9+LL
+Filename: pool/main/m/mtail/mtail_3.0.9+LL_arm64.deb
+Size: 3393804
+MD5sum: ffbdd802d40a53d30f214138110fb832
+SHA1: cad35f68aa9a2fdb3f2894f4b388b0f6b7613a69
+SHA256: c35fb29fc7868b780c7e7546b7ec935ae385f965131543be17068f36b7f0028a
+SHA512: e66b7449e173098795ded5d9861d26a930a4546f485f4821c64f0d669943fa9ac9e2a0bc8e2f1a4f08cea006968dfdecc860f5383b018903ecefe1767f300bb3
+Description:  Extract monitoring data from logs for collection in a timeseries database
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/google/mtail/
+
+Package: nextcloud-spreed-signaling
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: nextcloud-spreed-signaling (2.1.1+git20260904.e7a8fb7)
+Version: 2.1.1+LL
+Filename: pool/main/n/nextcloud-spreed-signaling/nextcloud-spreed-signaling_2.1.1+LL_arm64.deb
+Size: 4584460
+MD5sum: b7c6deab678a683a68d1fb9eafd975c8
+SHA1: 39cdc460a85ba39085b9958adfc827f270effef6
+SHA256: f0f81b1520270b0349562596a2f95c0abb5c7c352dfb8751d7f452959eadbafc
+SHA512: 1b1bef87cdd30088c4a8a49ba3e2210971e63b5c93c6be2aae46c978d3296e96d80ae5b19be532aa10d4459ae212b5c903204e7139fd859f0faed57bbbfe9fc4
+Description:  Standalone signaling server for Nextcloud Talk
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/strukturag/nextcloud-spreed-signaling
+
+Package: ntfy
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: ntfy (2.27.0+git20260904.4c2b69e)
+Version: 2.27.0+LL
+Filename: pool/main/n/ntfy/ntfy_2.27.0+LL_arm64.deb
+Size: 9247858
+MD5sum: 3adaf0b847b4c01707a84f75f110e8a9
+SHA1: e4756e926f54326e30f98868fc8aa29dd6339882
+SHA256: fa966a168aa49dfed551bd8120f1f29fbc5e279d89d15674291e2f6644e9f06c
+SHA512: 5775d0a9ba071396231503e5e67493a52617ca2f5640034caad0298ca5ae8ea933ec3f610acb55c3532326710b1df4a0701ab14bb7eebcdde6b1065852700e7f
+Description:  Send push notifications to your phone or desktop
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/binwiederhier/ntfy
+
+Package: obs-cli
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: obs-cli (0.5.0+git20260904.6bb6b06)
+Version: 0.5.0+LL
+Filename: pool/main/o/obs-cli/obs-cli_0.5.0+LL_arm64.deb
+Size: 2369786
+MD5sum: 45a755688a69586f83b3a1fbb9e5c0c3
+SHA1: a9024ebb2595b3c1582add4f5697cc57fcd8125d
+SHA256: ee2785db9ad90d5157eba87fc22e357075ec5026fc4155d2808dd9faffa4d830
+SHA512: dc05d578e20898491efa5162bf3a1264b60e87aaf2ad40e1fc360e1b5285968d5f6b4a74d8a3d7be419dff6237169f88f0abe3ff84513359fd53cac199464938
+Description:  command-line remote control for OBS Studio
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/muesli/obs-cli
+
+Package: opensmtpd-filter-rspamd
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: opensmtpd-filter-rspamd (0.1.8+git20260904.9e74486)
+Version: 0.1.8+LL
+Filename: pool/main/o/opensmtpd-filter-rspamd/opensmtpd-filter-rspamd_0.1.8+LL_arm64.deb
+Size: 1911934
+MD5sum: b231c94442f0e6a860f7f556cad41866
+SHA1: 589f1a2386722a3e9fd14327b2d1e92a17269830
+SHA256: 408d6a6982b195d473c2e223758f1e7f04509c2382b84f6a6f4ceea1d03abe28
+SHA512: d09cd6bec04616463282f0eda0ac4e87bb55bac52b0b817250ae2b83047ef56892753cb04c807fed3c3f6206243e2806d9526b8e632bbf3369528645b6f251e5
+Description:  OpenSMTPD filter integration for the Rspamd daemon
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/poolporg/filter-rspamd
+
+Package: opensmtpd-filter-senderscore
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: opensmtpd-filter-senderscore (0.1.2+git20260904.e90a249)
+Version: 0.1.2+LL
+Filename: pool/main/o/opensmtpd-filter-senderscore/opensmtpd-filter-senderscore_0.1.2+LL_arm64.deb
+Size: 757916
+MD5sum: 1d789c674eed57579604428c8338edc7
+SHA1: a81acca789468b45112328e767d696b417c067ae
+SHA256: 99ebc63db4f5cfd4199d9892c5bcf794258ba210d7f973295f9a9e29605f0fe3
+SHA512: 72bbb9a27f5616b439a3ca57655d3385df11344717e71ea0fd8dbe01b02a60f56044da3b63138ebc3b2f4689a491a470a49bd756238d6803d7b0f6fd0bacd8a7
+Description:  OpenSMTPD filter integration for SenderScore reputation
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/poolporg/filter-senderscore
+
+Package: oras
+Priority: optional
+Section: admin
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: oras (1.3.3+git20260904.210747c)
+Version: 1.3.3+LL
+Filename: pool/main/o/oras/oras_1.3.3+LL_arm64.deb
+Size: 3418684
+MD5sum: 1728ed6e6effd68a86fce451ea79da53
+SHA1: bd985e7639bef5941080c77b19495c95bdc47260
+SHA256: 6449fec339f55ee1023db37946239490170d54b82b263c31b42d94b9ecc8e16f
+SHA512: b4f9a0efbacf3d6e36c273d8babb1e51de2267484aa75749acff00a29e84ec9c10285aa713ff9f75e098142eff871a039f0ba7ae3e12a4a0a6070c3177119341
+Description:  OCI registry cli tool managing content like artifacts, images, packages
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/oras-project/oras
+
+Package: pebble
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: pebble (2.10.1+git20260904.b1e1ca4)
+Version: 2.10.1+LL
+Filename: pool/main/p/pebble/pebble_2.10.1+LL_arm64.deb
+Size: 2477960
+MD5sum: f0e7a079cc81e9784eae6618243a5408
+SHA1: 1506eca8b4921e619ac3f558cdc6abd2c9319e2e
+SHA256: 450fcb5c3fddf9085cee1e74bfe5746b4743493864a46fa9c97302bc318be614
+SHA512: 460da3281b64bd1d9eda96d3afc79ff18151ce081b84459fe4c33c9c4722aaf03f9772af45780e547881270a01709ad2cde29f643cb4af5e6b60767ae0dc43f5
+Description:  ACME (RFC 8555) test-only server
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/letsencrypt/pebble
+
+Package: peco
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: peco (0.6.0+git20260904.6ab3ff6)
+Version: 0.6.0+LL
+Filename: pool/main/p/peco/peco_0.6.0+LL_arm64.deb
+Size: 966034
+MD5sum: c85050861266475a00906fdeec6e40fc
+SHA1: ef3cb4a100d25df3487726f8f15ce9beee742273
+SHA256: 1ffd6cc35936cbf17aa413cfad43b582f1b13d406b88edf64ee05cc334231ecb
+SHA512: 07bc82610881c4ea5127f4231ada0f20163c4c2b1ff42fce21dfeec16bdd8706b3d7405de69618bf07e6d71fcf69403453397c0a95f4574ce9fb3e93a1e8bda1
+Description:  Simplistic interactive filtering tool
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/peco/peco
+
+Package: pinfish
+Priority: optional
+Section: science
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: pinfish (0.1.0+git20260904.2bc39d4)
+Version: 0.1.0+LL
+Filename: pool/main/p/pinfish/pinfish_0.1.0+LL_arm64.deb
+Size: 818122
+MD5sum: a628160f3db01b867225823e4cc56ea8
+SHA1: 7cb36d71700d550a8bd139f10c352beda1d5ec02
+SHA256: 220272a3ac73b4afb1135dd692f415f7daffc3bc10447e3f68f901e85a5bc2c2
+SHA512: a77afc25b7b1698b0287951c6df5629a5449799ec192a7ff0860c0c71e1f4735b1656d2b1f2eb79de283fcff385566383d42a4edb79b6cd12c2d66298fd47919
+Description:  Collection of tools to annotate genomes using long read transcriptomics data
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/nanoporetech/pinfish
+
+Package: png2svg
+Priority: optional
+Section: graphics
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: png2svg (1.7.1+git20260904.4a0f4ca)
+Version: 1.7.1+LL
+Filename: pool/main/p/png2svg/png2svg_1.7.1+LL_arm64.deb
+Size: 1301806
+MD5sum: 93190af834b84a6ae3231b76a539c355
+SHA1: 426ba87ec376bdfb42949deadbf842a0e42d087f
+SHA256: b335465b23b0657467e91ad3c23763d40edcafb27924c67a0bff8fca19d7fa67
+SHA512: 3637ff47d2e8f458909e8cda3932df32afba7c1bb00212b967cb19ec589005215d037a96054e9ede5a0dacebc0dbd26cbbe61407e4ba01499ad72ff5a4652fdc
+Description:  CLI utility for converting small PNG images to SVG Tiny 1.2
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/xyproto/png2svg
+
+Package: powerline-go
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: powerline-go (1.26+git20260904.4a8abaa)
+Version: 1.26+LL
+Filename: pool/main/p/powerline-go/powerline-go_1.26+LL_arm64.deb
+Size: 1106260
+MD5sum: 1fa21baaa1327c1264180ef0e24cfc2d
+SHA1: aca265c60a7c9f10616b06295188e979ce893d6e
+SHA256: c507a816c0b3704b62117a9504084ee90099a07600b0671377921191f4c704e9
+SHA512: 41b0061408726b4649432583fd70a89b00b1683eca3df050696f28101f9d47fb67a113ef354b5ebbc1ae8142249ae474c85ddd713cfa480080afa7fa2371de96
+Description:  Powerline style prompt for your shell: Bash, ZSH and Fish
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/justjanne/powerline-go
+
+Package: privatebin-cli
+Priority: optional
+Section: misc
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: privatebin-cli (2.2.1+git20260904.e9f5b53)
+Version: 2.2.1+LL
+Filename: pool/main/p/privatebin-cli/privatebin-cli_2.2.1+LL_arm64.deb
+Size: 2190262
+MD5sum: f71fd6ad4d1f18f84d78bd510d1cfa45
+SHA1: 8ed888077fb58a8d0d8cad8a70aca0d61e057559
+SHA256: d04ade71951431221e0c7a1e634c54176f2c9c1fe17d5e483a020401073d9a17
+SHA512: def9818091f84f1f6127e9ac8c62b5b7e5cd5671f2b34ddbab844acc9b374d43928e675571e5d499d8ecde321e98e7d3b4a83531e8d6e2756d7dd3d149af882c
+Description:  Powerful CLI for creating and managing PrivateBin pastes with ease
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/gearnode/privatebin
+
+Package: prometheus-apache-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-apache-exporter (1.1.1+git20260904.d9b0698)
+Version: 1.1.1+LL
+Filename: pool/main/p/prometheus-apache-exporter/prometheus-apache-exporter_1.1.1+LL_arm64.deb
+Size: 3601712
+MD5sum: 1f2364c975e416088705f536fbe37146
+SHA1: a05c5f14b3221ea7a384c6508589fe40b63d759e
+SHA256: d214ee0d90695f8dc148ea4dc5f1c4c3f6a744414e425e529e321115a13ed36b
+SHA512: 38199363dc85079cef61c9264b8391fc3054fc98fb1f5b60c171e75b54771a683c4b5637aa9878831421ae3c003703d0477987271728eeaa3c1e807429ebdcb4
+Description:  Prometheus exporter for Apache server metrics
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/Lusitaniae/apache_exporter/
+
+Package: prometheus-bind-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-bind-exporter (0.8.0+git20260904.5cc1b62)
+Version: 0.8.0+LL
+Filename: pool/main/p/prometheus-bind-exporter/prometheus-bind-exporter_0.8.0+LL_arm64.deb
+Size: 3771178
+MD5sum: a76488f4477df605d38a05e44e2d6162
+SHA1: 065567fb93738108fb353dda95e0ef3bc1b5218e
+SHA256: 54e6e2be80960982dc30788901dfffeb0273da96852856c89bb92ca1211654db
+SHA512: d5261bd3cb9704a26743e452e09f27b80141c0750743d366e26a2ae4f9e024a59a175f96f338ab703991dff8fceaaafdf9f6119a2d7c153bf92d1a62a62ecbe5
+Description:  Prometheus exporter for BIND server metrics
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/prometheus-community/bind_exporter/
+
+Package: prometheus-bird-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-bird-exporter (1.6.2+git20260904.ac07598)
+Version: 1.6.2+LL
+Filename: pool/main/p/prometheus-bird-exporter/prometheus-bird-exporter_1.6.2+LL_arm64.deb
+Size: 2781896
+MD5sum: d3b3311881ae336679d9e61cb2b6b0c9
+SHA1: 0e09cf2df25b10c9873edbe64998f2b109680ded
+SHA256: 61092d5158c0e172b02b97faaa335e9633eeb8ec4fad05fb74fb95cb7a08a18b
+SHA512: 68f520ec8a986a1501ac17eabb82bbaeea4962f560218484c3ecc6d2aa9b1b3e569d4ed4e7b15507fce4aa3b0ad55b4e43d6e6d155b73b9904e919d892013a23
+Description:  Prometheus exporter for the BIRD routing daemon
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/czerwonk/bird_exporter
+
+Package: prometheus-dnsmasq-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-dnsmasq-exporter (0.3.0+git20260904.b76e607)
+Version: 0.3.0+LL
+Filename: pool/main/p/prometheus-dnsmasq-exporter/prometheus-dnsmasq-exporter_0.3.0+LL_arm64.deb
+Size: 3015666
+MD5sum: 55561e0eb0759eb16ab4c6abc0c1dd10
+SHA1: 1f109c81bd52c6341dae2cb6196c6c789d1f22ac
+SHA256: 23827f1db8777c17e3cdc2d2a336e389837bce241504cce805ecf2208cf8ec3f
+SHA512: 8b82340fa70c64c72f1164094aa7bc126bff1a9a77844ddda59689b8ad88aa24170d1b84de9141a2feac393e48d0f20f7367ffcf0b7da21b453a264b1d7769ee
+Description:  Prometheus exporter for dnsmasq
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/google/dnsmasq_exporter
+
+Package: prometheus-exporter-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-exporter-exporter (0.5.0+git20260904.7ae953f)
+Version: 0.5.0+LL
+Filename: pool/main/p/prometheus-exporter-exporter/prometheus-exporter-exporter_0.5.0+LL_arm64.deb
+Size: 3385908
+MD5sum: ec12cb4ed71c0eddfb8dd5e0e0acf263
+SHA1: b10e3daad57a2f89805bddecf3f2a6e5b96b081f
+SHA256: d4c59554dfe18155be3c3b5518847204b957c3e803df88942c8af515d9e82f2f
+SHA512: 1808c2d11ce544af0283956eb03d6f8732278d3cc0f6acee87d54c5fd00d0f2f0d5a6c9dbf8dd16f4721aa4d8f407c9f14bc9049e9e0e179c0b5abfc74e6ac88
+Description:  simple reverse proxy to other Prometheus exporters
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/QubitProducts/exporter_exporter
+
+Package: prometheus-frr-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-frr-exporter (1.12.0+git20260904.85392e4)
+Version: 1.12.0+LL
+Filename: pool/main/p/prometheus-frr-exporter/prometheus-frr-exporter_1.12.0+LL_arm64.deb
+Size: 3635822
+MD5sum: d7f082e4cf00485ee6bbafef32c1dbce
+SHA1: 989b0caca73b02aa2d849717778e1f6b057ed21f
+SHA256: 419970c002a40d50a4a9601b39f435ac57deb1cead6f757db7bb7dc89684353e
+SHA512: 56fbad1cb8232d207f57cdef0662c78dae6e65d48d0a5df9b1cd67ed5f00ef814c9cbea230c3a6343e92e43ac29f24311bd34e7c27504876f4f46a4ccbdcacbb
+Description:  Prometheus exporter for Free Range Routing (FRR)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/tynany/frr_exporter
+
+Package: prometheus-hacluster-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-hacluster-exporter (1.4.2+git20260904.a50025a)
+Version: 1.4.2+LL
+Filename: pool/main/p/prometheus-hacluster-exporter/prometheus-hacluster-exporter_1.4.2+LL_arm64.deb
+Size: 3913858
+MD5sum: 830442b728a7e7eef4e944660ef906a8
+SHA1: c66e621c2c5d09d40efea76b6ed8bb555cbaabc3
+SHA256: 5b04cf80fb638c91d56ec9272f388591b7e8999217cd15ecec579e1367c6a001
+SHA512: 5aa75a773c2730ff673bdfcabba060a74894d9a5e42f6db17ebcc0097cd9673656e92cf9733f598f4c81eb8c7005b6b092a86720aa7eb79d280ac7f74b973630
+Description:  Prometheus exporter for HA cluster services
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/ClusterLabs/ha_cluster_exporter
+
+Package: prometheus-ipmi-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-ipmi-exporter (1.10.1+git20260904.291d010)
+Version: 1.10.1+LL
+Filename: pool/main/p/prometheus-ipmi-exporter/prometheus-ipmi-exporter_1.10.1+LL_arm64.deb
+Size: 3668862
+MD5sum: 69aa858e24241fe8f4caf6b9b292f18e
+SHA1: 8863f126539af37bb2f3d83627f0f8c93ce28679
+SHA256: d351575b26adea7a98708083e5db6b32be98c6493fe240bacb46bae8cca74b66
+SHA512: dd422ae3b7baa0c261bbb1251a142720473ff3463f8e7202170df34691702aeb32524eeff480fc4f105cca9d755ee369a493537e796b63a501bab4fb255e9a82
+Description:  Prometheus exporter for IPMI devices
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/prometheus-community/ipmi_exporter
+
+Package: prometheus-mqtt-exporter
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-mqtt-exporter (0.1.7+git20260904.ed0c8bd)
+Version: 0.1.7+LL
+Filename: pool/main/p/prometheus-mqtt-exporter/prometheus-mqtt-exporter_0.1.7+LL_arm64.deb
+Size: 3439778
+MD5sum: be1b3ae3b9cb91a20a6b1d8d8c1e57d3
+SHA1: 7db0a40b7eeb95160828b44a85950d44e9e97b5c
+SHA256: d7a24dceaf5454be7f7a6b688746d06d651cecc6790c2412c6ca42298d4817a9
+SHA512: 551c6cf693d64c47412b48715ddcc99146a3b6fd07fb6d070693995495d23969a3eadc792f4d0206015f23bf9ab0a26590d79e11815e3cdb49d8ad5b03c8b5ff
+Description:  Prometheus exporter for metrics sent via MQTT topics
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/hikhvar/mqtt2prometheus
+
+Package: prometheus-mysqld-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-mysqld-exporter (0.20.0+git20260904.11da31c)
+Version: 0.20.0+LL
+Filename: pool/main/p/prometheus-mysqld-exporter/prometheus-mysqld-exporter_0.20.0+LL_arm64.deb
+Size: 3742928
+MD5sum: 5da6deed5287f91fdd023a80c1e5bb2d
+SHA1: fa77ded99c4f67efc26448579d3949af014569eb
+SHA256: 8558683496df5d94d85ac325a38677c2f8efd7fc29fa869085527c4fa5027c08
+SHA512: 7468cebd7d4b271d85f3e61b2dc36f6588af75bb181b01bef6820de2be886bcca83d4d8f713c82a9ae6bf3a264bf5c6f84daf3efb78df7ead5ff8bf28dcddbc5
+Description:  Prometheus exporter for MySQL server
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/prometheus/mysqld_exporter
+
+Package: prometheus-mysqlrouter-exporter
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-mysqlrouter-exporter (6.0.1+git20260904.6279006)
+Version: 6.0.1+LL
+Filename: pool/main/p/prometheus-mysqlrouter-exporter/prometheus-mysqlrouter-exporter_6.0.1+LL_arm64.deb
+Size: 2856530
+MD5sum: 2b9191741f8fe2bb450feb0515fb7d98
+SHA1: ba89afc92529c77482b443031a403aba8bf01506
+SHA256: f9afef86e874de7d3437ae1f8c7a7e43146514e90d58f291771c1d9d121669c9
+SHA512: 8c105da43f256a88cb8836f96dd015045b9a6b7cdbf4f5390428e670e165e06cfb443e5648f0d18b971e82415e9abf4fce886bd15757e04fb004ef1fcb32cc20
+Description:  Prometheus exporter for MySQL Router (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/rluisr/mysqlrouter_exporter
+
+Package: prometheus-nginx-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-nginx-exporter (1.5.3+git20260904.9956da7)
+Version: 1.5.3+LL
+Filename: pool/main/p/prometheus-nginx-exporter/prometheus-nginx-exporter_1.5.3+LL_arm64.deb
+Size: 3695640
+MD5sum: b2757638d2e00e0dd8f9fda676915b62
+SHA1: 890a55b23f02caacea3b04e9e1f510baed63d28f
+SHA256: f0dae5024e2028c63ad0c7b84fd016ef3f11deb0a900e90c6b9b2315f4002e8b
+SHA512: fe224eb15d8f111e231c8618c103f0b48efde2e57ba0d3cc99a10c99f62b77fe63a3b418979deac354639d29f933a7700dd9dc5e3f7bceae15d028a35d25139b
+Description:  Prometheus exporter for NGINX webservers
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/nginx/nginx-prometheus-exporter
+
+Package: prometheus-node-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-node-exporter (1.12.1+git20260904.6044da7)
+Version: 1.12.1+LL
+Filename: pool/main/p/prometheus-node-exporter/prometheus-node-exporter_1.12.1+LL_arm64.deb
+Size: 4580632
+MD5sum: 0b007a12ab991e6e28899d4d0498db16
+SHA1: 6c2d02d925a32939831f56129c580c31a750ffd4
+SHA256: 9b0b2ddf0c72c5d33d792e52c07e3f2c37e9dceb63d55379e27a2efe75e9c218
+SHA512: 78bce9a7416d10281205bf2db9e6f0a3ab8a8433c4ffd4a058208d96d8044f6f18defb879d5d88b063241e25086fd4052d5eeaee79afa335e528a21acaf48590
+Description:  Prometheus exporter for machine metrics
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/prometheus/node_exporter
+
+Package: prometheus-phpfpm-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-phpfpm-exporter (0.6.0+git20260904.7177e60)
+Version: 0.6.0+LL
+Filename: pool/main/p/prometheus-phpfpm-exporter/prometheus-phpfpm-exporter_0.6.0+LL_arm64.deb
+Size: 3079076
+MD5sum: f68aadbb864ea51de19e7b3658cec910
+SHA1: 461b742edb49c6a7c25be2216c4e9cda1ca1e80a
+SHA256: 09d7101cc56947d25b0a77d27f6f15bebaaaddce0f6a10b9ac8736f78c8933e1
+SHA512: 669af5deef145493160b010442af2e20762cee391a7027066f2de7d91acef35ca402735904fc85a9055105453d55ec9aefeb226f7a288622fe04084c304d602e
+Description:  Prometheus exporter for PHP-FPM
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/Lusitaniae/phpfpm_exporter
+
+Package: prometheus-postgres-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-postgres-exporter (0.20.1+git20260904.867fbca)
+Version: 0.20.1+LL
+Filename: pool/main/p/prometheus-postgres-exporter/prometheus-postgres-exporter_0.20.1+LL_arm64.deb
+Size: 3939760
+MD5sum: 91d224f7716d7d8454170bb3acf43dcf
+SHA1: 366cff53f29d368e221ec34fedd0f19970101e49
+SHA256: d57e2e3612b264243aaefcdcaf3977eac4898d7d9ca06738281c42daf0968327
+SHA512: 9ddb0907d05a1a4122ec66221225e44cec0298749d461173c652a3c345087336005c5f672fa7efb1b3d22956a4b4ec29ecabe8b4906dfb87148c9e547b14057b
+Description:  Prometheus exporter for PostgreSQL server metrics
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/prometheus-community/postgres_exporter
+
+Package: prometheus-pushgateway
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-pushgateway (1.11.3+git20260904.e803ebd)
+Version: 1.11.3+LL
+Filename: pool/main/p/prometheus-pushgateway/prometheus-pushgateway_1.11.3+LL_arm64.deb
+Size: 5446034
+MD5sum: 882d3c5b3b8e5048d90f15091214a9de
+SHA1: 768f1e90993821fa2a8f6bbe8ec2f210337b966f
+SHA256: fd80957165f46bb9e9111a26042a4ef7c68bc90c2f511c91e9a28a5e8b75108b
+SHA512: 439f84a545f8d361cd35a0092440dbbb82de47fc5338f4ab5951e65c864ca2ac378ffc48f79d83674cabc7d008a214693a5d3c3750dc5de93166a0ad1137cbe2
+Description:  Prometheus exporter for ephemereal jobs
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/prometheus/pushgateway
+
+Package: prometheus-smokeping-prober
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-smokeping-prober (0.12.0+git20260904.d560be2)
+Version: 0.12.0+LL
+Filename: pool/main/p/prometheus-smokeping-prober/prometheus-smokeping-prober_0.12.0+LL_arm64.deb
+Size: 3678804
+MD5sum: 0503dbf63b5f6ae361e6da0f2c1c5d6a
+SHA1: bcc644c5a0a672b53863647c27274be933361d40
+SHA256: 8b0cc94558eb72b03323682518e06e0fa6b8e2f5a20445ed263b12b7763e42da
+SHA512: 11292f8dae0b1f4af337f8756905d8027cfe698ea10ffe7437e41c2013de1efa8066532df5da05c42d89e96a580b56bea683b4a9497b7d8998056110e9228c12
+Description:  Prometheus style "smokeping" prober
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/SuperQ/smokeping_prober
+
+Package: prometheus-snmp-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-snmp-exporter (0.30.1+git20260904.48b810a)
+Version: 0.30.1+LL
+Filename: pool/main/p/prometheus-snmp-exporter/prometheus-snmp-exporter_0.30.1+LL_arm64.deb
+Size: 3700234
+MD5sum: 71fa219bfd4e7c12cc55b51e9483e79c
+SHA1: e8ec3d95c6fc7e09e2fccb4d2f65d57936ab810c
+SHA256: 0345f792e50136e35a0d05e86478b248d30f564ea61711d10ce7515c5b8a3668
+SHA512: 8d90b09d296d414eee51b34e9e872f10d84a6a7489ca92d8d93ab5de11bcf51caae91529a0b9eab7e5c4edb53c033ac2126ac8d924dad9fb490970449c1d452a
+Description:  Prometheus exporter for SNMP-enabled devices
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/prometheus/snmp_exporter
+
+Package: prometheus-sql-exporter
+Priority: optional
+Section: database
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-sql-exporter (0.8+git20260904.19a20bb)
+Version: 0.8+LL
+Filename: pool/main/p/prometheus-sql-exporter/prometheus-sql-exporter_0.8+LL_arm64.deb
+Size: 11806272
+MD5sum: ee18f40ebc2557bb3e175270b15a4211
+SHA1: 62b4c39a47ec0f483479cb56a864a6560760ddc7
+SHA256: 08c8a9c52375da4c46e016fa6abed0508549fe2feece53f7421ecba613857436
+SHA512: d1c9dbe47a96b2a26e9fb281d7ff264a53dfc85fefde0b2c50b2e3539bd90a3fe7da7f6f7164e5b297ad4d32d0af779bf3e55856d6b67cc7ec70ba5c26e9e47b
+Description:  Flexible SQL Exporter for Prometheus
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/justwatchcom/sql_exporter
+
+Package: prometheus-squid-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-squid-exporter (1.13.0+git20260904.988864c)
+Version: 1.13.0+LL
+Filename: pool/main/p/prometheus-squid-exporter/prometheus-squid-exporter_1.13.0+LL_arm64.deb
+Size: 3319260
+MD5sum: adc773bed2da36a977e2cbce11038a99
+SHA1: e0ecd07599aa47ca4f16c8267527cb85b10797f8
+SHA256: 0fb652d4570fc0b2d063afe668206ff035cae03de4e4f85474b68177684d82da
+SHA512: 29fc05fcd156705bb0579dced94bdb9fc4cf323f2b6409e9f38072afa8a3267e479e49bfe8be38b23c272d85518d05442312658040749fbf6151b2f28ee00cbe
+Description:  Prometheus exporter for Squid proxy servers
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/boynux/squid-exporter
+
+Package: prometheus-tplink-plug-exporter
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: prometheus-tplink-plug-exporter (0.5.0+git20260904.eb68b73)
+Version: 0.5.0+LL
+Filename: pool/main/p/prometheus-tplink-plug-exporter/prometheus-tplink-plug-exporter_0.5.0+LL_arm64.deb
+Size: 2922552
+MD5sum: dee3f546fef8a569fe96222afa17b523
+SHA1: 34d4e805752ef3a6daa65793e077733934f90131
+SHA256: 0593092e321ac91497d2056db2676faa12315a2c5791ed8200bf57e987804eb9
+SHA512: af1c49abd273e308a171ab1ec011b8ad617666e80283f0ad43106a3585be631a8c3cc6d2490392a379ce6634914210d583352891db0d180d7d9ebcadf878d906
+Description:  Prometheus exporter for TP-Link Smart plug metrics
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/fffonion/tplink-plug-exporter
+
+Package: protobuild
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: protobuild (0.3.0+git20260904.168a8ea)
+Version: 0.3.0+LL
+Filename: pool/main/p/protobuild/protobuild_0.3.0+LL_arm64.deb
+Size: 1584812
+MD5sum: 1a906128a450613af0222c386f612446
+SHA1: 51c3b70c202fb1cbe3844bb1601f76253aa27e49
+SHA256: 7bf05318213b1f00dcdc6fa7cfdd2252751eaae3a6ff61d229694a3d39ba3c59
+SHA512: 9733b6d525614379337eb1c292fb6a49f50782a61f36c784eec0093775f0abcf5f1b7a508b7f804d352aa3883091260b44ebc6f331f3b1b676f91896d976604f
+Description:  Convenience wrapper for building protobufs in Go
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/containerd/protobuild
+
+Package: pup
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: pup (0.4.0+git20260904.fb09a23)
+Version: 0.4.0+LL
+Filename: pool/main/p/pup/pup_0.4.0+LL_arm64.deb
+Size: 1177720
+MD5sum: 0afb825ee5ebf4623027b25d24ea999e
+SHA1: 47684d0a5d85f14aad35c22d5123b906acdb8338
+SHA256: 60583710be0289dfc4b315d40e01406806f445ef7629a63fe57c204c7b4d6349
+SHA512: 535e91ab9c03cbda1d2814fc47f8936ee22b4b8114afc71d95574498d46d601e8e46b2e8416975a6c766d5611163a1f1c417b55d8efe2580c9726591d4897956
+Description:  command-line HTML processor
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/ericchiang/pup
+
+Package: rdap
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: rdap (0.10.1+git20260904.c9246cb)
+Version: 0.10.1+LL
+Filename: pool/main/r/rdap/rdap_0.10.1+LL_arm64.deb
+Size: 2630966
+MD5sum: 014221df135e783d4bf4a340e775b179
+SHA1: 04c6d0448a00e4eac684be614b4e9bec033c6832
+SHA256: 0ec1d026409b067c7e8b6512e33f0c1747e499b779f4fd549fa0fd8e5aeef0ff
+SHA512: 9c6f84995f219daed513933e13b5965c8d55bf5602abfee12bb6c6fd8ac281debba487f3c94d64f5aae9e5ae33ecbe9d5ccd6fbcbf360451e7801dbc26be37ee
+Description:  command line client for the RDAP protocol
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/openrdap/rdap
+
+Package: reflex
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: reflex (0.3.2+git20260904.f08e68f)
+Version: 0.3.2+LL
+Filename: pool/main/r/reflex/reflex_0.3.2+LL_arm64.deb
+Size: 818392
+MD5sum: 6771be5eb174afea99ac5c3e3b5700c8
+SHA1: 5f0d655d803ae614aec7f56fecc4db742cfdc198
+SHA256: 63c5e692e26ba4d3c889fb700707ae8b6f3b7555e5668531985b22e4d00eff6f
+SHA512: f949e8e5c3eb4fbdceb5380dcf90111affbc14e821c1023be25b1b2eb423dc872be2114185fb62339f7d290b76eece0b14acaf3b906404ee53980ed467141c8a
+Description:  Run a command when files change
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/cespare/reflex
+
+Package: restic
+Priority: optional
+Section: misc
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: restic (0.19.1+git20260904.6aa3a51)
+Version: 0.19.1+LL
+Filename: pool/main/r/restic/restic_0.19.1+LL_arm64.deb
+Size: 1072
+MD5sum: 1989204d1099f63a3aa88f90f34a3417
+SHA1: ed6c892171c9c8f8a4392e2c00dec6aa780cbd22
+SHA256: b6eb18f5c5b632760999aa0c85922b653ff61ab479e2cfe32ae57a9709a366a4
+SHA512: f1548c89ecb9e0ff6bc5a5a6719bcb1721b45da7ed65fc11a6b07dee54a90933d48dbe9db31dde7bc601ce4872440d60653ed957929b472e5603b9bd03e8e773
+Description:  backup program with multiple revisions, encryption and more
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/restic/restic
+
+Package: ripgrep
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: ripgrep (15.2.0+git20260904.e89fff8)
+Version: 15.2.0+LL
+Filename: pool/main/r/ripgrep/ripgrep_15.2.0+LL_arm64.deb
+Size: 5126888
+MD5sum: cdf5900e7c026e6c3d9d6c311c7cd0d4
+SHA1: ec0380b374ffb5fb1aadb51fe8e3c0bbe2f9f5c8
+SHA256: 843abee3b785e755ef63bc4ff897ddac53f05555db271ffa2cd305a4b816b6cb
+SHA512: bd1362580963f79262431dc37d2128a1e775db6b82d522a8f5ff56184ff050f3389e56be2ca11e7d1e8ce2c20b7bfda1e1400df7f0a44be2f8e3b3631a38153f
+Description:  ripgrep recursively searches directories for a regex pattern while respecting your gitignore.
+Homepage: https://github.com/BurntSushi/ripgrep
+
+Package: seqkit
+Priority: optional
+Section: science
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: seqkit (2.13.0+git20260904.d13b5fa)
+Version: 2.13.0+LL
+Filename: pool/main/s/seqkit/seqkit_2.13.0+LL_arm64.deb
+Size: 583058
+MD5sum: 1f34811d3ef3a589e574406a89aa4a55
+SHA1: e888b46cdf92c1d4c52462c07dea06c1a9c9b00c
+SHA256: ebf21b3076f814bc50cc053125b5055821708e9e80dea821c852f005eb2f98d9
+SHA512: cde6f83198c643446d5c94a93837001e63490c1792986575c200e790a34d0082e5008dfd3fc961cadf36bad646a675686f430bb8b105211b86db4037ec69df9b
+Description:  cross-platform and ultrafast toolkit for FASTA/Q file manipulation
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/shenwei356/seqkit
+
+Package: shoelaces
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: shoelaces (1.4.0+git20260904.3643254)
+Version: 1.4.0+LL
+Filename: pool/main/s/shoelaces/shoelaces_1.4.0+LL_arm64.deb
+Size: 2697062
+MD5sum: d166c7e0f7bcaac8926ab522d419f288
+SHA1: 121773a901010a027f949a68ff555962deff1a3a
+SHA256: dfa29dd1208335400992f6ba254c010decc41e9862e93836945572573ff42181
+SHA512: f6094d289571e9b6e05b7115d26ce2bfac026f3bf4cd12713754f30c1591a3609b63103b732b68280709994a6eca9f1a86a74fd435b873907ae82401625b4aab
+Description:  automated server bootstrapping
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/thousandeyes/shoelaces
+
+Package: skeema
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: skeema (1.14.1+git20260904.cb37509)
+Version: 1.14.1+LL
+Filename: pool/main/s/skeema/skeema_1.14.1+LL_arm64.deb
+Size: 2235866
+MD5sum: db335d8e64f38942566cc36962ea5382
+SHA1: d2f3460e51c6d2ea893959fe6eb1043e3613eded
+SHA256: 5e2842420fc54fb234a18df1bf081d04a5425c37830f5805527b457625e98786
+SHA512: 46a251581f20125fb5c60aaa3084f602945b523c515d4a9476b27e16d4b5258d92baa27cbffc72da993dbb2fca504a956fc22aebf012df799665d061a46d1a39
+Description:  Schema management CLI for MySQL (program)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/skeema/skeema
+
+Package: sops
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: sops (3.13.3+git20260904.26e2f47)
+Version: 3.13.3+LL
+Filename: pool/main/s/sops/sops_3.13.3+LL_arm64.deb
+Size: 10859212
+MD5sum: 721c4478a8a05d95be7d12e1b29f6ccf
+SHA1: e9457614e5772e0b715057867e35f02c93045f12
+SHA256: b07c2d506136f4aa1fce0a0144bf3a831a45997d66857016992ad15c269c938d
+SHA512: 67c7912db07d887056807bcab0db9608bded7abb0d5e1f210c9d49f0c4c109a90461bb1c1d4f3fe2421f85bf97acc468897ff4d01ff4ff8a71c43b042ccfc58e
+Description:  sops is an editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats, encrypted with AWS KMS, GCP KMS, Azure Key Vault or PGP.
+Homepage: https://github.com/getsops/sops
+
+Package: sptlrx
+Priority: optional
+Section: sound
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: sptlrx (1.3.1+git20260904.33200e6)
+Version: 1.3.1+LL
+Filename: pool/main/s/sptlrx/sptlrx_1.3.1+LL_arm64.deb
+Size: 2793392
+MD5sum: 2ca7128de96cccb8c0482909db6045ca
+SHA1: fd902cfa0ba95dfe2d941c3aa6f1e54a09452085
+SHA256: ededa64e43c6a16cee0c8460a627fb28b5d0b7b85ffc7c8f10faa039fa76b3df
+SHA512: 9aaad3e90ba69b6ddc80a798e8ff9ced8cf2ca502b3cdfa16737832ae696f4961956336ae40cf5d989a36da3b0e6763937a7441fa86649410e47f332d49d5d6d
+Description:  Synchronized lyrics in your terminal
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/raitonoberu/sptlrx
+
+Package: sshesame
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: sshesame (0.0.39+git20260904.0627956)
+Version: 0.0.39+LL
+Filename: pool/main/s/sshesame/sshesame_0.0.39+LL_arm64.deb
+Size: 2790198
+MD5sum: ba69f6811178a5655eec91bf0df0ffc1
+SHA1: 0be0096bdaf67784acc4f1795052580b1d978b46
+SHA256: 816ad6eba21dadcd1ca9ef61366021985ae181177669dac11d53d44989389c3b
+SHA512: 0ae1049cb6205f0037801899557d1acb320b008ba7b7113486f08096eeb39aea4d9cd5b4b966d153e4c5161dc2066f9b9b4f0c4516a92bca24251a4d0aec70a8
+Description:  fake SSH server
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/jaksi/sshesame
+
+Package: stenographer
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: stenographer (1.0.1+git20260904.e8db1ee)
+Version: 1.0.1+LL
+Filename: pool/main/s/stenographer/stenographer_1.0.1+LL_arm64.deb
+Size: 4116700
+MD5sum: 9a89af6a3dbe1dbf2b1904e3cc2e88db
+SHA1: b249e63ca162460afd2ed62accb8ed11c7d44dd9
+SHA256: 8f8e4630aa769badb18e5468a5c1b26f3042eb92d7a9f079f088a6b5e44ed343
+SHA512: 9604d9006f7ff636b950b05940c32d24c78a99e06f989af23455ee956ed95024193e72c30d5ad82fe6528a9b2274f9d97342225cbb43466f0ad866edf77862c6
+Description:  full-packet-capture utility -- server
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/google/stenographer
+
+Package: terminews
+Priority: optional
+Section: news
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: terminews (1.2.2+git20260904.569fbd2)
+Version: 1.2.2+LL
+Filename: pool/main/t/terminews/terminews_1.2.2+LL_arm64.deb
+Size: 2945294
+MD5sum: 5ca4f9b9fb8adb1652db536557634d6f
+SHA1: 416e41f098c06f973cd252156ae34105be66c400
+SHA256: 8df3d9a036e8a89f3cc642c65ae899d3efd5f21a6407d08b4024143312dd8bd8
+SHA512: b4d64519fad026d9a51b898bc48f475ebf62edd5cb96d6ed76365c77abbc6936ea6731d7f24dc245d639d64758e278b88546acf73a66c69d753700c259ccb5e6
+Description:  read your RSS feeds from your terminal
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/antavelos/terminews
+
+Package: termshark
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: termshark (2.4.0+git20260904.e436160)
+Version: 2.4.0+LL
+Filename: pool/main/t/termshark/termshark_2.4.0+LL_arm64.deb
+Size: 4944270
+MD5sum: f926523dbd815d053888c1c85222c4c7
+SHA1: ff112347b5aaad83633a64eaad5d45ff0e7a3f89
+SHA256: cceff1c898b781857a247c58744d69a16385f123f53b8d4891c42e91e4e35013
+SHA512: 4b90770211f82e87b4e56e1c12bef775d0abe3ca04f6cd69887a22364ac82fa8e7bb108ad16de088e6d80ba977b94016a30b6a2c00acfdf7c467bd5f530d3f04
+Description:  Terminal UI for tshark, inspired by Wireshark
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/gcla/termshark
+
+Package: terraform
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: terraform (1.15.9+git20260906.8748897)
+Version: 1.15.9+LL
+Filename: pool/main/t/terraform/terraform_1.15.9+LL_arm64.deb
+Size: 22686810
+MD5sum: 201f6246712f1ff74c784d2dc919512a
+SHA1: 7a1cc0b5e40f9eaa269744a23c26097bf463ac29
+SHA256: 6e20113deabed464294caf41e431f23ddfd26d0b7eb73c3e62844e6fef9fbf94
+SHA512: de592b74850e413d29f9c3afe4f2cd739d6ddf6864f8a425b51f212e85a38f72ddfcfae76d207abb4f64ec515d22d1a664850cd3a486ae2d7042000da5568f50
+Description:  Terraform enables you to safely and predictably create, change, and improve infrastructure. Note: built from source under BUSL-1.1 license terms.
+Homepage: https://github.com/hashicorp/terraform
+
+Package: terraform-switcher
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: terraform-switcher (1.19.0+git20260904.f6db709)
+Version: 1.19.0+LL
+Filename: pool/main/t/terraform-switcher/terraform-switcher_1.19.0+LL_arm64.deb
+Size: 3949254
+MD5sum: 2839a9bdebf58807f7de09e53df2c534
+SHA1: bee60fefb7753a7ee1686e6f4ace62fb81e7d951
+SHA256: b862c940df7a3cae5bb442281824ca59691edc8c84dc615563511baa2ddee4ae
+SHA512: 05283ef8d566b0c39f35ace0d741f23525c384da6dba101a674cbcd3ad8287f8baa36ec51b58b88ffa71b5d63dbf85829391f299066e0931a1bf04c3552d74c0
+Description:  switch between different versions of terraform (CLI tool)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/warrensbox/terraform-switcher
+
+Package: terragrunt
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: terragrunt (1.1.3+git20260906.54c43a4)
+Version: 1.1.3+LL
+Filename: pool/main/t/terragrunt/terragrunt_1.1.3+LL_arm64.deb
+Size: 18631730
+MD5sum: 5d37e539761aa5b3115c4ca22a90d431
+SHA1: ff6f16dda09fd806b86291dc4df006e8dcde5772
+SHA256: 3abc2a958729dd63ed1f91b03771757f877637b7e81145fa97fb057e2590073d
+SHA512: fcb1e14ed00e18f989df2973fc4063b1b15a72a3e6d1c5df5ab5e23c38c10c15aa11b4bd42674b72fc870039a06895c62dbe0c21be17b467bf0a74618c7fde77
+Description:  Terragrunt provides extra tools for keeping Terraform configurations DRY, working with multiple Terraform modules, and managing remote state.
+Homepage: https://github.com/gruntwork-io/terragrunt
+
+Package: tfk8s
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: tfk8s (0.1.10+git20260904.b51c2d1)
+Version: 0.1.10+LL
+Filename: pool/main/t/tfk8s/tfk8s_0.1.10+LL_arm64.deb
+Size: 1117060
+MD5sum: 86347bb41ad456e0bf2ba3d2746688cc
+SHA1: 9b6a2e0f82c7297b2d80e4755ffed838f559e00a
+SHA256: 586d2fd1dcf86780cee996c4645b50ffd1e5d99cdc604cd4ae6d894b11ce3705
+SHA512: fefc5b2b0587f5ac8991a6b26f4b95a82139d82face3f2393be0c978505c65aeca80607493857c23552b69453f26a8128e4c53c616664a91b04dccb8403ce6f4
+Description:  Tool for converting Kubernetes YAML manifests to Terraform HCL
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/jrhouston/tfk8s
+
+Package: tflint
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: tflint (0.64.0+git20260904.15c65a3)
+Version: 0.64.0+LL
+Filename: pool/main/t/tflint/tflint_0.64.0+LL_arm64.deb
+Size: 11607222
+MD5sum: b6e507a5cde3b0242893805c78ac6f50
+SHA1: a1bd343122f2e0476b3eefabbf2501acee15d127
+SHA256: 3c06b89a7d0e2bb2a1e24acfc7acf8a323c07b312eb89927e056d30aced1a7d3
+SHA512: a936a4f16e86681c5796eedb1fda77267dc589a2d32b858d0b8daab78691489762a0d9c2391d3ca5345538b2f31bbb426ba714e3234d095df72a1544cc3051e5
+Description:  TFLint is a framework for checking possible errors, deprecated syntax and enforce best practices in Terraform.
+Homepage: https://github.com/terraform-linters/tflint
+
+Package: tftp-proxy
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: tftp-proxy (1.0.0+git20260904.f4d0a8a)
+Version: 1.0.0+LL
+Filename: pool/main/t/tftp-proxy/tftp-proxy_1.0.0+LL_arm64.deb
+Size: 1842782
+MD5sum: b1685fc9cbbb4a77e1b3420e17671fd8
+SHA1: 8bf539aba560fcd2146e4e19fd6da9a79a4542e2
+SHA256: a15462013b603c698d0edc422b8b35c13d48d4fda4ebdacf7093c712b232b0f8
+SHA512: d6fb52932a5a09666f5608e9e32c0727c09bc78ab5f47819823d51d9e00d3a36a24c45a212f96b619a5cfdd1570703868cf6658a767ff7e90d42a8a560c5ea8a
+Description:  TFTP server that request files not found from an HTTP backend
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/openfibernet/tftp-proxy
+
+Package: trivy
+Priority: optional
+Section: admin
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: trivy (0.74.0+git20260904.e1fd17a)
+Version: 0.74.0+LL
+Filename: pool/main/t/trivy/trivy_0.74.0+LL_arm64.deb
+Size: 32804956
+MD5sum: d56e90121d5738ea5f2386c1ea914ee7
+SHA1: ac0cd3078959f76ad27684e1a37a8873fedffc69
+SHA256: ecc08a8cd2f1d2db83ef2030b0f17b7fcaf3a314d6f126bcf5abc94d2112d132
+SHA512: 4c17d43e1a072d21dab05a71d6478c7d70a269bc4bd3f3f6691e4297cf5e57e68f87b9ee6eab3f246b297abdc54b3021a3d40b05af2a8126e6c9db4fae5efd9a
+Description:  Trivy is a comprehensive security scanner for containers, filesystems, git repos and cloud environments.
+Homepage: https://github.com/aquasecurity/trivy
+
+Package: unbound-dashboard
+Priority: optional
+Section: net
+Installed-Size: 7156
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Version: 0.2.44
+Depends: libc6
+Filename: pool/main/u/unbound-dashboard/unbound-dashboard_0.2.44_arm64.deb
+Size: 2657194
+MD5sum: 93eb771b178f6e755e022e8e0e41de11
+SHA1: 9a3a3351058d4850c9ecb243ddef5eb74cda3a45
+SHA256: 78fbbfaacc239b4d1b408e4aa6eff6755e8748e4f12c1a9637d9848ef9a7ed35
+SHA512: f11297a6a1ceef13a25b5d423ed8879f73c74446e58118747af267bc88dadfc6f7c5c5adbf2b53a9735ab7651e6332e795d3d6a80ae99b9180b782f2cb058592
+Description: Lightweight Unbound DNS real-time visualization dashboard
+ A single-binary DNS dashboard written in Go with SQLite storage.
+ Reads DNS query data from Unbound via DNSTap socket or verbose log
+ file, and serves a real-time web dashboard with Top-N query and
+ blocked domain statistics.
+ .
+ Features:
+  - DNSTap and verbose-log dual data source modes
+  - REST API: /stats (JSON), /debug (Text)
+  - HTML dashboard with auto-refresh
+  - SQLite storage with automatic data retention
+Homepage: https://github.com/LeisureLinux/unbound-dashboard
+
+Package: unikmer
+Priority: optional
+Section: science
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: unikmer (0.20.0+git20260904.524bcc1)
+Version: 0.20.0+LL
+Filename: pool/main/u/unikmer/unikmer_0.20.0+LL_arm64.deb
+Size: 2962612
+MD5sum: 72f969054bfb81587ec835349a88b65f
+SHA1: d0a8d098a179e92adfbcd2f54511abc061ba0603
+SHA256: a90b7e8bf329ca04acfca45824e2b42c9bac1c45479cb3787c0614f4a65c2e70
+SHA512: 6650383fbb702991d5d22b4b447fa599a41952e5a9c395e80ec48ac1e0b02bab5203b8d05d39cc2b45da974ea806c8d816b0f59272157e9ff8401789b0809410
+Description:  Toolkit for nucleic acid k-mer analysis
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/shenwei356/unikmer
+
+Package: vcfanno
+Priority: optional
+Section: science
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: vcfanno (0.3.9+git20260904.d409a9b)
+Version: 0.3.9+LL
+Filename: pool/main/v/vcfanno/vcfanno_0.3.9+LL_arm64.deb
+Size: 2408170
+MD5sum: 8a4a2d773f8bb803e3527d7b9dded206
+SHA1: f1f8c5599cc08a5eae6ab27f5039d9883cfffd0c
+SHA256: 6d32dba91164dbf87d1c3c24dce11e78007b66320d892c886eda50aa46c4ebd1
+SHA512: 74338936cc86ee69a2a2b515591d3bf899c6fcbea058b48422c4b3e5584ef0f4f4b261531e3ba350730b42b70ca69bab308ee4bc2a48d94d273c422dce3065e9
+Description:  annotate a VCF with other VCFs/BEDs/tabixed files
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/brentp/vcfanno
+
+Package: vip-manager
+Priority: optional
+Section: net
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: vip-manager (5.0.0+git20260904.5627bc5)
+Version: 5.0.0+LL
+Filename: pool/main/v/vip-manager/vip-manager_5.0.0+LL_arm64.deb
+Size: 4954178
+MD5sum: 6f1e2f420e2f7bd8fd8f64eea90f8fb1
+SHA1: 137a3d4acf482e3e79b265f3b5d02dfa440ba7b2
+SHA256: 1ff5bf97252828ca069f5192f6e1411ba4de248031f9aa17b22b38888aea92e6
+SHA512: 0685266cc3f28510d685cb80ff00db672cdab31cf40db6f479ad9ac3f93766f66c5648f3745dc1a925e7ad2c839a8a24ed51338f895a59fa7b867439be18f8a7
+Description:  Patroni virtual IP manager
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/cybertec-postgresql/vip-manager
+
+Package: webhook
+Priority: optional
+Section: devel
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: webhook (2.8.3+git20260904.f78eeec)
+Version: 2.8.3+LL
+Filename: pool/main/w/webhook/webhook_2.8.3+LL_arm64.deb
+Size: 2891468
+MD5sum: 6f3876f5b2866967c07c0a59a1d2a905
+SHA1: 9716f2f758bb5315ceb65b8ac872d38a764b455b
+SHA256: 8c06149b0488515783a31e8be6b7da7c3ac5f05fdc914b5672f76861d83040b4
+SHA512: 27443f4a42902182aca8eb31c3208c89f6941582df36eb71f77806e59c4282d78785d1a999ad4060ee2cebf410f357a659f04e2f53ea5e6de9ae19405ce2865b
+Description:  Small server for creating HTTP endpoints (hooks)
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/adnanh/webhook
+
+Package: websocketd
+Priority: optional
+Section: web
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: websocketd (0.4.1+git20260904.035c18c)
+Version: 0.4.1+LL
+Filename: pool/main/w/websocketd/websocketd_0.4.1+LL_arm64.deb
+Size: 2140358
+MD5sum: 69504dad2d9ddd32df37d78a9532b438
+SHA1: 054dfd12467ff191c5a952345ff42e05cd4fda3b
+SHA256: 97f8b3b0eddbfd46ca69a5147b9cf24b1293eecb4bae374f9e8dcd73f9ff325c
+SHA512: f16b7d18579552a8747da8f9fa1cb83e3a68bee09b470d0d90679bbbbc3482bb5cd97c42a3be78adf462f265cef94641b204eaa6f54f38ca8238baf29296c834
+Description:  Turn any program that uses STDIN/STDOUT into a WebSocket server
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/joewalnes/websocketd
+
+Package: xq
+Priority: optional
+Section: golang
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: xq (1.5.1+git20260904.9803fc9)
+Version: 1.5.1+LL
+Filename: pool/main/x/xq/xq_1.5.1+LL_arm64.deb
+Size: 2148428
+MD5sum: 996731321fab87ac58f03ec824f42ef2
+SHA1: 9e8ad7d1bd28ed1600d083d2b6a2afe040173044
+SHA256: f66f43787350561340666af8ad2f6980d8dc27a9a4c020c2942e49520495bbb9
+SHA512: cf61237c71c85ceaf5c6771ba527abaeaa82a4aa5079e323da81019d18e5f6933bc5952391cb022fc6030e65dd4346c848cb949d59ce8f193603a4c4daa7f845
+Description:  command line XML and HTML beautifier and content extractor
+ (Phase 1 auto-built for all architectures.)
+Homepage: https://github.com/sibprogrammer/xq
+
+Package: yq
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: arm64
+Source: yq (4.53.6+git20260904.c14f446)
+Version: 4.53.6+LL
+Filename: pool/main/y/yq/yq_4.53.6+LL_arm64.deb
+Size: 115288
+MD5sum: 1491184f57f419d421445bf32a2f6240
+SHA1: 8e0be2354df65f7b38385f817dd2c4ebf2a05bb8
+SHA256: f4e29f224bf8549f153d566ce134ec5970c465b5f98df7c51118a5e13754658c
+SHA512: c92b40d1d06f8fcce4b7a76ac6d0df189610a5d6e01eae3533593c0503291c5bb7c6881fb6a876ea23f0cc4c275271b600bbd9d15299d4c85fd0e8ff56c686ba
+Description:  yq is a lightweight command-line YAML processor, portable and written in Go.
+Homepage: https://github.com/mikefarah/yq
+

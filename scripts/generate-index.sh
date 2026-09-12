@@ -14,9 +14,9 @@ PUBDIR="$PWD/.aptly/public"
 # 页面生成时间（CI/本地时区不同，统一用 UTC）
 GEN_TIME="$(date -u +'%Y-%m-%d %H:%M') UTC"
 
-# ---- 用 jq 组装包列表（聚合 bookworm 所有架构的 Packages，版本去重取最新） ----
+# ---- 用 jq 组装包列表（聚合所有发行版 dists/* 的 Packages，版本去重取最新） ----
 PKG_JSON="$PUBDIR/.pkgs.json"
-PKGS=$(find "$PUBDIR/dists/bookworm" -path "*/main/binary-*/Packages" | sort)
+PKGS=$(find "$PUBDIR/dists" -path "*/main/binary-*/Packages" | sort)
 if [[ -z "$PKGS" ]]; then
     echo "❌ 找不到 binary-*/Packages，无法生成包列表"
     exit 1
@@ -61,7 +61,7 @@ jq -Rs '
       desc: (.[0].desc // ""),
       upstream: (.[0].upstream // ""),
       commit: (.[0].commit // ""),
-      arches: ([.[].arch | select(. == "amd64" or . == "arm64" or . == "loong64" or . == "riscv64")] | unique | sort | join(" ")),
+      arches: ([.[].arch | select(. == "amd64" or . == "arm64" or . == "loong64" or . == "riscv64" or . == "all")] | unique | sort | join(" ")),
       versions: ([.[] | {v:.ver, file:.file}] | unique_by(.v))
     })
   | sort_by(.name)
@@ -80,7 +80,13 @@ while IFS= read -r pkg; do
   upstream=$(echo "$pkg" | jq -r '.upstream')
   commit=$(echo "$pkg" | jq -r '.commit')
   IDX=$((IDX+1))
-  latest=$(echo "$pkg" | jq -r '.versions[-1].v')
+  # 跨多发行版后，用 dpkg 语义取真正最新的版本号（避免依赖 Packages 文件拼接顺序）
+  latest=""
+  for v in $(echo "$pkg" | jq -r '.versions[].v'); do
+    if [[ -z "$latest" ]] || dpkg --compare-versions "$v" gt "$latest" 2>/dev/null; then
+      latest="$v"
+    fi
+  done
   # 版本号统一显示为 vX.Y.Z；owner/repo 链接到 GitHub
   repo_link=""
   if [[ -n "$upstream" && "$upstream" != "unknown" ]]; then

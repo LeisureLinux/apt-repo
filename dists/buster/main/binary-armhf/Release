@@ -1,0 +1,6 @@
+Origin: . buster
+Label: . buster
+Archive: buster
+Suite: buster
+Architecture: armhf
+Component: main

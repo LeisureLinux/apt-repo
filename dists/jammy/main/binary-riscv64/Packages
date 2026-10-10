@@ -1,0 +1,27 @@
+Package: ghdeb
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: riscv64
+Version: 0.7.53
+Depends: dpkg
+Filename: pool/main/g/ghdeb/ghdeb_0.7.53_riscv64.deb
+Size: 2248822
+MD5sum: 712764bb7df9f2945160ba4cb3f85c45
+SHA1: cd4b8cd0e1ad4d859eef639b0eb3bb524dd4fa00
+SHA256: 40b5e53eb9afad0295403565c73efd2f07913aa6f1f1cb6d2d13279621453da3
+SHA512: 43fae8f90f7cb6c608ac06d3a29d5aeaa1c61a9053d04db1aa894a49803b204434efb434743a5d1b8d9a8ab23987875ce8aa2791be07112b97e2a0c636ce6973
+Description: 管理从 GitHub Releases 下载的 .deb 包
+ ghdeb manages .deb packages downloaded from GitHub Releases.
+ It handles architecture
+ detection, asset matching, downloading, and installation in a single command.
+ .
+ Features:
+  - Auto-detect system architecture
+  - Smart asset matching from GitHub releases
+  - Version tracking and upgrade management
+  - Orphan package scanning
+  - Bilingual output (Chinese/English)
+  - Release info caching for faster queries
+Homepage: https://github.com/LeisureLinux/ghdeb
+

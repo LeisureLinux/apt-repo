@@ -1,0 +1,77 @@
+freelamp-bookworm:
+  description: Freelamp APT repository (repo.freelamp.com) — LeisureLinux 的 Debian/Ubuntu 软件源
+  gpg-key-file: freelamp.asc
+  gpg-key-checksum:
+    sha256: 1bdc1692421aaa5f6ab7faca5aba82b90b3142f93592cf81864fb67f380141db
+  policy: main
+  source:
+    Types: deb
+    URIs: https://repo.freelamp.com
+    Suites: bookworm
+    Components: main
+freelamp-trixie:
+  description: Freelamp APT repository (repo.freelamp.com) — LeisureLinux 的 Debian/Ubuntu 软件源
+  gpg-key-file: freelamp.asc
+  gpg-key-checksum:
+    sha256: 1bdc1692421aaa5f6ab7faca5aba82b90b3142f93592cf81864fb67f380141db
+  policy: main
+  source:
+    Types: deb
+    URIs: https://repo.freelamp.com
+    Suites: trixie
+    Components: main
+freelamp-bullseye:
+  description: Freelamp APT repository (repo.freelamp.com) — LeisureLinux 的 Debian/Ubuntu 软件源
+  gpg-key-file: freelamp.asc
+  gpg-key-checksum:
+    sha256: 1bdc1692421aaa5f6ab7faca5aba82b90b3142f93592cf81864fb67f380141db
+  policy: main
+  source:
+    Types: deb
+    URIs: https://repo.freelamp.com
+    Suites: bullseye
+    Components: main
+freelamp-buster:
+  description: Freelamp APT repository (repo.freelamp.com) — LeisureLinux 的 Debian/Ubuntu 软件源
+  gpg-key-file: freelamp.asc
+  gpg-key-checksum:
+    sha256: 1bdc1692421aaa5f6ab7faca5aba82b90b3142f93592cf81864fb67f380141db
+  policy: main
+  source:
+    Types: deb
+    URIs: https://repo.freelamp.com
+    Suites: buster
+    Components: main
+freelamp-jammy:
+  description: Freelamp APT repository (repo.freelamp.com) — LeisureLinux 的 Debian/Ubuntu 软件源
+  gpg-key-file: freelamp.asc
+  gpg-key-checksum:
+    sha256: 1bdc1692421aaa5f6ab7faca5aba82b90b3142f93592cf81864fb67f380141db
+  policy: main
+  source:
+    Types: deb
+    URIs: https://repo.freelamp.com
+    Suites: jammy
+    Components: main
+freelamp-noble:
+  description: Freelamp APT repository (repo.freelamp.com) — LeisureLinux 的 Debian/Ubuntu 软件源
+  gpg-key-file: freelamp.asc
+  gpg-key-checksum:
+    sha256: 1bdc1692421aaa5f6ab7faca5aba82b90b3142f93592cf81864fb67f380141db
+  policy: main
+  source:
+    Types: deb
+    URIs: https://repo.freelamp.com
+    Suites: noble
+    Components: main
+freelamp-resolute:
+  description: Freelamp APT repository (repo.freelamp.com) — LeisureLinux 的 Debian/Ubuntu 软件源
+  gpg-key-file: freelamp.asc
+  gpg-key-checksum:
+    sha256: 1bdc1692421aaa5f6ab7faca5aba82b90b3142f93592cf81864fb67f380141db
+  policy: main
+  source:
+    Types: deb
+    URIs: https://repo.freelamp.com
+    Suites: resolute
+    Components: main

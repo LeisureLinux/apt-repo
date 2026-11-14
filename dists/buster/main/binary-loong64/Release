@@ -1,0 +1,6 @@
+Origin: . buster
+Label: . buster
+Archive: buster
+Suite: buster
+Architecture: loong64
+Component: main

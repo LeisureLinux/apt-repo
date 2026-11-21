@@ -1,0 +1,6 @@
+Origin: . resolute
+Label: . resolute
+Archive: resolute
+Suite: resolute
+Architecture: loong64
+Component: main

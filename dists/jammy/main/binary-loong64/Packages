@@ -1,0 +1,27 @@
+Package: ghdeb
+Priority: optional
+Section: utils
+Maintainer: LeisureLinux <albertxu@freelamp.com>
+Architecture: loong64
+Version: 0.7.53
+Depends: dpkg
+Filename: pool/main/g/ghdeb/ghdeb_0.7.53_loong64.deb
+Size: 2255328
+MD5sum: 3c0a2daa0f280b3babd8a005c97b0102
+SHA1: 19f9b769e94ddbb6ada8075d3158aacf3e665b05
+SHA256: bbdb470e50a0f1e6342571ede109545b84d358a4e33d9a9b2f3c270a73ab9de3
+SHA512: d7cec71af07c3610b214a50e68d310fd9d15712187cff9930577c4e6059a1723b7fe52ca875c93b07d554aad5617497f4a21f57cd4a4b28d1c181af480acff0d
+Description: 管理从 GitHub Releases 下载的 .deb 包
+ ghdeb manages .deb packages downloaded from GitHub Releases.
+ It handles architecture
+ detection, asset matching, downloading, and installation in a single command.
+ .
+ Features:
+  - Auto-detect system architecture
+  - Smart asset matching from GitHub releases
+  - Version tracking and upgrade management
+  - Orphan package scanning
+  - Bilingual output (Chinese/English)
+  - Release info caching for faster queries
+Homepage: https://github.com/LeisureLinux/ghdeb
+
